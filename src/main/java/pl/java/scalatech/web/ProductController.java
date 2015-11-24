@@ -29,9 +29,8 @@ public class ProductController {
          productService.testEx();
          return "error";
     }
-    
+    @CatchException(sendEmail=true)
     @RequestMapping("/testEx1")
-    @CatchException
     public @ResponseBody String testEx1() {
          productService.testEx1();
          return "error";

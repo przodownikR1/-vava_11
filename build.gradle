@@ -66,6 +66,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-validation')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('com.h2database:h2')
+    compile 'cglib:cglib:3.2.0'
     
     compile 'com.google.guava:guava:18.0'
     testCompile 'junit:junit:4.12'
