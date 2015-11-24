@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+import pl.java.scalatech.annotation.CatchException;
 import pl.java.scalatech.entity.Product;
-import pl.java.scalatech.service.ProductService;
+import pl.java.scalatech.service.product.ProductService;
 
 @Controller
 @RequiredArgsConstructor(onConstructor = @__(@Autowired)) //@NonNull
@@ -26,6 +27,13 @@ public class ProductController {
     @RequestMapping("/testEx")
     public @ResponseBody String testEx() throws IllegalAccessException{
          productService.testEx();
+         return "error";
+    }
+    
+    @RequestMapping("/testEx1")
+    @CatchException
+    public @ResponseBody String testEx1() {
+         productService.testEx1();
          return "error";
     }
 }

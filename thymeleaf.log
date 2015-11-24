@@ -1,0 +1,33 @@
+2015-11-24 21:12:59   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Starting VavaTechApplicationTests on przodownik-Dell-System-XPS-L702X with PID 17798 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/test started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-24 21:12:59   [Test worker] INFO  p.j.s.VavaTechApplicationTests - No profiles are active 
+2015-11-24 21:13:09   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 41  
+2015-11-24 21:13:09   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-24 21:13:09   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:13:09   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-24 21:13:09   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:13:09   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-24 21:13:09   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:13:09   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-24 21:13:09   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Started VavaTechApplicationTests in 10.128 seconds (JVM running for 11.445) 
+2015-11-24 21:27:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 19399 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-24 21:27:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-24 21:28:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 49  
+2015-11-24 21:28:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-24 21:28:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:28:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-24 21:28:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:28:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-24 21:28:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-24 21:28:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-24 21:28:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 10.359 seconds (JVM running for 11.001) 
+2015-11-24 21:30:35   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Starting VavaTechApplicationTests on przodownik-Dell-System-XPS-L702X with PID 19690 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/test started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-24 21:30:35   [Test worker] INFO  p.j.s.VavaTechApplicationTests - No profiles are active 
+2015-11-24 21:30:43   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 46  
+2015-11-24 21:30:43   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-24 21:30:43   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:30:43   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-24 21:30:43   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-24 21:30:43   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-24 21:30:43   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-24 21:30:43   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-24 21:30:43   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Started VavaTechApplicationTests in 8.008 seconds (JVM running for 9.006) 

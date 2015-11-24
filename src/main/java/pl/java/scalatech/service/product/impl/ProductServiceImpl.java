@@ -1,4 +1,4 @@
-package pl.java.scalatech.service.impl;
+package pl.java.scalatech.service.product.impl;
 
 import java.util.List;
 import java.util.Random;
@@ -13,7 +13,7 @@ import lombok.SneakyThrows;
 import pl.java.scalatech.annotation.Trace;
 import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.repository.ProductRepository;
-import pl.java.scalatech.service.ProductService;
+import pl.java.scalatech.service.product.ProductService;
 
 
 @Service
@@ -42,6 +42,11 @@ public class ProductServiceImpl  implements ProductService{
     @Override
     public void testEx() throws IllegalAccessException  {
        throw new IllegalAccessException("hej cos jest nie tak !!!");
+        
+    }
+    @Override
+    public void testEx1()  {
+       throw new IllegalArgumentException("hej cos jest nie tak !!!");
         
     }
 

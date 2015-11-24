@@ -19,7 +19,8 @@ public class ExceptionAdvice {
    @Autowired
    private ExceptionRepository repo;
  
-     @Pointcut("@annotation(pl.java.scalatech.annotation.Trace) || within(@org.springframework.stereotype.Service *) ")
+     @Pointcut("@annotation(pl.java.scalatech.annotation.CatchException) || within(@org.springframework.stereotype.Service *)  || "
+             + " within(@org.springframework.stereotype.Controller *)")
     //@Pointcut("execution( * pl.java.scalatech.service.ProductService.*(..))") //regula gdzie to ma byc wyzwalane
     public void serviceExLog(){}
     

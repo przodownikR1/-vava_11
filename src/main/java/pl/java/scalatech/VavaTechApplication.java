@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.repository.ProductRepository;
-import pl.java.scalatech.service.ProductService;
+import pl.java.scalatech.service.product.ProductService;
 
 @Slf4j
 @SpringBootApplication
