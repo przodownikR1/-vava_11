@@ -36,7 +36,7 @@ public class ExceptionAdvice {
         
     }
     
-    @Pointcut("within(@org.springframework.stereotype.Controller *)  ")   
+    @Pointcut("within(@org.springframework.stereotype.Controller *) ")   
     public void serviceExLog() {
     }
    
