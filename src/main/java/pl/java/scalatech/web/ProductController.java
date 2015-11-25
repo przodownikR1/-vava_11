@@ -6,13 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import pl.java.scalatech.annotation.CatchException;
 import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.service.product.ProductService;
-
+//<mvc:annotation-driven /> @EnableWebMvc
 @Controller
 @RequiredArgsConstructor(onConstructor = @__(@Autowired)) //@NonNull
 public class ProductController {

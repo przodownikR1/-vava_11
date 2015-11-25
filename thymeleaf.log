@@ -1,0 +1,1380 @@
+2015-11-25 09:13:06   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Starting VavaTechApplicationTests on przodownik-Dell-System-XPS-L702X with PID 6689 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/test started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:13:06   [Test worker] INFO  p.j.s.VavaTechApplicationTests - No profiles are active 
+2015-11-25 09:13:14   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 39  
+2015-11-25 09:13:14   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:13:14   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:13:14   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:13:14   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:13:14   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:13:14   [Test worker] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:13:14   [Test worker] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:13:14   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Started VavaTechApplicationTests in 8.293 seconds (JVM running for 9.288) 
+2015-11-25 09:14:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 6965 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/main started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:14:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:14:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 42  
+2015-11-25 09:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:14:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:14:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:14:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.554 seconds (JVM running for 10.083) 
+2015-11-25 09:16:21   [http-nio-9111-exec-7] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:16:21   [http-nio-9111-exec-7] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@45156eb4 
+2015-11-25 09:16:56   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:16:56   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@45156eb4 
+2015-11-25 09:16:56   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductController ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:19:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7301 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/main started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:19:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:19:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 38  
+2015-11-25 09:19:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:19:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:19:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:19:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:19:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:19:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:19:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:19:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.99 seconds (JVM running for 9.469) 
+2015-11-25 09:22:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:22:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:22:57   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 38  
+2015-11-25 09:22:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:22:57   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:22:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:22:57   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:22:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:22:57   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:22:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:22:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.65 seconds (JVM running for 10.278) 
+2015-11-25 09:25:17   [http-nio-9111-exec-6] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.service.product.impl.ProductServiceImpl@552e0369 
+2015-11-25 09:25:17   [http-nio-9111-exec-6] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:25:34   [http-nio-9111-exec-8] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.service.product.impl.ProductServiceImpl@552e0369 
+2015-11-25 09:25:34   [http-nio-9111-exec-8] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak runtime !!! 
+2015-11-25 09:25:34   [http-nio-9111-exec-8] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductController ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak runtime !!! 
+2015-11-25 09:26:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:26:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:27:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:27:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:27:14   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 09:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:27:14   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:27:14   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:27:14   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.195 seconds (JVM running for 266.903) 
+2015-11-25 09:27:37   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.service.product.impl.ProductServiceImpl@f7a3b17 
+2015-11-25 09:27:37   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak runtime !!! 
+2015-11-25 09:27:37   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@1079b17f 
+2015-11-25 09:27:37   [http-nio-9111-exec-2] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx1 , class : ProductController ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak runtime !!! 
+2015-11-25 09:27:39   [http-nio-9111-exec-10] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.service.product.impl.ProductServiceImpl@f7a3b17 
+2015-11-25 09:27:39   [http-nio-9111-exec-10] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:27:39   [http-nio-9111-exec-10] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@1079b17f 
+2015-11-25 09:27:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:27:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:27:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 09:27:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:27:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:27:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:27:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 09:27:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:27:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:27:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:27:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.547 seconds (JVM running for 311.201) 
+2015-11-25 09:31:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:31:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:31:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:31:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:31:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:31:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:31:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:31:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:31:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:31:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:31:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.538 seconds (JVM running for 532.777) 
+2015-11-25 09:33:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:33:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:33:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:33:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:33:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:33:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:33:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:33:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:33:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:33:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:33:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.303 seconds (JVM running for 662.061) 
+2015-11-25 09:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:34:26   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:34:26   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:34:26   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:34:26   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.323 seconds (JVM running for 699.147) 
+2015-11-25 09:35:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:35:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:35:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:35:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:35:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:35:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:35:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:35:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.197 seconds (JVM running for 739.235) 
+2015-11-25 09:35:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:35:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:35:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:35:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:35:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:35:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:35:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:35:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.17 seconds (JVM running for 757.229) 
+2015-11-25 09:35:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:35:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:35:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:35:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:35:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:35:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:35:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:35:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.068 seconds (JVM running for 774.231) 
+2015-11-25 09:35:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:35:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:35:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:35:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:35:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:35:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:35:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:35:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:35:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.11 seconds (JVM running for 783.213) 
+2015-11-25 09:36:06   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - method: testEx , class : ProductServiceImpl ,  send email to :  przodownikR1@gmail.com -> hej cos jest nie tak !!! 
+2015-11-25 09:36:06   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@1504aad8 
+2015-11-25 09:36:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:36:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:36:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:36:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:36:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:36:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:36:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:36:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:36:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:36:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:36:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.113 seconds (JVM running for 835.274) 
+2015-11-25 09:41:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:41:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:41:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:41:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:41:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:41:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:41:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:41:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.1 seconds (JVM running for 1094.908) 
+2015-11-25 09:41:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:41:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:41:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:41:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:41:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:41:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:41:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:41:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.084 seconds (JVM running for 1108.05) 
+2015-11-25 09:41:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:41:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:41:25   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:41:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:41:25   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:41:25   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:41:25   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:41:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:41:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.119 seconds (JVM running for 1118.178) 
+2015-11-25 09:42:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:42:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:42:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:42:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:42:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:42:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:42:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:42:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.097 seconds (JVM running for 1175.574) 
+2015-11-25 09:42:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:42:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:42:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:42:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:42:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:42:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:42:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:42:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:42:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.052 seconds (JVM running for 1184.656) 
+2015-11-25 09:44:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:44:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:44:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:44:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:44:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:44:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.079 seconds (JVM running for 1283.301) 
+2015-11-25 09:44:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:44:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:44:18   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:44:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:44:18   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:44:18   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:44:18   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:44:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.017 seconds (JVM running for 1291.379) 
+2015-11-25 09:44:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:44:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:44:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:44:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:44:51.003 
+2015-11-25 09:44:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:44:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:44:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:44:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:44:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:44:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.2 seconds (JVM running for 1323.816) 
+2015-11-25 09:44:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:44:53.007 
+2015-11-25 09:44:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:44:55.008 
+2015-11-25 09:44:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:44:57.009 
+2015-11-25 09:44:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:44:59.010 
+2015-11-25 09:45:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:01.011 
+2015-11-25 09:45:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:03.011 
+2015-11-25 09:45:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:05.012 
+2015-11-25 09:45:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:07.013 
+2015-11-25 09:45:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:09.014 
+2015-11-25 09:45:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:11.015 
+2015-11-25 09:45:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:13.016 
+2015-11-25 09:45:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:15.018 
+2015-11-25 09:45:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:17.019 
+2015-11-25 09:45:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:19.020 
+2015-11-25 09:45:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:21.022 
+2015-11-25 09:45:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:23.023 
+2015-11-25 09:45:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:25.024 
+2015-11-25 09:45:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:27.025 
+2015-11-25 09:45:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:29.026 
+2015-11-25 09:45:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:31.027 
+2015-11-25 09:45:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:33.028 
+2015-11-25 09:45:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:35.030 
+2015-11-25 09:45:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:37.031 
+2015-11-25 09:45:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:39.031 
+2015-11-25 09:45:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:41.032 
+2015-11-25 09:45:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:43.033 
+2015-11-25 09:45:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:45.034 
+2015-11-25 09:45:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:47.035 
+2015-11-25 09:45:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:49.036 
+2015-11-25 09:45:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:51.037 
+2015-11-25 09:45:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:53.038 
+2015-11-25 09:45:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:55.039 
+2015-11-25 09:45:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:57.040 
+2015-11-25 09:45:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:45:59.041 
+2015-11-25 09:46:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:01.042 
+2015-11-25 09:46:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:03.043 
+2015-11-25 09:46:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:05.044 
+2015-11-25 09:46:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:07.045 
+2015-11-25 09:46:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:09.046 
+2015-11-25 09:46:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:11.046 
+2015-11-25 09:46:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:13.047 
+2015-11-25 09:46:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:15.048 
+2015-11-25 09:46:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:17.050 
+2015-11-25 09:46:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:19.051 
+2015-11-25 09:46:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:21.052 
+2015-11-25 09:46:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:23.053 
+2015-11-25 09:46:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:25.054 
+2015-11-25 09:46:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:27.055 
+2015-11-25 09:46:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:29.056 
+2015-11-25 09:46:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:31.058 
+2015-11-25 09:46:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:33.059 
+2015-11-25 09:46:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:35.060 
+2015-11-25 09:46:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:37.061 
+2015-11-25 09:46:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:39.062 
+2015-11-25 09:46:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:41.063 
+2015-11-25 09:46:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:43.064 
+2015-11-25 09:46:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:45.065 
+2015-11-25 09:46:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:47.067 
+2015-11-25 09:46:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:49.068 
+2015-11-25 09:46:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:51.069 
+2015-11-25 09:46:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:53.070 
+2015-11-25 09:46:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:55.071 
+2015-11-25 09:46:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:57.073 
+2015-11-25 09:46:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:46:59.074 
+2015-11-25 09:47:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:01.075 
+2015-11-25 09:47:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:03.077 
+2015-11-25 09:47:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:05.078 
+2015-11-25 09:47:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:07.079 
+2015-11-25 09:47:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:09.080 
+2015-11-25 09:47:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:11.081 
+2015-11-25 09:47:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:13.082 
+2015-11-25 09:47:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:15.083 
+2015-11-25 09:47:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:17.085 
+2015-11-25 09:47:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:19.086 
+2015-11-25 09:47:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:21.087 
+2015-11-25 09:47:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:23.088 
+2015-11-25 09:47:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:25.089 
+2015-11-25 09:47:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:27.090 
+2015-11-25 09:47:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:29.091 
+2015-11-25 09:47:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:31.092 
+2015-11-25 09:47:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:33.094 
+2015-11-25 09:47:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:35.095 
+2015-11-25 09:47:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:37.096 
+2015-11-25 09:47:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:39.097 
+2015-11-25 09:47:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:41.098 
+2015-11-25 09:47:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:43.099 
+2015-11-25 09:47:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:45.100 
+2015-11-25 09:47:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:47.101 
+2015-11-25 09:47:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:49.102 
+2015-11-25 09:47:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:51.104 
+2015-11-25 09:47:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:53.105 
+2015-11-25 09:47:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:55.106 
+2015-11-25 09:47:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:57.107 
+2015-11-25 09:47:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:47:59.108 
+2015-11-25 09:48:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:01.109 
+2015-11-25 09:48:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:03.110 
+2015-11-25 09:48:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:05.111 
+2015-11-25 09:48:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:07.112 
+2015-11-25 09:48:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:09.113 
+2015-11-25 09:48:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:11.114 
+2015-11-25 09:48:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:13.116 
+2015-11-25 09:48:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:15.117 
+2015-11-25 09:48:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:17.118 
+2015-11-25 09:48:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:19.119 
+2015-11-25 09:48:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:21.120 
+2015-11-25 09:48:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:23.121 
+2015-11-25 09:48:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:25.122 
+2015-11-25 09:48:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:27.124 
+2015-11-25 09:48:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:29.125 
+2015-11-25 09:48:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:31.126 
+2015-11-25 09:48:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:33.127 
+2015-11-25 09:48:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:35.128 
+2015-11-25 09:48:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:37.129 
+2015-11-25 09:48:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:39.130 
+2015-11-25 09:48:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:41.131 
+2015-11-25 09:48:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:43.133 
+2015-11-25 09:48:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:45.134 
+2015-11-25 09:48:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:47.135 
+2015-11-25 09:48:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:49.136 
+2015-11-25 09:48:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:51.137 
+2015-11-25 09:48:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:53.138 
+2015-11-25 09:48:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:55.139 
+2015-11-25 09:48:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:57.140 
+2015-11-25 09:48:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:48:59.141 
+2015-11-25 09:49:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:01.142 
+2015-11-25 09:49:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:03.142 
+2015-11-25 09:49:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:05.143 
+2015-11-25 09:49:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:07.144 
+2015-11-25 09:49:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:09.144 
+2015-11-25 09:49:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:11.146 
+2015-11-25 09:49:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:13.147 
+2015-11-25 09:49:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:15.148 
+2015-11-25 09:49:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:17.149 
+2015-11-25 09:49:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:19.150 
+2015-11-25 09:49:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:21.151 
+2015-11-25 09:49:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:23.152 
+2015-11-25 09:49:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:25.153 
+2015-11-25 09:49:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:27.154 
+2015-11-25 09:49:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:29.155 
+2015-11-25 09:49:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:31.156 
+2015-11-25 09:49:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:33.157 
+2015-11-25 09:49:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:35.158 
+2015-11-25 09:49:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:37.159 
+2015-11-25 09:49:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:39.160 
+2015-11-25 09:49:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:41.161 
+2015-11-25 09:49:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:43.162 
+2015-11-25 09:49:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:45.163 
+2015-11-25 09:49:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:47.165 
+2015-11-25 09:49:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:49.166 
+2015-11-25 09:49:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:51.167 
+2015-11-25 09:49:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:53.168 
+2015-11-25 09:49:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:55.169 
+2015-11-25 09:49:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:57.170 
+2015-11-25 09:49:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:49:59.171 
+2015-11-25 09:50:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:01.172 
+2015-11-25 09:50:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:03.174 
+2015-11-25 09:50:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:05.175 
+2015-11-25 09:50:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:07.177 
+2015-11-25 09:50:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:09.178 
+2015-11-25 09:50:11   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:11.178 
+2015-11-25 09:50:13   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:13.180 
+2015-11-25 09:50:15   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:15.181 
+2015-11-25 09:50:17   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:17.182 
+2015-11-25 09:50:19   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:19.183 
+2015-11-25 09:50:21   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:21.184 
+2015-11-25 09:50:23   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:23.185 
+2015-11-25 09:50:25   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:25.186 
+2015-11-25 09:50:27   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:27.188 
+2015-11-25 09:50:29   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:29.189 
+2015-11-25 09:50:31   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:31.190 
+2015-11-25 09:50:33   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:33.191 
+2015-11-25 09:50:35   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:35.192 
+2015-11-25 09:50:37   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:37.193 
+2015-11-25 09:50:39   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:39.194 
+2015-11-25 09:50:41   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:41.195 
+2015-11-25 09:50:43   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:43.196 
+2015-11-25 09:50:45   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:45.197 
+2015-11-25 09:50:47   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:47.199 
+2015-11-25 09:50:49   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:49.200 
+2015-11-25 09:50:51   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:51.200 
+2015-11-25 09:50:53   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:53.201 
+2015-11-25 09:50:55   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:55.201 
+2015-11-25 09:50:57   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:57.202 
+2015-11-25 09:50:59   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:50:59.203 
+2015-11-25 09:51:01   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:51:01.204 
+2015-11-25 09:51:03   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:51:03.205 
+2015-11-25 09:51:05   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:51:05.206 
+2015-11-25 09:51:07   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:51:07.206 
+2015-11-25 09:51:09   [pool-59-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:51:09.208 
+2015-11-25 09:51:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:51:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:51:12   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 09:51:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:51:12   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:51:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:51:12   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:51:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:51:12   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:51:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:51:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.111 seconds (JVM running for 1704.973) 
+2015-11-25 09:52:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7520 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 09:52:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 09:52:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:42.530 
+2015-11-25 09:52:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 09:52:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 09:52:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:52:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 09:52:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:52:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 09:52:42   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 09:52:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 09:52:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.096 seconds (JVM running for 1795.351) 
+2015-11-25 09:52:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:44.530 
+2015-11-25 09:52:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:46.530 
+2015-11-25 09:52:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:48.530 
+2015-11-25 09:52:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:50.530 
+2015-11-25 09:52:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:52.530 
+2015-11-25 09:52:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:54.530 
+2015-11-25 09:52:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:56.530 
+2015-11-25 09:52:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:52:58.530 
+2015-11-25 09:53:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:00.530 
+2015-11-25 09:53:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:02.530 
+2015-11-25 09:53:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:04.530 
+2015-11-25 09:53:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:06.530 
+2015-11-25 09:53:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:08.530 
+2015-11-25 09:53:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:10.530 
+2015-11-25 09:53:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:12.531 
+2015-11-25 09:53:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:14.530 
+2015-11-25 09:53:16   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:16.530 
+2015-11-25 09:53:18   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:18.530 
+2015-11-25 09:53:20   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:20.530 
+2015-11-25 09:53:22   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:22.530 
+2015-11-25 09:53:24   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:24.530 
+2015-11-25 09:53:26   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:26.530 
+2015-11-25 09:53:28   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:28.530 
+2015-11-25 09:53:30   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:30.530 
+2015-11-25 09:53:32   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:32.530 
+2015-11-25 09:53:34   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:34.530 
+2015-11-25 09:53:36   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:36.530 
+2015-11-25 09:53:38   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:38.530 
+2015-11-25 09:53:40   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:40.530 
+2015-11-25 09:53:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:42.530 
+2015-11-25 09:53:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:44.530 
+2015-11-25 09:53:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:46.530 
+2015-11-25 09:53:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:48.530 
+2015-11-25 09:53:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:50.530 
+2015-11-25 09:53:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:52.530 
+2015-11-25 09:53:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:54.530 
+2015-11-25 09:53:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:56.530 
+2015-11-25 09:53:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:53:58.530 
+2015-11-25 09:54:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:00.530 
+2015-11-25 09:54:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:02.530 
+2015-11-25 09:54:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:04.530 
+2015-11-25 09:54:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:06.530 
+2015-11-25 09:54:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:08.530 
+2015-11-25 09:54:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:10.530 
+2015-11-25 09:54:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:12.530 
+2015-11-25 09:54:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:14.530 
+2015-11-25 09:54:16   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:16.530 
+2015-11-25 09:54:18   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:18.530 
+2015-11-25 09:54:20   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:20.530 
+2015-11-25 09:54:22   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:22.530 
+2015-11-25 09:54:24   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:24.530 
+2015-11-25 09:54:26   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:26.530 
+2015-11-25 09:54:28   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:28.530 
+2015-11-25 09:54:30   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:30.530 
+2015-11-25 09:54:32   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:32.530 
+2015-11-25 09:54:34   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:34.530 
+2015-11-25 09:54:36   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:36.530 
+2015-11-25 09:54:38   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:38.530 
+2015-11-25 09:54:40   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:40.530 
+2015-11-25 09:54:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:42.530 
+2015-11-25 09:54:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:44.530 
+2015-11-25 09:54:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:46.530 
+2015-11-25 09:54:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:48.530 
+2015-11-25 09:54:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:50.530 
+2015-11-25 09:54:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:52.530 
+2015-11-25 09:54:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:54.530 
+2015-11-25 09:54:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:56.530 
+2015-11-25 09:54:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:54:58.530 
+2015-11-25 09:55:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:00.530 
+2015-11-25 09:55:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:02.530 
+2015-11-25 09:55:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:04.530 
+2015-11-25 09:55:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:06.530 
+2015-11-25 09:55:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:08.530 
+2015-11-25 09:55:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:10.530 
+2015-11-25 09:55:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:12.530 
+2015-11-25 09:55:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:14.530 
+2015-11-25 09:55:16   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:16.530 
+2015-11-25 09:55:18   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:18.530 
+2015-11-25 09:55:20   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:20.530 
+2015-11-25 09:55:22   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:22.530 
+2015-11-25 09:55:24   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:24.530 
+2015-11-25 09:55:26   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:26.530 
+2015-11-25 09:55:28   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:28.530 
+2015-11-25 09:55:30   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:30.530 
+2015-11-25 09:55:32   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:32.530 
+2015-11-25 09:55:34   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:34.530 
+2015-11-25 09:55:36   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:36.530 
+2015-11-25 09:55:38   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:38.530 
+2015-11-25 09:55:40   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:40.530 
+2015-11-25 09:55:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:42.530 
+2015-11-25 09:55:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:44.530 
+2015-11-25 09:55:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:46.530 
+2015-11-25 09:55:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:48.530 
+2015-11-25 09:55:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:50.530 
+2015-11-25 09:55:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:52.530 
+2015-11-25 09:55:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:54.530 
+2015-11-25 09:55:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:56.530 
+2015-11-25 09:55:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:55:58.530 
+2015-11-25 09:56:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:00.530 
+2015-11-25 09:56:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:02.530 
+2015-11-25 09:56:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:04.530 
+2015-11-25 09:56:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:06.530 
+2015-11-25 09:56:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:08.530 
+2015-11-25 09:56:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:10.530 
+2015-11-25 09:56:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:12.530 
+2015-11-25 09:56:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:14.530 
+2015-11-25 09:56:16   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:16.530 
+2015-11-25 09:56:18   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:18.530 
+2015-11-25 09:56:20   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:20.530 
+2015-11-25 09:56:22   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:22.530 
+2015-11-25 09:56:24   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:24.530 
+2015-11-25 09:56:26   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:26.530 
+2015-11-25 09:56:28   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:28.530 
+2015-11-25 09:56:30   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:30.530 
+2015-11-25 09:56:32   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:32.530 
+2015-11-25 09:56:34   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:34.530 
+2015-11-25 09:56:36   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:36.530 
+2015-11-25 09:56:38   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:38.530 
+2015-11-25 09:56:40   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:40.530 
+2015-11-25 09:56:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:42.530 
+2015-11-25 09:56:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:44.530 
+2015-11-25 09:56:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:46.530 
+2015-11-25 09:56:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:48.530 
+2015-11-25 09:56:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:50.530 
+2015-11-25 09:56:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:52.530 
+2015-11-25 09:56:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:54.530 
+2015-11-25 09:56:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:56.530 
+2015-11-25 09:56:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:56:58.530 
+2015-11-25 09:57:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:00.530 
+2015-11-25 09:57:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:02.530 
+2015-11-25 09:57:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:04.530 
+2015-11-25 09:57:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:06.530 
+2015-11-25 09:57:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:08.530 
+2015-11-25 09:57:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:10.530 
+2015-11-25 09:57:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:12.530 
+2015-11-25 09:57:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:14.530 
+2015-11-25 09:57:16   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:16.530 
+2015-11-25 09:57:18   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:18.530 
+2015-11-25 09:57:20   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:20.530 
+2015-11-25 09:57:22   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:22.530 
+2015-11-25 09:57:24   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:24.530 
+2015-11-25 09:57:26   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:26.530 
+2015-11-25 09:57:28   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:28.530 
+2015-11-25 09:57:30   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:30.530 
+2015-11-25 09:57:32   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:32.530 
+2015-11-25 09:57:34   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:34.530 
+2015-11-25 09:57:36   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:36.530 
+2015-11-25 09:57:38   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:38.530 
+2015-11-25 09:57:40   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:40.530 
+2015-11-25 09:57:42   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:42.530 
+2015-11-25 09:57:44   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:44.530 
+2015-11-25 09:57:46   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:46.530 
+2015-11-25 09:57:48   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:48.530 
+2015-11-25 09:57:50   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:50.530 
+2015-11-25 09:57:52   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:52.530 
+2015-11-25 09:57:54   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:54.530 
+2015-11-25 09:57:56   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:56.530 
+2015-11-25 09:57:58   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:57:58.530 
+2015-11-25 09:58:00   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:00.530 
+2015-11-25 09:58:02   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:02.530 
+2015-11-25 09:58:04   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:04.530 
+2015-11-25 09:58:06   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:06.530 
+2015-11-25 09:58:08   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:08.530 
+2015-11-25 09:58:10   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:10.530 
+2015-11-25 09:58:12   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:12.530 
+2015-11-25 09:58:14   [pool-65-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 09:58:14.530 
+2015-11-25 10:02:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9152 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:02:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:02:50   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:02:50.560 - > pool-3-thread-1 
+2015-11-25 10:02:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 56  
+2015-11-25 10:02:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:02:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:02:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:02:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:02:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:02:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:02:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:02:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.079 seconds (JVM running for 9.588) 
+2015-11-25 10:02:52   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:02:52.550 - > pool-3-thread-1 
+2015-11-25 10:02:54   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:02:54.550 - > pool-3-thread-1 
+2015-11-25 10:02:56   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:02:56.550 - > pool-3-thread-1 
+2015-11-25 10:02:58   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:02:58.550 - > pool-3-thread-1 
+2015-11-25 10:03:00   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:00.550 - > pool-3-thread-1 
+2015-11-25 10:03:02   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:02.550 - > pool-3-thread-1 
+2015-11-25 10:03:04   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:04.550 - > pool-3-thread-1 
+2015-11-25 10:03:06   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:06.550 - > pool-3-thread-1 
+2015-11-25 10:03:08   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:08.550 - > pool-3-thread-1 
+2015-11-25 10:03:10   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:10.550 - > pool-3-thread-1 
+2015-11-25 10:03:12   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:12.550 - > pool-3-thread-1 
+2015-11-25 10:03:14   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:03:14.550 - > pool-3-thread-1 
+2015-11-25 10:04:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9305 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:04:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:05:07   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:07.403 - > pool-3-thread-1 
+2015-11-25 10:05:07   [SimpleAsyncTaskExecutor-1] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-1 
+2015-11-25 10:05:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 52  
+2015-11-25 10:05:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:05:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:05:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:05:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:05:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:05:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:05:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:05:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.22 seconds (JVM running for 9.72) 
+2015-11-25 10:05:09   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:09.393 - > pool-3-thread-1 
+2015-11-25 10:05:09   [SimpleAsyncTaskExecutor-2] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-2 
+2015-11-25 10:05:11   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:11.392 - > pool-3-thread-1 
+2015-11-25 10:05:11   [SimpleAsyncTaskExecutor-3] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-3 
+2015-11-25 10:05:13   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:13.392 - > pool-3-thread-1 
+2015-11-25 10:05:13   [SimpleAsyncTaskExecutor-4] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-4 
+2015-11-25 10:05:15   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:15.392 - > pool-3-thread-1 
+2015-11-25 10:05:15   [SimpleAsyncTaskExecutor-5] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-5 
+2015-11-25 10:05:17   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:17.392 - > pool-3-thread-1 
+2015-11-25 10:05:17   [SimpleAsyncTaskExecutor-6] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-6 
+2015-11-25 10:05:19   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:19.392 - > pool-3-thread-1 
+2015-11-25 10:05:19   [SimpleAsyncTaskExecutor-7] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-7 
+2015-11-25 10:05:21   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:21.392 - > pool-3-thread-1 
+2015-11-25 10:05:21   [SimpleAsyncTaskExecutor-8] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-8 
+2015-11-25 10:05:23   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:23.392 - > pool-3-thread-1 
+2015-11-25 10:05:23   [SimpleAsyncTaskExecutor-9] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-9 
+2015-11-25 10:05:25   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:25.392 - > pool-3-thread-1 
+2015-11-25 10:05:25   [SimpleAsyncTaskExecutor-10] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-10 
+2015-11-25 10:05:27   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:27.392 - > pool-3-thread-1 
+2015-11-25 10:05:27   [SimpleAsyncTaskExecutor-11] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-11 
+2015-11-25 10:05:29   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:29.392 - > pool-3-thread-1 
+2015-11-25 10:05:29   [SimpleAsyncTaskExecutor-12] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-12 
+2015-11-25 10:05:31   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:31.392 - > pool-3-thread-1 
+2015-11-25 10:05:31   [SimpleAsyncTaskExecutor-13] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-13 
+2015-11-25 10:05:33   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:33.392 - > pool-3-thread-1 
+2015-11-25 10:05:33   [SimpleAsyncTaskExecutor-14] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-14 
+2015-11-25 10:05:35   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:35.392 - > pool-3-thread-1 
+2015-11-25 10:05:35   [SimpleAsyncTaskExecutor-15] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-15 
+2015-11-25 10:05:37   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:37.393 - > pool-3-thread-1 
+2015-11-25 10:05:37   [SimpleAsyncTaskExecutor-16] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-16 
+2015-11-25 10:05:39   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:39.392 - > pool-3-thread-1 
+2015-11-25 10:05:39   [SimpleAsyncTaskExecutor-17] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-17 
+2015-11-25 10:05:41   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:41.392 - > pool-3-thread-1 
+2015-11-25 10:05:41   [SimpleAsyncTaskExecutor-18] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-18 
+2015-11-25 10:05:43   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:43.392 - > pool-3-thread-1 
+2015-11-25 10:05:43   [SimpleAsyncTaskExecutor-19] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-19 
+2015-11-25 10:05:45   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:45.392 - > pool-3-thread-1 
+2015-11-25 10:05:45   [SimpleAsyncTaskExecutor-20] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-20 
+2015-11-25 10:05:47   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:47.392 - > pool-3-thread-1 
+2015-11-25 10:05:47   [SimpleAsyncTaskExecutor-21] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-21 
+2015-11-25 10:05:49   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:49.392 - > pool-3-thread-1 
+2015-11-25 10:05:49   [SimpleAsyncTaskExecutor-22] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-22 
+2015-11-25 10:05:51   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:51.392 - > pool-3-thread-1 
+2015-11-25 10:05:51   [SimpleAsyncTaskExecutor-23] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-23 
+2015-11-25 10:05:53   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:53.392 - > pool-3-thread-1 
+2015-11-25 10:05:53   [SimpleAsyncTaskExecutor-24] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-24 
+2015-11-25 10:05:55   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:55.392 - > pool-3-thread-1 
+2015-11-25 10:05:55   [SimpleAsyncTaskExecutor-25] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-25 
+2015-11-25 10:05:57   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:05:57.392 - > pool-3-thread-1 
+2015-11-25 10:05:57   [SimpleAsyncTaskExecutor-26] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-26 
+2015-11-25 10:05:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9305 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:05:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:20:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10012 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:20:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:23:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10208 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:23:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:23:31   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:31.086 - > pool-3-thread-1 
+2015-11-25 10:23:31   [SimpleAsyncTaskExecutor-1] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-1 
+2015-11-25 10:23:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 52  
+2015-11-25 10:23:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:23:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:23:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:23:31   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:23:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.522 seconds (JVM running for 10.05) 
+2015-11-25 10:23:33   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:33.077 - > pool-3-thread-1 
+2015-11-25 10:23:33   [SimpleAsyncTaskExecutor-2] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-2 
+2015-11-25 10:23:35   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:35.077 - > pool-3-thread-1 
+2015-11-25 10:23:35   [SimpleAsyncTaskExecutor-3] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-3 
+2015-11-25 10:23:37   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:37.077 - > pool-3-thread-1 
+2015-11-25 10:23:37   [SimpleAsyncTaskExecutor-4] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-4 
+2015-11-25 10:23:39   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:39.077 - > pool-3-thread-1 
+2015-11-25 10:23:39   [SimpleAsyncTaskExecutor-5] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-5 
+2015-11-25 10:23:41   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:41.077 - > pool-3-thread-1 
+2015-11-25 10:23:41   [SimpleAsyncTaskExecutor-6] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-6 
+2015-11-25 10:23:43   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:43.077 - > pool-3-thread-1 
+2015-11-25 10:23:43   [SimpleAsyncTaskExecutor-7] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-7 
+2015-11-25 10:23:45   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:45.077 - > pool-3-thread-1 
+2015-11-25 10:23:45   [SimpleAsyncTaskExecutor-8] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-8 
+2015-11-25 10:23:47   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:47.077 - > pool-3-thread-1 
+2015-11-25 10:23:47   [SimpleAsyncTaskExecutor-9] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-9 
+2015-11-25 10:23:49   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:49.077 - > pool-3-thread-1 
+2015-11-25 10:23:49   [SimpleAsyncTaskExecutor-10] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-10 
+2015-11-25 10:23:51   [pool-3-thread-1] INFO  p.j.scalatech.components.Scheduler - +++ 10:23:51.077 - > pool-3-thread-1 
+2015-11-25 10:23:51   [SimpleAsyncTaskExecutor-11] INFO  pl.java.scalatech.components.Work - +++  SimpleAsyncTaskExecutor-11 
+2015-11-25 10:23:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10208 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:23:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:23:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 10:23:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:23:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:23:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:23:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:23:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:23:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.637 seconds (JVM running for 35.101) 
+2015-11-25 10:24:12   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@7ed22a28 
+2015-11-25 10:25:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10208 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:25:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:25:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:25:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:25:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:25:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:25:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:25:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:25:39   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:25:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:25:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.103 seconds (JVM running for 138.098) 
+2015-11-25 10:25:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10398 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:25:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:26:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 39  
+2015-11-25 10:26:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:26:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:26:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:26:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:26:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:26:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:26:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:26:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 10.266 seconds (JVM running for 10.776) 
+2015-11-25 10:26:09   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@52877cec 
+2015-11-25 10:26:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10398 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:26:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:26:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:26:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:26:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:26:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:26:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:26:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:26:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:26:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:26:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.508 seconds (JVM running for 50.808) 
+2015-11-25 10:27:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10501 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:27:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:27:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 49  
+2015-11-25 10:27:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:27:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:27:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:27:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:27:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:27:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:27:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:27:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.964 seconds (JVM running for 10.472) 
+2015-11-25 10:27:46   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@1636a752 
+2015-11-25 10:30:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10501 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:30:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:30:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:30:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:30:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:30:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:30:22   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:30:22   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.893 seconds (JVM running for 180.15) 
+2015-11-25 10:30:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:30:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:30:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 56  
+2015-11-25 10:30:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:30:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:30:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:30:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:30:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:30:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.846 seconds (JVM running for 10.346) 
+2015-11-25 10:31:01   [http-nio-9111-exec-1] INFO  p.j.scalatech.aop.ExceptionAdvice - ++++++++++++++++++++++++++++++++++++++++++++++++ pl.java.scalatech.web.ProductController@2787b0a3 
+2015-11-25 10:32:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:32:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:32:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 10:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:32:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:32:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:32:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 4.066 seconds (JVM running for 141.034) 
+2015-11-25 10:33:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:33:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:33:03   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:33:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:33:03   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:33:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:33:03   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:33:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:33:03   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:33:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:33:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.247 seconds (JVM running for 147.968) 
+2015-11-25 10:33:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:33:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:33:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 10:33:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:33:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:33:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:33:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:33:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:33:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:33:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:33:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.945 seconds (JVM running for 159.608) 
+2015-11-25 10:34:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:34:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:34:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:36:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:36:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:36:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:36:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:37:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:37:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:38:34   [Test worker] INFO  p.j.s.VavaTechApplicationTests - Starting VavaTechApplicationTests on przodownik-Dell-System-XPS-L702X with PID 11319 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/build/classes/test started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:38:34   [Test worker] INFO  p.j.s.VavaTechApplicationTests - No profiles are active 
+2015-11-25 10:41:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 10675 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:41:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:50:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12070 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:50:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:50:43   [restartedMain] INFO  p.java.scalatech.config.CacheConfig - +++                     org.springframework.cache.ehcache.EhCacheManagerFactoryBean@61840712 :  ehcache 
+2015-11-25 10:50:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 41  
+2015-11-25 10:51:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12070 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:51:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:51:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12159 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:51:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:51:51   [restartedMain] INFO  p.java.scalatech.config.CacheConfig - +++                     org.springframework.cache.ehcache.EhCacheManagerFactoryBean@3314fa7a :  ehcache 
+2015-11-25 10:51:55   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 47  
+2015-11-25 10:51:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:51:55   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:51:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:51:55   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:51:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:51:55   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:51:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:51:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 11.0 seconds (JVM running for 11.509) 
+2015-11-25 10:52:01   [http-nio-9111-exec-1] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : getAll : 768  
+2015-11-25 10:57:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12159 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:57:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:57:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:57:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:57:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:57:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:57:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:57:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:57:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:57:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:57:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.809 seconds (JVM running for 323.341) 
+2015-11-25 10:59:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12159 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 10:59:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 10:59:17   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 10:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 10:59:17   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 10:59:17   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 10:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 10:59:17   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 10:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 10:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.059 seconds (JVM running for 453.447) 
+2015-11-25 11:01:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12159 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 11:01:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 11:01:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 11:01:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 11:01:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 11:01:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 11:01:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 11:01:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 11:01:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 11:01:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 11:01:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.553 seconds (JVM running for 600.092) 
+2015-11-25 11:24:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 12159 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 11:24:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 11:24:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 11:24:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 11:24:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 11:24:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 11:24:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 11:24:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 11:24:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 11:24:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 11:24:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.509 seconds (JVM running for 1990.029) 
+2015-11-25 12:02:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:02:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:02:30   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 35  
+2015-11-25 12:02:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:02:30   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:02:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:02:30   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:02:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:02:30   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:02:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:02:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.765 seconds (JVM running for 10.296) 
+2015-11-25 12:02:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:02:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:02:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 12:02:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:02:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:02:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:02:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:02:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:02:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:02:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:02:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.577 seconds (JVM running for 38.375) 
+2015-11-25 12:03:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:03:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:03:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:03:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:03:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:03:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:03:07   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:03:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.356 seconds (JVM running for 47.353) 
+2015-11-25 12:03:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:03:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:03:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 12:03:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:03:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:03:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:03:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:03:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:03:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.836 seconds (JVM running for 78.037) 
+2015-11-25 12:03:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:03:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:03:59   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:03:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:03:59   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:03:59   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:03:59   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:03:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:03:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.927 seconds (JVM running for 99.819) 
+2015-11-25 12:04:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:04:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:04:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:04:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:04:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 12:04:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:04:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:04:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:04:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:04:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:04:43   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:04:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:04:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.609 seconds (JVM running for 143.314) 
+2015-11-25 12:07:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:07:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:07:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:07:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:07:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:07:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:07:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:07:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:07:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:07:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:07:41   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:07:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:07:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.328 seconds (JVM running for 322.036) 
+2015-11-25 12:08:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:08:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:08:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:08:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:08:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:08:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:08:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:08:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:08:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:08:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:08:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.493 seconds (JVM running for 345.651) 
+2015-11-25 12:09:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:09:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:09:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:09:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:09:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:09:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:09:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:09:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.377 seconds (JVM running for 419.971) 
+2015-11-25 12:09:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:09:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:09:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:09:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:09:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:09:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:09:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:09:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:09:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.301 seconds (JVM running for 453.215) 
+2015-11-25 12:10:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:10:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:10:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:10:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:10:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:10:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:10:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:10:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:10:05   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:10:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:10:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.373 seconds (JVM running for 465.45) 
+2015-11-25 12:10:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:10:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:10:13   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:10:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:10:13   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:10:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:10:13   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:10:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:10:13   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:10:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:10:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.381 seconds (JVM running for 473.891) 
+2015-11-25 12:20:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:20:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:20:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:20:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:20:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:20:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:20:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:20:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:20:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:20:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:20:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.261 seconds (JVM running for 1098.786) 
+2015-11-25 12:21:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:21:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:22:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:22:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:22:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:22:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:22:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:22:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:22:30   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:32:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:32:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:32:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:32:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:32:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:32:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:32:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:32:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:32:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:32:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:32:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:32:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:32:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.218 seconds (JVM running for 1838.425) 
+2015-11-25 12:33:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 16503 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:33:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:33:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:33:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:33:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:33:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:33:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:33:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:33:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:33:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:33:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:33:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.203 seconds (JVM running for 1850.208) 
+2015-11-25 12:34:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:34:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:34:59   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:35:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 37  
+2015-11-25 12:35:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:35:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:35:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:35:02   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:35:02   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 10.404 seconds (JVM running for 10.9) 
+2015-11-25 12:35:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:35:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:35:22   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:35:23   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 12:35:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:35:23   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:35:23   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:35:23   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:35:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.684 seconds (JVM running for 32.056) 
+2015-11-25 12:35:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:35:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:35:35   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:35:36   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 12:35:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:35:36   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:35:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:35:36   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:35:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:35:36   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:35:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.696 seconds (JVM running for 45.491) 
+2015-11-25 12:35:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:35:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:35:45   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:35:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 6  
+2015-11-25 12:35:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:35:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:35:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:35:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:35:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:35:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.952 seconds (JVM running for 55.178) 
+2015-11-25 12:35:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:35:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:35:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:35:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:35:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:35:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:35:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:35:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:35:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:35:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.716 seconds (JVM running for 67.683) 
+2015-11-25 12:36:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17636 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:36:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:36:37   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:36:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:36:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:36:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:36:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:36:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:36:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:36:38   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:36:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:36:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.025 seconds (JVM running for 107.473) 
+2015-11-25 12:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17830 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:37:01   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:37:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 88  
+2015-11-25 12:37:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:37:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:37:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:37:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:37:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:37:04   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:37:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:37:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.491 seconds (JVM running for 9.999) 
+2015-11-25 12:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17830 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:38:51   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:38:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 12:38:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:38:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:38:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:38:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:38:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:38:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:38:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:38:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.432 seconds (JVM running for 118.037) 
+2015-11-25 12:39:15   [http-nio-9111-exec-1] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17830 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:39:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:39:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:39:49   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:39:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 87  
+2015-11-25 12:39:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:39:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:39:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:39:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:39:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:39:52   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:39:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:39:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 10.204 seconds (JVM running for 10.691) 
+2015-11-25 12:39:56   [http-nio-9111-exec-1] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:40:26   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:40:27   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:40:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:40:27   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:40:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:40:27   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:40:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:40:27   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:40:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:40:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.522 seconds (JVM running for 45.685) 
+2015-11-25 12:40:40   [http-nio-9111-exec-1] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:40:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:40:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:41:00   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:41:01   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 12:41:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:41:01   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:41:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:41:01   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:41:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:41:01   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:41:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:41:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.009 seconds (JVM running for 79.508) 
+2015-11-25 12:41:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:41:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:41:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:41:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-25 12:41:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:41:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:41:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:41:10   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:41:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:41:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.724 seconds (JVM running for 88.968) 
+2015-11-25 12:41:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:41:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:41:20   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:41:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:41:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:41:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:41:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:41:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:41:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.66 seconds (JVM running for 99.395) 
+2015-11-25 12:41:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:41:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:41:45   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:41:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:41:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:41:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:41:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:41:46   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:41:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:41:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.39 seconds (JVM running for 124.611) 
+2015-11-25 12:41:53   [http-nio-9111-exec-1] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:45:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:45:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:46:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:46:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:46:18   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:46:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 12:46:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:46:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:46:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:46:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-25 12:46:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:46:19   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:46:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:46:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.645 seconds (JVM running for 397.72) 
+2015-11-25 12:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:46:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:46:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:46:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:46:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:46:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:46:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:46:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:46:58   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:46:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:46:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.316 seconds (JVM running for 437.034) 
+2015-11-25 12:48:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:48:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:48:07   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:48:08   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:48:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:48:08   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:48:08   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:48:08   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:48:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.274 seconds (JVM running for 506.424) 
+2015-11-25 12:48:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:48:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:48:36   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:48:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-25 12:48:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:48:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:48:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:48:37   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:48:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:48:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.423 seconds (JVM running for 535.858) 
+2015-11-25 12:48:39   [http-nio-9111-exec-1] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:48:53   [http-nio-9111-exec-2] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:48:58   [http-nio-9111-exec-10] INFO  p.j.scalatech.web.MessageController - ++++  slawek 
+2015-11-25 12:51:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:51:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:51:55   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:51:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:51:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:51:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:51:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.752 seconds (JVM running for 734.58) 

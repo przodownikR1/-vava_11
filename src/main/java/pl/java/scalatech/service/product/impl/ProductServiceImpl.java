@@ -5,6 +5,9 @@ import java.util.Random;
 
 import org.hibernate.type.TrueFalseType;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -30,6 +33,7 @@ public class ProductServiceImpl  implements ProductService{
     @Override
     @Trace
     @SneakyThrows
+    @Cacheable(value="product")
     public List<Product> getAll() {
         Thread.sleep(r.nextInt(1000));
         return productRepository.findAll();
@@ -38,6 +42,7 @@ public class ProductServiceImpl  implements ProductService{
     @Transactional
     @Override
     @Trace
+    @CachePut(value="product",key="#product.id")
     public Product save(Product product) {
         return productRepository.save(product);
     }
@@ -50,7 +55,7 @@ public class ProductServiceImpl  implements ProductService{
     @CatchException(sendEmail=true)
     @Override
     public void testEx1()  {
-       throw new IllegalArgumentException("hej cos jest nie tak !!!");
+       throw new IllegalArgumentException("hej cos jest nie tak runtime !!!");
         
     }
 
