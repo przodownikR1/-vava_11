@@ -1378,3 +1378,15 @@
 2015-11-25 12:51:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
 2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
 2015-11-25 12:51:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.752 seconds (JVM running for 734.58) 
+2015-11-25 12:55:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17986 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
+2015-11-25 12:55:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-25 12:55:52   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-25 12:55:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-25 12:55:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1) 
+2015-11-25 12:55:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:55:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1) 
+2015-11-25 12:55:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:55:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13) 
+2015-11-25 12:55:53   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-25 12:55:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31) 
+2015-11-25 12:55:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.467 seconds (JVM running for 971.756) 
