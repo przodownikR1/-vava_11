@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:tiles="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org" th:lang="${#locale.language}">
+
+<head th:replace="/fragments/header-include :: header-include">
+  <link th:href="@{/assets/bootstrap/3.3.5/css/bootstrap.min.css}" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <title>FirstTest</title>
+</head>
+
+
+<body>
+    <div th:include="/fragments/nav :: nav" />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <div class="container">
+      <div class="hero-unit">
+        <h1>Test</h1>
+        <p>
+          Welcome to the Spring MVC Quickstart application!
+          Get started quickly by signing up.
+        </p>
+        <p>
+          <a href="/signup" th:href="@{/signup}" class="btn btn-large btn-success">Sign up</a>
+        </p>
+      </div>
+      </div>
+    
+    <div class="container">
+        <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-xs-12 col-sm-9" >
+                   <h1 th:text="#{hello.world}">Hello world</h1>
+                   <h2 th:utext="#{hello.world1}">Hello world</h2>
+	       </div>
+	    </div>
+ </div>
+	<div th:replace="/fragments/footer-include :: footer-include">
+	   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" th:src="@{/assets/bootstrap/3.3.5/js/bootstrap.min.js}"/> 
+	  <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js" th:src="@{/assets/jquery/2.1.4/jquery.min.js}"/> 
+	</div>
+</body>
+
+
+
+
+</html>
