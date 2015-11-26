@@ -14,8 +14,11 @@ import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfigurati
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.Product;
+import pl.java.scalatech.entity.User;
 import pl.java.scalatech.repository.ProductRepository;
+import pl.java.scalatech.repository.UserRepository;
 import pl.java.scalatech.service.product.ProductService;
+
 
 @Slf4j
 @SpringBootApplication
@@ -23,12 +26,14 @@ import pl.java.scalatech.service.product.ProductService;
 public class VavaTechApplication implements CommandLineRunner {
 
     List<Product> products = newArrayList(Product.builder().name("olowek").price(BigDecimal.valueOf(123)).quantity(1).build(),
-            Product.builder().name("zarowka").price(BigDecimal.valueOf(23)).quantity(1).build(),
-            Product.builder().name("samochod").price(BigDecimal.valueOf(12333)).quantity(13).build(),
+            Product.builder().name("zarowka").price(BigDecimal.valueOf(23)).quantity(1).enable(true).build(),
+            Product.builder().name("samochod").price(BigDecimal.valueOf(12333)).quantity(13).enable(true).build(),
             Product.builder().name("laptop").price(BigDecimal.valueOf(5523)).quantity(31).build());
 
     @Autowired
     private ProductService productService;
+    @Autowired
+    private UserRepository userRepository;
 
     public static void main(String[] args) {
         SpringApplication.run(VavaTechApplication.class, args);
@@ -36,6 +41,8 @@ public class VavaTechApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        userRepository.save(User.builder().firstName("slawke").login("przodownik").build());
+        userRepository.save(User.builder().firstName("slawke2").login("przodownik3").build());
         for (Product product : products) {
             Product loaded = productService.save(product);
             log.info("{}", loaded);

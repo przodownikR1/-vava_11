@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class EmailService {
 
-    @Autowired
+    @Autowired(required=false)
     private MailSender mailSender;  //fizycznie odpowiada za wysylke 
 
     public void send(String from, String to, String subject, String message) {

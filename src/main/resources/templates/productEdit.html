@@ -7,8 +7,12 @@
 <fieldset>
   <legend th:text="#{nav.product}">Product</legend>
       <input type="hidden" th:field="*{id}" />
+       
+      <span th:if="${#fields.hasErrors('common')}" th:errors="*{common}" class="help-block">error!</span>
+      
        <div class="form-group" th:classappend="${#fields.hasErrors('name')}? 'has-error has-feedback'">
         <label for="name" class="col-sm-2 control-label" th:text="#{name}">Name</label>
+        
           <div class="col-xs-3">
                <input type="text" id="name" name="name" th:field="*{name}" class="form-control" value="ee"/>
                 <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="help-block">error!</span>

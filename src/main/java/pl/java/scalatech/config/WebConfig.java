@@ -9,11 +9,17 @@ import org.h2.server.web.WebServlet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
+import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.Resource;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.validation.Validator;
+import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.filter.CharacterEncodingFilter;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -31,7 +37,7 @@ import pl.java.scalatech.web.interceptor.PerformanceInterceptor;
 
 @Configuration
 @Slf4j
-@ComponentScan(basePackages={"pl.java.scalatech.converters"})
+@ComponentScan(basePackages={"pl.java.scalatech.converters","pl.java.scalatech.web.interceptor"})
 public class WebConfig  extends WebMvcConfigurerAdapter{
 
     @Autowired
@@ -46,6 +52,19 @@ public class WebConfig  extends WebMvcConfigurerAdapter{
     @Autowired
     private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;
     
+    @Autowired
+    private PerformanceInterceptor perf;
+    
+    @Autowired
+    private MessageSource messageSource;
+    
+    @Override  //spring boot juz to ma
+    public Validator getValidator() {
+        LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
+        localValidatorFactoryBean.setValidationMessageSource(messageSource);
+        return localValidatorFactoryBean;
+    }
+
     
     @Override
     public void addFormatters(FormatterRegistry registry) {
@@ -65,11 +84,12 @@ public class WebConfig  extends WebMvcConfigurerAdapter{
     }
     
   
-    
     @Bean
-    public PerformanceInterceptor perfInterceptor() {
-        return new PerformanceInterceptor();
+    Resource picture(){
+       return  new org.springframework.core.io.ClassPathResource("new_mg.png");
     }
+    
+ 
     
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -95,7 +115,7 @@ public class WebConfig  extends WebMvcConfigurerAdapter{
     @Override
     public  void addInterceptors(org.springframework.web.servlet.config.annotation.InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor);
-        //added !!
+        registry.addInterceptor(perf);
 
     }
     
@@ -103,7 +123,8 @@ public class WebConfig  extends WebMvcConfigurerAdapter{
     
     @Override
     public void configureHandlerExceptionResolvers(List<HandlerExceptionResolver> exceptionResolvers) {
-        exceptionResolvers.add(new MyExceptionHandlerResolver());
+       //xceptionResolvers.add(new MyExceptionHandlerResolver());
+        
     }
     
     @Bean
@@ -116,18 +137,27 @@ public class WebConfig  extends WebMvcConfigurerAdapter{
         return registrationBean;
     }
     
-    class MyExceptionHandlerResolver implements HandlerExceptionResolver {
+    
+    
+    @Bean
+    public MultipartResolver multipartResolver() {
+        StandardServletMultipartResolver standardServletMultipartResolver = new StandardServletMultipartResolver();
+        return standardServletMultipartResolver;
+    }
+    
+    
+  /* class MyExceptionHandlerResolver implements HandlerExceptionResolver {
         @Override
         public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
             try {
                 log.error("An error has occured: {}", ex.getMessage());
-
-                response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
-                return new ModelAndView("myError");
+                request.setAttribute("message", ex.getMessage());
+              
+                return new ModelAndView("errors");
             } catch (Exception handlerException) {
                 log.warn("Handling of [{}] resulted in Exception", ex.getClass().getName(), handlerException);
             }
-            return null;
+            return new ModelAndView("errors");
         }
-    }
+    }*/
 }

@@ -50,13 +50,13 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
             deniedhandler.setErrorPage("/accessdenied.html");
             http
-              .authorizeRequests().antMatchers("/welcome", "/api/ping", "/signup", "/about","/register","/currentUser").permitAll()
+              .authorizeRequests().antMatchers("/welcome", "/api/ping", "/signup", "/about","/register","/currentUser","/console").permitAll()
               .antMatchers("/api/admin/**").hasRole("ADMIN")
               .antMatchers("/api/appContext").hasRole("ADMIN")
               .antMatchers("/api/user/**").hasRole("USER")
               .antMatchers("/currentUser").hasRole("USER")
               .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')")
-              .anyRequest().permitAll();///!!!!
+              .anyRequest().authenticated();
             
             http.csrf().disable()
             .formLogin()

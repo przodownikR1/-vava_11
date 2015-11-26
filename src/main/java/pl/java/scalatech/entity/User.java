@@ -8,17 +8,12 @@ import java.util.List;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Transient;
-import javax.validation.Valid;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
@@ -29,6 +24,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import pl.java.scalatech.annotation.PasswordsEqualConstraint;
 
 
 @Entity
@@ -37,28 +33,32 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+//@PasswordsEqualConstraint
 public class User extends PKEntity implements UserDetails {
     private static final long serialVersionUID = -2181703844979860927L;
 
-    @NotNull
-    @Size(min = 2, max = 30)
+   // @NotNull
+   // @Size(min = 2, max = 30)
     private String login;
 
-    @NotNull
-    @Size(min = 2, max = 50)
+   // @NotNull
+   // @Size(min = 2, max = 50)
     private String lastName;
 
-    @NotNull
-    @Size(min = 2, max = 50)
+  // @NotNull
+  //  @Size(min = 2, max = 50)
     private String firstName;
 
     @Transient
     private String fullName;
 
-    @NotNull
-    @Min(6)
-    @Column(nullable = false, length = 20)
+  //  @NotNull
+ //   @Min(6)
+    //@Column(nullable = false, length = 20)
     private String password;
+    
+    @Transient
+    private String confirmPassword;
 
     private String email;
 
@@ -66,7 +66,7 @@ public class User extends PKEntity implements UserDetails {
 
     @ManyToMany(fetch = FetchType.LAZY, cascade = { CascadeType.PERSIST, CascadeType.MERGE })
     @JoinTable(name = "USER_ROLE", joinColumns = { @JoinColumn(name = "userId") }, inverseJoinColumns = { @JoinColumn(name = "roleId") })
-    @Valid
+   // @Valid
     private List<Role> roles = new LinkedList<>();
 
     @Override

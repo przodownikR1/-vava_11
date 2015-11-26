@@ -35,7 +35,7 @@ public class ExceptionAdvice {
         String method = joinPoint.getSignature().getName();
         String clazz = joinPoint.getTarget().getClass().getSimpleName();
         if(c.sendEmail()){
-            emailService.send("przodownikR1@gmail.com", "przodownikR1@gmail.com", "error Aop", method + " " +clazz);
+           // emailService.send("przodownikR1@gmail.com", "przodownikR1@gmail.com", "error Aop", method + " " +clazz);
            log.info("method: {} , class : {} ,  send email to :  {} -> {}",method,clazz, c.mailAddress() ,ex.getMessage());
            }
         
