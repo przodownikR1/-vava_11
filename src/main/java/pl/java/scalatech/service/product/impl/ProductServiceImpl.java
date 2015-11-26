@@ -59,4 +59,16 @@ public class ProductServiceImpl  implements ProductService{
         
     }
 
+    @Override
+    public Product findOne(Long id) {
+        return productRepository.findOne(id);
+    }
+
+    @Override
+    @Transactional
+    public void delete(Product product) {
+        productRepository.delete(product);
+        
+    }
+
 }

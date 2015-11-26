@@ -22,6 +22,7 @@
                     </div>
                     <div class="panel-body">
                         <form accept-charset="UTF-8" role="form" th:action="@{/login}" method="post">
+                        <p th:if="${param.error}">Wrong user or password</p>
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" th:placeholder="#{login.username}" placeholder="Username" name="username" type="text" />
@@ -29,11 +30,7 @@
                                 <div class="form-group">
                                     <input class="form-control" th:placeholder="#{login.password}" placeholder="Password" name="password" type="password" value="" />
                                 </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input name="remember" type="checkbox" th:text="#{login.remember.me}" value="Remember Me" /> 
-                                    </label>
-                                </div>
+                                
                                 <input th:text="#{login.submit}" class="btn btn-lg btn-success btn-block" type="submit" name="Login"></input>
                             </fieldset>
                         </form>
@@ -47,8 +44,4 @@
       <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js" th:src="@{/assets/jquery/2.1.4/jquery.min.js}"/> 
     </div>
 </body>
-
-
-
-
 </html>

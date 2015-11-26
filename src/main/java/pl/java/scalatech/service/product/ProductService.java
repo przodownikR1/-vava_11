@@ -13,5 +13,10 @@ public interface ProductService {
     void testEx()  throws IllegalAccessException;
 
     void testEx1();
+    
+    Product findOne(Long id);
+    
+    void delete(Product product);
+    
 
 }
