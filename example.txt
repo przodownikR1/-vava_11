@@ -1,0 +1,41 @@
+@Query("select o from BusinessObject o where o.owner.emailAddress like ?#{hasRole('ROLE_ADMIN') ? '%' : principal.emailAddress}")
+    List<BusinessObject> findBusinessObjectsForCurrentUser();
+
+    @Query("select o from BusinessObject o where o.owner.id = ?#{principal.id} or 1=?#{hasRole('ROLE_ADMIN') ? 1 : 0}")
+    List<BusinessObject> findBusinessObjectsForCurrentUserById();
+
+   
+    @Modifying
+    @Query("update BusinessObject b set b.data = upper(b.data), b.lastModifiedBy = :#{#security.principal}, b.lastModifiedDate = :#{new java.util.Date()}")
+    void modifiyDataWithRecordingSecurityContext();
+    
+    
+    
+    @Bean
+    EvaluationContextExtension securityExtension() {
+        return new SecurityEvaluationContextExtension();
+    }
+    
+    @Entity
+@Data
+public class BusinessObject {
+
+    private @Id @GeneratedValue @Getter Long id;
+    private @ManyToOne User lastModifiedBy;
+    private Date lastModifiedDate;
+
+    private final String data;
+    private final @ManyToOne User owner;
+
+    public BusinessObject(String data, User owner) {
+
+        this.data = data;
+        this.owner = owner;
+    }
+
+    @SuppressWarnings("unused")
+    private BusinessObject() {
+        this.data = null;
+        this.owner = null;
+    }
+}
