@@ -15,7 +15,7 @@ import lombok.EqualsAndHashCode;
 
 @MappedSuperclass
 @Data
-@EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper = true)
 public abstract class PKEntity extends AbstactId {
 
     private static final long serialVersionUID = 7669211182758111346L;

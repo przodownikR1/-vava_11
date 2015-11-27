@@ -24,7 +24,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import pl.java.scalatech.annotation.PasswordsEqualConstraint;
 
 
 @Entity
@@ -56,7 +55,7 @@ public class User extends PKEntity implements UserDetails {
  //   @Min(6)
     //@Column(nullable = false, length = 20)
     private String password;
-    
+
     @Transient
     private String confirmPassword;
 
@@ -64,7 +63,7 @@ public class User extends PKEntity implements UserDetails {
 
     private boolean enabled = true;
 
-    @ManyToMany(fetch = FetchType.LAZY, cascade = { CascadeType.PERSIST, CascadeType.MERGE })
+    @ManyToMany(fetch = FetchType.EAGER, cascade = { CascadeType.ALL })
     @JoinTable(name = "USER_ROLE", joinColumns = { @JoinColumn(name = "userId") }, inverseJoinColumns = { @JoinColumn(name = "roleId") })
    // @Valid
     private List<Role> roles = new LinkedList<>();

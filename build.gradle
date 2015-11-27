@@ -71,6 +71,10 @@ dependencies {
     compile('com.h2database:h2')
     compile 'cglib:cglib:3.2.0'
     
+    compile 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE'
+    
+    
+    
     compile 'org.webjars:bootstrap:3.3.5'
     compile 'org.webjars:jquery:2.1.4'
     compile 'org.webjars:jquery-ui:1.11.4'
