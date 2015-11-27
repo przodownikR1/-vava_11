@@ -6609,3 +6609,7 @@ Field error in object 'product' on field 'common': rejected value [null]; codes 
 2015-11-27 01:55:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER)])) 
 2015-11-27 01:55:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.548 seconds (JVM running for 257.736) 
 2015-11-27 01:56:07   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-11-27 02:05:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 16219 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-27 02:05:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-27 02:08:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 17167 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-27 02:08:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
