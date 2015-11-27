@@ -17,7 +17,7 @@ public interface ProductRepository  extends JpaRepository<Product, Long>{
     List<Product> findByOwner(User user);
 
     @Override
-   // @PostAuthorize("hasPermission(returnObject?.owner?.id = principal?.id )")
+   // @PostAuthorize("hasPermission(returnObject?.owner?.id == principal?.id )")
     Product findOne(Long id);
 
 }
