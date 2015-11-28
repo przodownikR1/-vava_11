@@ -15,7 +15,6 @@ import lombok.SneakyThrows;
 import pl.java.scalatech.annotation.CatchException;
 import pl.java.scalatech.annotation.Trace;
 import pl.java.scalatech.entity.Product;
-import pl.java.scalatech.entity.User;
 import pl.java.scalatech.repository.ProductRepository;
 import pl.java.scalatech.service.product.ProductService;
 
@@ -71,9 +70,9 @@ public class ProductServiceImpl  implements ProductService{
 
     }
 
-    @Override
+  /*  @Override
     public List<Product> getAllByUser(User user) {
         return productRepository.findByOwner(user);
-    }
+    }*/
 
 }

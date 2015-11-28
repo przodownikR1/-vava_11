@@ -24,6 +24,7 @@ import org.springframework.security.web.authentication.logout.LogoutSuccessHandl
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
+import pl.java.scalatech.security.SecurityEvaluationContextExtension;
 
 @Configuration
 @EnableWebSecurity
@@ -39,6 +40,9 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
     static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
         @Autowired
         private PermissionEvaluator permissionEvaluator;
+
+        @Autowired
+        SecurityEvaluationContextExtension securityEvaluationContextExtension;
 
         @Override
         protected MethodSecurityExpressionHandler createExpressionHandler() {
@@ -95,6 +99,8 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
               .authorizeRequests().antMatchers("/welcome", "/api/ping", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
               .antMatchers("/api/admin/**").hasRole("ADMIN")
               .antMatchers("/api/appContext").hasRole("ADMIN")
+              //.antMatchers("/role").hasRole("ADMIN")
+             // .antMatchers("/role/**").hasRole("ADMIN")
               .antMatchers("/api/user/**").hasRole("USER")
               .antMatchers("/currentUser").hasRole("USER")
               .antMatchers("/logout").authenticated()
@@ -120,16 +126,19 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
         }
           @Autowired
           public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
-
-              auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
-         /* auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
+             log.info("password Encoding {}",passwordEncoder);
+            //  auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
+          auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
           .withUser("przodownik").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("USER").and()
           .withUser("aga").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("BUSINESS").and()
           .withUser("vava").password("$2a$10$pulPdVELrppUwOFFewJAu.hfIO5uiUsA/MOQoRKIXGNznNJQksIg.").roles("USER").and()
           .withUser("bak").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("USER", "ADMIN");
-          }*/
+          }
 
-    }
+
+
+
+
 
     }
 

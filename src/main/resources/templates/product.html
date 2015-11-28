@@ -17,6 +17,7 @@
 						<th th:text="#{product.price}">price</th>
 						<th th:text="#{product.quantity}">quantity</th>
 						<th th:text="#{product.enable}">quantity</th>
+						<th th:text="#{product.owner}">Owner</th>
 					    <th th:text="#{product.edit}">Edit</th>
 				        <th th:text="#{product.delete}">Delete</th>
 					</tr>
@@ -28,6 +29,7 @@
 						<td th:disabled="true" th:text="${p.price}" />
 						<td th:disabled="true" th:text="${p.quantity}"/>
 						<td th:disabled="true" th:text="${p.enable}" />
+						<td th:disabled="true" th:text="${p.owner}" />
 					    <td><a class="btn" href="#" th:href="@{'/product/' + ${p.id}}"><span class="glyphicon glyphicon-edit"></span></a></td>
 				        <td><a class="btn" href="#"  th:href="@{'/product/delete/' + ${p.id}}"><span class="glyphicon glyphicon-trash"></span></a></td>
 			

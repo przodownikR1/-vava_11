@@ -43,8 +43,8 @@ public class VavaTechApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Role user= roleRepository.save(new Role("USER"));
-        Role admin= roleRepository.save(new Role("ADMIN"));
+        Role user= roleRepository.save(new Role("USER","only for ordinary user"));
+        Role admin= roleRepository.save(new Role("ADMIN","only for special right user"));
         log.info("+++++++++++++   {}",user.getId());
 
         User one = userRepository.save(User.builder().firstName("slawek").login("przodownik")
