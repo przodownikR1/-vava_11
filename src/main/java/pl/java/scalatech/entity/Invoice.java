@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -65,8 +66,8 @@ public class Invoice extends PKEntity {
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     List<Product> products = new ArrayList<>();
 
-    /*  @ManyToOne(cascade = CascadeType.ALL)
-    private User createdBy;*/
+    @ManyToOne(cascade = CascadeType.ALL)
+    private User owner;
 
 
 }

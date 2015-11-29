@@ -38,9 +38,11 @@ public abstract class AbstractRepoController<T> {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     List<T> getAll(@CurrentUser User user) {
-        log.info("+++++                                    {}  ->  {}", user,this.getClass().getSimpleName());
         List<T> result =  repo.findAll();
-        log.info("+++++                                    {}  ->  {}, result  {}", user,this.getClass().getSimpleName(),result);
+        if(result == null || result.isEmpty()) { //TODO some problem with empty collection !!!!
+            result  =null;
+        }
+        log.info("+++++    NULL -> EMPTY        {}  ->  {}, result  {}", user,this.getClass().getSimpleName(),result);
         return result;
     }
 

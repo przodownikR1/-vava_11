@@ -3,12 +3,12 @@
              layout:decorator="fragments/layout">
 <body>
 <div layout:fragment="content">
-<form th:object="${product}" method="post" class="form-horizontal">
+<form th:object="${invoice}" method="post" class="form-horizontal">
 <fieldset>
-  <legend th:text="#{nav.product}">Product</legend>
+  <legend th:text="#{nav.invoice}">Invoice</legend>
       <input type="hidden" th:field="*{id}" />
        
-      <span th:if="${#fields.hasErrors('common')}" th:errors="*{common}" class="help-block">error!</span>
+    
       
        <div class="form-group" th:classappend="${#fields.hasErrors('name')}? 'has-error has-feedback'">
         <label for="name" class="col-sm-2 control-label" th:text="#{name}">Name</label>
@@ -18,31 +18,88 @@
                 <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="help-block">error!</span>
          </div>
         </div>
-      <div class="form-group" th:classappend="${#fields.hasErrors('price')}? 'has-error has-feedback'">
-        <label for="code" class="col-sm-2 control-label" th:text="#{product.price}">Price</label>
+        
+         <div class="form-group" th:classappend="${#fields.hasErrors('paid')}? 'has-error has-feedback'">
+        <label for="name" class="col-sm-2 control-label" th:text="#{paid}">paid</label>
+        
           <div class="col-xs-3">
-               <input type="text" id="code" name="price" th:field="*{price}" class="form-control" value="ee"/>
-                <span th:if="${#fields.hasErrors('price')}" th:errors="*{price}" class="help-block">error!</span>
+               <input type="checkbox" id="paid" name="paid" th:field="*{paid}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('paid')}" th:errors="*{paid}" class="help-block">error!</span>
          </div>
         </div>
         
-         <div class="form-group" th:classappend="${#fields.hasErrors('quantity')}? 'has-error has-feedback'">
-        <label for="code" class="col-sm-2 control-label" th:text="#{product.quantity}">quantity</label>
+          
+         <div class="form-group" th:classappend="${#fields.hasErrors('createDate')}? 'has-error has-feedback'">
+        <label for="name" class="col-sm-2 control-label" th:text="#{createDate}">createDate</label>
+        
           <div class="col-xs-3">
-               <input type="text" id="code" name="quantity" th:field="*{quantity}" class="form-control" value="ee"/>
-                <span th:if="${#fields.hasErrors('quantity')}" th:errors="*{quantity}" class="help-block">error!</span>
+               <input type="text" id="createDate" name="createDate" th:field="*{createDate}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('createDate')}" th:errors="*{createDate}" class="help-block">error!</span>
+         </div>
+        </div>
+        
+        <div class="form-group" th:classappend="${#fields.hasErrors('payDate')}? 'has-error has-feedback'">
+        <label for="name" class="col-sm-2 control-label" th:text="#{payDate}">payDate</label>
+        
+          <div class="col-xs-3">
+               <input type="text" id="payDate" name="payDate" th:field="*{payDate}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('payDate')}" th:errors="*{payDate}" class="help-block">error!</span>
+         </div>
+        </div>
+        
+         <div class="form-group" th:classappend="${#fields.hasErrors('amount')}? 'has-error has-feedback'">
+        <label for="amount" class="col-sm-2 control-label" th:text="#{amount}">amount</label>
+        
+          <div class="col-xs-3">
+               <input type="text" id="amount" name="amount" th:field="*{amount}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('amount')}" th:errors="*{amount}" class="help-block">error!</span>
          </div>
         </div>
         
         
-         <div class="form-group" th:classappend="${#fields.hasErrors('enable')}? 'has-error has-feedback'">
-        <label for="code" class="col-sm-2 control-label" th:text="#{product.enable}">quantity</label>
+         <div class="form-group" th:classappend="${#fields.hasErrors('description')}? 'has-error has-feedback'">
+        <label for="name" class="col-sm-2 control-label" th:text="#{description}">description</label>
+        
           <div class="col-xs-3">
-               <input type="checkbox" id="code" name="quantity" th:field="*{enable}" class="form-control" value="ee"/>
-                <span th:if="${#fields.hasErrors('enable')}" th:errors="*{enable}" class="help-block">error!</span>
+               <input type="text" id="description" name="description" th:field="*{description}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('description')}" th:errors="*{description}" class="help-block">error!</span>
          </div>
         </div>
+        
       
+         <div class="form-group" th:classappend="${#fields.hasErrors('type')}? 'has-error has-feedback'">
+        <label for="type" class="col-sm-2 control-label" th:text="#{type}">type</label>
+         <div class="col-xs-3">
+                <select th:field="*{type}">
+                 <option th:each="type : ${types}" th:value="${type}" th:text="#{__${type.name}__}"  th:selected="${type == T(pl.java.scalatech.entity.InvoiceType).NO_SELECTED}"></option>
+        </select>
+                <span th:if="${#fields.hasErrors('type')}" th:errors="*{type}" class="help-block">error!</span>
+         </div>
+
+                
+      
+        </div>
+        
+          <div class="form-group" th:classappend="${#fields.hasErrors('products')}? 'has-error has-feedback'">
+        <label for="type" class="col-sm-2 control-label" th:text="#{products}">products</label>
+        
+          <div class="col-xs-3">
+               <input type="text" id="products" name="products" th:field="*{products}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('products')}" th:errors="*{products}" class="help-block">error!</span>
+         </div>
+        </div>
+        
+        
+          <div class="form-group" th:classappend="${#fields.hasErrors('owner')}? 'has-error has-feedback'">
+        <label for="type" class="col-sm-2 control-label" th:text="#{owner}">owner</label>
+        
+          <div class="col-xs-3">
+               <input type="text" id="type" name="owner" th:field="*{owner}" class="form-control" value="ee"/>
+                <span th:if="${#fields.hasErrors('owner')}" th:errors="*{owner}" class="help-block">error!</span>
+         </div>
+        </div>
+        
+     
      <div class="form-group">
            <div class="col-sm-offset-2 col-sm-10">
              <button type="submit" class="btn btn-primary">save</button>
