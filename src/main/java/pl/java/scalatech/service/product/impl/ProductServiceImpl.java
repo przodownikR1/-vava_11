@@ -3,7 +3,11 @@ package pl.java.scalatech.service.product.impl;
 import java.util.List;
 import java.util.Random;
 
+import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -26,9 +30,12 @@ import pl.java.scalatech.service.product.ProductService;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired)) //@NonNull
 public class ProductServiceImpl  implements ProductService{
 
-   final private @NonNull ProductRepository productRepository;
+    final private @NonNull ProductRepository productRepository;
     Random r = new Random();
 
+    
+    
+    
     @Override
     @Trace
     @SneakyThrows

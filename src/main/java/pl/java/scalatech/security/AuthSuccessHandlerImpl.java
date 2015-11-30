@@ -28,7 +28,7 @@ public class AuthSuccessHandlerImpl extends SavedRequestAwareAuthenticationSucce
             throws IOException, ServletException {
         super.onAuthenticationSuccess(request, response, authentication);
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-        log.info("++++       authSuccessHandler           {}", userDetails.getUsername());
+        log.info("++++   ++++++++++++++++++++++++++++++++    authSuccessHandler           {}", userDetails);
 
         if (userDetails.getUsername() != null) {
             log.info("!!!!!!!!!!! TODO");

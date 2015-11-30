@@ -65,11 +65,10 @@ public class Invoice extends PKEntity {
     private InvoiceType type;
     
      
-    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    List<Product> products = new ArrayList<>();
+   /* @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    List<Product> products = new ArrayList<>();*/
     
-    /*  @ManyToOne(cascade = CascadeType.ALL)
-    private User createdBy;*/
+
 
 
 }

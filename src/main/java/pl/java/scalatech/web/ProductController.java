@@ -1,5 +1,6 @@
 package pl.java.scalatech.web;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Random;
 
@@ -20,7 +21,9 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import pl.java.scalatech.annotation.CurrentUser;
 import pl.java.scalatech.entity.Product;
+import pl.java.scalatech.entity.User;
 import pl.java.scalatech.service.product.ProductService;
 import pl.java.scalatech.validator.ProductValidator;
 @Controller
@@ -48,8 +51,10 @@ public class ProductController {
     private final @NonNull ProductService productService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    List<Product> product() {
-       return productService.getAll(); //productList
+    List<Product> product(@CurrentUser User user) {
+        log.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++   {}",user);
+      // return productService.getAllByUser(user);
+        return Lists.newArrayList( Product.builder().name("zarowka").price(BigDecimal.valueOf(23)).quantity(1).enable(true).build());
     }
 
     @RequestMapping(method = RequestMethod.GET)

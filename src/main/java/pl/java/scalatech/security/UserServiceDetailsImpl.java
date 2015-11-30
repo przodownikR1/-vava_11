@@ -4,6 +4,10 @@ package pl.java.scalatech.security;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.dao.DataAccessException;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -25,14 +29,25 @@ public class UserServiceDetailsImpl implements UserDetailsService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
-
-   
+    @Autowired
+    private  AuthenticationManager authenticationManager;
+    
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException, DataAccessException {
         User user = findUserByLoginOrMail(username);
         if (user == null) { throw new UsernameNotFoundException("login.not.exists"); }
+        log.info("++++++++++++++++++++++    {}",user);
+        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(username, user.getPassword());
 
+        try {
+            Authentication auth = authenticationManager.authenticate(token);
+            log.info("++++         Login succeeded!");
+            SecurityContextHolder.getContext().setAuthentication(auth);
+        }
+        catch(Throwable th){
+            log.info("+++++++++++++ ");
+        }
         return user;
     }
 
