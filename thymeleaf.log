@@ -9436,3 +9436,324 @@ Field error in object 'product' on field 'name': rejected value []; codes [Size.
 2015-11-28 23:02:40   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
 2015-11-28 23:02:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
 2015-11-28 23:02:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.146 seconds (JVM running for 13938.526) 
+2015-11-30 00:32:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:32:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:32:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7c454d7f 
+2015-11-30 00:32:48   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:32:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 5  
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:32:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:32:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:32:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:32:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.391 seconds (JVM running for 8.898) 
+2015-11-30 00:33:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:33:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:34:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:34:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:34:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:34:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:34:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7585ecf4 
+2015-11-30 00:34:23   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:34:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:34:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:34:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:34:24   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:34:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.829 seconds (JVM running for 102.79) 
+2015-11-30 00:35:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:35:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:35:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@d6af8fb 
+2015-11-30 00:35:50   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:35:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:35:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:35:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:35:51   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:35:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.528 seconds (JVM running for 190.226) 
+2015-11-30 00:36:01   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-11-30 00:36:12   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 200ms. 
+2015-11-30 00:36:12   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 39ms. 
+2015-11-30 00:36:18   [http-nio-9111-exec-10] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        User(login=null, lastName=null, firstName=null, fullName=null, password=null, confirmPassword=null, email=null, enabled=true, roles=[])  ->  InvoiceController, result  null 
+2015-11-30 00:36:19   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 279ms. 
+2015-11-30 00:36:19   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:36:25   [http-nio-9111-exec-2] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        User(login=null, lastName=null, firstName=null, fullName=null, password=null, confirmPassword=null, email=null, enabled=true, roles=[])  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, common=null, owner=User(login=test, lastName=testNAme, firstName=testFirst, fullName=all, password=passwd, confirmPassword=passwd1, email=mail, enabled=true, roles=[Role(name=USER, desc=test)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, common=null, owner=User(login=test, lastName=testNAme, firstName=testFirst, fullName=all, password=passwd, confirmPassword=passwd1, email=mail, enabled=true, roles=[Role(name=USER, desc=test)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, common=null, owner=User(login=test, lastName=testNAme, firstName=testFirst, fullName=all, password=passwd, confirmPassword=passwd1, email=mail, enabled=true, roles=[Role(name=USER, desc=test)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, common=null, owner=User(login=test, lastName=testNAme, firstName=testFirst, fullName=all, password=passwd, confirmPassword=passwd1, email=mail, enabled=true, roles=[Role(name=USER, desc=test)]))] 
+2015-11-30 00:36:25   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 29ms. 
+2015-11-30 00:36:25   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:30   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?logout 
+2015-11-30 00:37:30   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-11-30 00:37:30   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:33   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:37:33   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:41   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-11-30 00:37:41   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:48   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:37:48   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:57   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-11-30 00:37:58   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:37:59   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?logout 
+2015-11-30 00:37:59   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:38:00   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:38:03   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:38:03   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:38:13   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-11-30 00:38:13   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:38:20   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:38:20   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:38:23   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:38:23   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:38:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:38:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:38:47   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@25a97d2f 
+2015-11-30 00:38:48   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:38:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:38:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:38:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:38:49   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:38:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.613 seconds (JVM running for 367.96) 
+2015-11-30 00:38:57   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 27ms. 
+2015-11-30 00:38:57   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:39:01   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-11-30 00:39:01   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:39:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:39:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:39:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@27ed43cb 
+2015-11-30 00:39:31   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:39:35   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:39:35   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:39:35   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:39:35   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:39:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 9.605 seconds (JVM running for 414.368) 
+2015-11-30 00:40:03   [http-nio-9111-exec-1] INFO  p.j.s.security.LogoutHandler - logout user  : org.springframework.security.core.userdetails.User@8b690bb: Username: przodownik; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER         
+2015-11-30 00:40:03   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-11-30 00:40:03   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:40:25   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-11-30 00:40:25   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:43:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:43:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:43:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@3ae29a4e 
+2015-11-30 00:43:49   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:43:54   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:43:54   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:43:54   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:43:54   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:43:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 16.265 seconds (JVM running for 672.826) 
+2015-11-30 00:44:04   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-11-30 00:44:05   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:44:14   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-11-30 00:44:14   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:45:06   [http-nio-9111-exec-5] INFO  p.j.s.security.LogoutHandler - logout user  : org.springframework.security.core.userdetails.User@8b690bb: Username: przodownik; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER         
+2015-11-30 00:45:06   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-11-30 00:45:06   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:45:09   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-11-30 00:45:09   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:45:16   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-11-30 00:45:17   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:46:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:46:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:46:26   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@992d6f1 
+2015-11-30 00:46:28   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:46:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:46:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:46:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:46:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:46:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 15.583 seconds (JVM running for 831.481) 
+2015-11-30 00:46:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:46:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:46:50   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@13efa5d7 
+2015-11-30 00:46:52   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:46:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:46:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:46:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:46:56   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:46:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 16.338 seconds (JVM running for 855.541) 
+2015-11-30 00:47:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:47:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:47:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@535fc0cf 
+2015-11-30 00:47:41   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:47:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:47:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:47:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:47:45   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:47:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.886 seconds (JVM running for 904.32) 
+2015-11-30 00:48:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:48:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:48:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7bfcc319 
+2015-11-30 00:48:12   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:48:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:48:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:48:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:48:15   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:48:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.328 seconds (JVM running for 934.468) 
+2015-11-30 00:49:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20701 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:49:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:49:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@43dbb547 
+2015-11-30 00:49:29   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:49:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 3  
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:49:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:49:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:49:32   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:49:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 15.986 seconds (JVM running for 1011.416) 
+2015-11-30 00:50:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21465 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:50:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:50:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4cee6902 
+2015-11-30 00:50:29   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:50:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 7  
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:50:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:50:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:50:33   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:50:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 16.065 seconds (JVM running for 16.468) 
+2015-11-30 00:50:43   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 76ms. 
+2015-11-30 00:50:44   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-11-30 00:50:48   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 235ms. 
+2015-11-30 00:50:49   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:50:51   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-11-30 00:50:52   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:51:52   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-11-30 00:51:54   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:52:07   [http-nio-9111-exec-10] INFO  p.j.s.w.security.SecurityController - ++++    [ROLE_USER] 
+2015-11-30 00:52:07   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-11-30 00:52:07   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:52:25   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-11-30 00:52:25   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:52:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21465 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:52:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:53:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@522d3338 
+2015-11-30 00:53:05   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:53:09   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:53:09   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:53:09   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:53:09   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:53:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 17.759 seconds (JVM running for 172.016) 
+2015-11-30 00:53:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21465 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:53:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:53:43   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5f7f463 
+2015-11-30 00:53:43   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:56:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21725 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:56:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:57:02   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@579ffc9f 
+2015-11-30 00:57:03   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:57:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:57:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 7  
+2015-11-30 00:57:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:57:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:57:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:57:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:57:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:57:06   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:57:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:57:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.373 seconds (JVM running for 8.733) 
+2015-11-30 00:57:14   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 318ms. 
+2015-11-30 00:57:15   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 65ms. 
+2015-11-30 00:57:19   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2015-11-30 00:57:19   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:57:46   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:57:49   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:57:52   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:57:59   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-11-30 00:57:59   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:58:07   [http-nio-9111-exec-5] INFO  p.j.s.w.security.SecurityController - ++++    [ROLE_USER] 
+2015-11-30 00:58:07   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-11-30 00:58:07   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21725 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:59:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:59:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@340e8b47 
+2015-11-30 00:59:20   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:59:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 4  
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:59:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:59:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:59:21   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 1  
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:59:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.404 seconds (JVM running for 143.847) 
+2015-11-30 00:59:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 21725 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-11-30 00:59:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-11-30 00:59:49   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@25f8234b 
+2015-11-30 00:59:49   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-11-30 00:59:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 2  
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=1, name=olowek, price=123, quantity=1, enable=false, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:59:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=2, name=zarowka, price=23, quantity=1, enable=true, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:59:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=3, name=samochod, price=12333, quantity=13, enable=true, common=null, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])) 
+2015-11-30 00:59:50   [restartedMain] INFO  p.java.scalatech.aop.PerformanceAop - ++++++  method : save : 0  
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Product(id=4, name=laptop, price=5523, quantity=31, enable=false, common=null, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8., confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])) 
+2015-11-30 00:59:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.624 seconds (JVM running for 173.233) 
+2015-11-30 00:59:53   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-11-30 00:59:55   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-11-30 00:59:56   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 00:59:58   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 01:00:01   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 32ms. 
+2015-11-30 01:00:02   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 01:00:03   [http-nio-9111-exec-9] INFO  p.j.s.security.LogoutHandler - logout user  : org.springframework.security.core.userdetails.User@8b690bb: Username: przodownik; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER         
+2015-11-30 01:00:03   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-11-30 01:00:04   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 01:00:06   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-11-30 01:00:06   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-11-30 01:00:13   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-11-30 01:00:14   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 

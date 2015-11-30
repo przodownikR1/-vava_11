@@ -5,13 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.core.annotation.Order;
-import org.springframework.security.access.PermissionEvaluator;
-import org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler;
-import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -20,11 +15,11 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
-import pl.java.scalatech.security.SecurityEvaluationContextExtension;
 
 @Configuration
 @EnableWebSecurity
@@ -34,9 +29,19 @@ import pl.java.scalatech.security.SecurityEvaluationContextExtension;
 @ComponentScan(basePackages = { "pl.java.scalatech.security" }, useDefaultFilters = false, includeFilters = { @Filter(SecurityComponent.class) })
 public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
     private static final int MAX_SESSIONS = 3;
+    @Autowired
+    private AuthenticationSuccessHandler authSuccessHandler;
 
-    @Configuration
+    @Autowired
+    private SimpleUrlAuthenticationFailureHandler simpleUrlAuthenticationFailureHandler;
+
+    @Autowired
+    private LogoutSuccessHandler logoutSuccessHander;
+
+
+  /*  @Configuration
     @EnableGlobalMethodSecurity(prePostEnabled = true)
+    @Order(4)
     static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
         @Autowired
         private PermissionEvaluator permissionEvaluator;
@@ -52,17 +57,8 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
         }
     }
 
-    @Configuration
-    @Order(1)
-    public static class FormLoginWebSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter {
-        @Autowired
-        private AuthenticationSuccessHandler authSuccessHandler;
-        @Autowired
-        private LogoutSuccessHandler logoutSuccessHander;
 
-
-
-        @Order(2)
+        @Order(3)
         @Configuration
         static class H2WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
@@ -84,6 +80,26 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             // @formatter:on
         }
 
+
+        @Order(2)
+        @Configuration
+        static class ApiWebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+            // @formatter:off
+            @Override
+            protected void configure(HttpSecurity http) throws Exception {
+                http
+                .csrf().disable()
+                .authorizeRequests()
+                .antMatchers("/api/**").authenticated()
+                .anyRequest().authenticated()
+                .and()
+                .httpBasic().and()
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+            }
+            // @formatter:on
+        }
+*/
 
         @Override
         public void configure(WebSecurity web) throws Exception {
@@ -109,7 +125,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
 
             http.csrf().disable().headers().disable()
             .formLogin()
-            .loginPage("/login").failureUrl("/login?error=true").successHandler(authSuccessHandler).defaultSuccessUrl("/")
+            .loginPage("/login").failureUrl("/login?error=true").successHandler(authSuccessHandler).failureHandler(simpleUrlAuthenticationFailureHandler).defaultSuccessUrl("/")
             .permitAll()
             .and()
             .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).logoutSuccessHandler(logoutSuccessHander).deleteCookies("JSESSIONID")
@@ -136,12 +152,4 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
           }
 
 
-
-
-
-
     }
-
-
-
-}
