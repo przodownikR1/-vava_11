@@ -7061,3 +7061,11 @@ Field error in object 'product' on field 'common': rejected value [null]; codes 
 2015-11-27 12:35:00   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
 2015-11-27 14:06:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 19444 (/home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech/bin started by przodownik in /home/przodownik/workspace-sts-3.7.1.RELEASE/VavaTech) 
 2015-11-27 14:06:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-01 14:18:46   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++ 
+2015-12-01 14:18:46   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++ end 
+2015-12-01 14:19:47   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++ 
+2015-12-01 14:19:47   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++ end 
+2015-12-01 14:20:22   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++  [] 
+2015-12-01 14:20:53   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++  [] 
+2015-12-01 14:21:29   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++  [] 
+2015-12-01 14:21:51   [main] INFO  pl.java.scalatech.old.RepoTest - +++++++++  [] 
