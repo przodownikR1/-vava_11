@@ -27,11 +27,9 @@ public class AuthFailureHandlerImpl extends ExceptionMappingAuthenticationFailur
 			ServletException {
 		String url = failureUrlMap.get(exception.getClass().getName());
 		String username = null;
-<<<<<<< HEAD
+
 		log.info("+++++++++++++++++++++ failure +++++ {}",exception);
-=======
-		 log.info("+++++++++++++++++++++++++++++ failure" );
->>>>>>> a5cac8aa7149415e57aadb31f77fb311d36fdb92
+
 		if (url != null) {
 			getRedirectStrategy().sendRedirect(request, response, url);
 		} else {
