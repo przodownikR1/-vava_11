@@ -11,7 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;
-import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,8 +45,11 @@ public class SecurityController {
     public ResponseEntity<Map<String, Object>> secContext(Model model) {
         SecurityContext context = getContext();
         Authentication authentication = context.getAuthentication();
-        model.addAttribute("principal", authentication.getName());
 
+        model.addAttribute("principal", authentication.getName());
+        model.addAttribute("credential",authentication.getCredentials());
+        model.addAttribute("authorities",authentication.getAuthorities());
+        model.addAttribute("details",authentication.getDetails());
         return new ResponseEntity<>(model.asMap(), HttpStatus.OK);
 
     }
@@ -55,8 +58,14 @@ public class SecurityController {
     public ResponseEntity<String> principal(Principal principal) {
 
         Authentication auth = getContext().getAuthentication();
-        log.info("++++    {}",auth.getAuthorities());        
+        log.info("++++    {}",auth.getAuthorities());
+
         return new ResponseEntity<>(principal.getName(), HttpStatus.OK);
 
     }
+    @RequestMapping("/csrf")
+    public CsrfToken csrf(CsrfToken token) {
+        return token;
+    }
+
 }

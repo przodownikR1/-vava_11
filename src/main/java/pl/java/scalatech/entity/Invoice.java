@@ -12,8 +12,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -45,7 +43,7 @@ public class Invoice extends PKEntity {
     private boolean paid;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date creataDate;
+    private Date createDate;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date payDate;
@@ -63,11 +61,13 @@ public class Invoice extends PKEntity {
 
     @Column(name = "invoice_type")
     private InvoiceType type;
-    
-     
-   /* @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    List<Product> products = new ArrayList<>();*/
-    
+
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    List<Product> products = new ArrayList<>();
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    private User owner;
 
 
 

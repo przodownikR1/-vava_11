@@ -8,13 +8,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import lombok.extern.slf4j.Slf4j;
-
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.ExceptionMappingAuthenticationFailureHandler;
 import org.springframework.security.web.util.UrlUtils;
 import org.springframework.util.Assert;
 
+import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @SecurityComponent
@@ -28,7 +27,11 @@ public class AuthFailureHandlerImpl extends ExceptionMappingAuthenticationFailur
 			ServletException {
 		String url = failureUrlMap.get(exception.getClass().getName());
 		String username = null;
+<<<<<<< HEAD
 		log.info("+++++++++++++++++++++ failure +++++ {}",exception);
+=======
+		 log.info("+++++++++++++++++++++++++++++ failure" );
+>>>>>>> a5cac8aa7149415e57aadb31f77fb311d36fdb92
 		if (url != null) {
 			getRedirectStrategy().sendRedirect(request, response, url);
 		} else {

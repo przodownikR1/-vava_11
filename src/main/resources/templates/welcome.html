@@ -16,6 +16,16 @@
 <body>
 	<div th:include="/fragments/nav :: nav" />
 
+
+
+<div th:if="${#httpServletRequest.remoteUser != null}">
+    <p th:text="${#httpServletRequest.remoteUser}">
+      sample_user
+    </p>
+</div>
+
+
+
 	<br />
 	<p>WITH THYMELEAF</p>
 	<h4>httpServReqReference:</h4>

@@ -1,6 +1,5 @@
 package pl.java.scalatech.security;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.dao.DataAccessException;
@@ -11,22 +10,19 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
-import pl.java.scalatech.entity.User;
 import pl.java.scalatech.repository.UserRepository;
 
-
-@Slf4j
 @SecurityComponent
 @DependsOn("stringEncryptor")
+@Slf4j
 public class UserServiceDetailsImpl implements UserDetailsService {
-
     @Autowired
     private UserRepository userRepository;
 
+<<<<<<< HEAD
     @Autowired
     private PasswordEncoder passwordEncoder;
     @Autowired
@@ -50,17 +46,15 @@ public class UserServiceDetailsImpl implements UserDetailsService {
         }
         return user;
     }
+=======
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException, DataAccessException {
+         UserSec sec = new UserSec(userRepository.findByLogin(username).orElseThrow(() -> new UsernameNotFoundException("login.not.exitst")));
+         log.info("+++ userSec {}",sec);
+         return sec;
+>>>>>>> a5cac8aa7149415e57aadb31f77fb311d36fdb92
 
-    private User findUserByLoginOrMail(String loginOrMail) {
-        User user = null;
-        try {
-            // TODO dao problem
-            user = userRepository.findByLogin(loginOrMail);
-        } catch (Exception e) {
-            log.error("Login or mail not exists : {}  , exception {}", loginOrMail, e);
-        }
 
-        return user;
     }
 
 }

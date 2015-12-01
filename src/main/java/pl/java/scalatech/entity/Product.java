@@ -7,11 +7,12 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
 import javax.persistence.Transient;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import com.google.common.collect.Lists;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -46,9 +47,10 @@ public class Product {
 
     @Transient
     private String common;
-    
-    @OneToOne(fetch=FetchType.EAGER)
-    @NotNull
-    private User owner;
+
+
+    @Transient
+    private User owner = new User("test", "testNAme", "testFirst", "all", "passwd", "passwd1", "mail", true, Lists.newArrayList(new Role("USER","test")));
+
 
 }

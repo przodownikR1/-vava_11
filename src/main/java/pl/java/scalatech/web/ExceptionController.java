@@ -1,12 +1,11 @@
 package pl.java.scalatech.web;
 
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import lombok.extern.slf4j.Slf4j;
 
-@ControllerAdvice
+//f@ControllerAdvice
 @Slf4j
 public class ExceptionController {
 
@@ -16,8 +15,8 @@ public class ExceptionController {
         log.info("++++ {}",model);
          return "errors";
     }
-    
-    
-    
-    
+
+
+
+
 }
