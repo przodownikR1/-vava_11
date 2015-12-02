@@ -20,10 +20,7 @@ public class UserServiceDetailsImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException, DataAccessException {
-         UserSec sec = new UserSec(userRepository.findByLogin(username).orElseThrow(() -> new UsernameNotFoundException("login.not.exitst")));
-         log.info("+++ userSec {}",sec);
-         return sec;
-
+        return new UserSec(userRepository.findByLogin(username).orElseThrow(() -> new UsernameNotFoundException("login.not.exitst")));
 
     }
 

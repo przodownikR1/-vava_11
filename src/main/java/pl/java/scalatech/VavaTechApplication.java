@@ -18,9 +18,9 @@ import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.entity.Role;
 import pl.java.scalatech.entity.User;
+import pl.java.scalatech.repository.ProductRepository;
 import pl.java.scalatech.repository.RoleRepository;
 import pl.java.scalatech.repository.UserRepository;
-import pl.java.scalatech.service.product.ProductService;
 
 
 @Slf4j
@@ -30,7 +30,7 @@ public class VavaTechApplication implements CommandLineRunner {
 
 
     @Autowired
-    private ProductService productService;
+    private ProductRepository productRepository;
     @Autowired
     private UserRepository userRepository;
     @Autowired
@@ -48,17 +48,21 @@ public class VavaTechApplication implements CommandLineRunner {
         log.info("+++++++++++++   {}",user.getId());
 
         User one = userRepository.save(User.builder().firstName("slawek").login("przodownik")
-                .password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").enabled(true).build());
+                .password("vava").enabled(true).build());
         User two = userRepository.save(User.builder().firstName("vava").login("vava")
-                .password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").enabled(true)
+                .password("vava").enabled(true)
                 .build());
 
 
 
         one.setRoles(Lists.newArrayList(user,admin));
         two.setRoles(Lists.newArrayList(user));
-        userRepository.save(one);
-        userRepository.save(two);
+         User oneLoaded =  userRepository.save(one);
+        User twoLoaded = userRepository.save(two);
+        log.info("+++ one {}",oneLoaded);
+        log.info("+++ two {}",twoLoaded);
+        
+        
 
 
         List<Product> products = newArrayList(Product.builder().name("olowek").price(BigDecimal.valueOf(123)).quantity(1).owner(one).build(),
@@ -67,9 +71,11 @@ public class VavaTechApplication implements CommandLineRunner {
                 Product.builder().name("laptop").price(BigDecimal.valueOf(5523)).quantity(31).owner(two).build());
 
         for (Product product : products) {
-            Product loaded = productService.save(product);
+            Product loaded = productRepository.save(product);
             log.info("{}", loaded);
         }
+        
+        log.info("+++ prods for user 1 : {}  ",productRepository.findByOwner(oneLoaded).size());
 
     }
 }

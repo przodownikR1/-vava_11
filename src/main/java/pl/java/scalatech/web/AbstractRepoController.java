@@ -64,7 +64,7 @@ public abstract class AbstractRepoController<T> {
             model.addAttribute(createEmpty());
         } else {
             model.addAttribute(repo.findOne(id));
-        }
+        } 
         return getEditView();
     }
 

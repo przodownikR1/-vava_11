@@ -6,12 +6,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-
-import com.google.common.collect.Lists;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -44,14 +42,8 @@ public class Product {
 
     private boolean enable;
 
-    @Transient
-    private String common;
-
-
-
-    @Transient
-    private User owner = new User("test", "testNAme", "testFirst", "all", "passwd", "passwd1", "mail", true, Lists.newArrayList(new Role("USER","test")));
-
+    @OneToOne
+    private User owner;
 
 
 }

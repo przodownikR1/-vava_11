@@ -14,6 +14,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
@@ -32,7 +33,6 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private AuthenticationSuccessHandler authSuccessHandler;
 
-    @Autowired
     private SimpleUrlAuthenticationFailureHandler simpleUrlAuthenticationFailureHandler;
 
     @Autowired
@@ -123,12 +123,12 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
               .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')")
               .anyRequest().authenticated();
 
-            http.csrf().disable().headers().disable()
+            http.csrf().disable()
             .formLogin()
-            .loginPage("/login").failureUrl("/login?error=true").successHandler(authSuccessHandler).failureHandler(simpleUrlAuthenticationFailureHandler).defaultSuccessUrl("/")
+            .loginPage("/login").failureUrl("/login?error=true").defaultSuccessUrl("/")
             .permitAll()
             .and()
-            .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).logoutSuccessHandler(logoutSuccessHander).deleteCookies("JSESSIONID")
+            .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID")
              .permitAll()
              .and()
              .exceptionHandling()
@@ -143,13 +143,14 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
           @Autowired
           public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
              log.info("password Encoding {}",passwordEncoder);
-            //  auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
-          auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
-          .withUser("przodownik").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("USER").and()
-          .withUser("aga").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("BUSINESS").and()
-          .withUser("vava").password("$2a$10$pulPdVELrppUwOFFewJAu.hfIO5uiUsA/MOQoRKIXGNznNJQksIg.").roles("USER").and()
-          .withUser("bak").password("$2a$10$yVwBhgXkVNvvNm5CI7WsJeFoS/D9pic7DhpJDE6o1IHJYnSz1re8.").roles("USER", "ADMIN");
+              auth.userDetailsService(userDetailsService);
+        /*  auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
+          .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+          .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
+          .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+          .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
+          }*/
           }
 
-
+    
     }

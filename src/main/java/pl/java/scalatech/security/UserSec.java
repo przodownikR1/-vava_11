@@ -52,7 +52,7 @@ public class UserSec implements UserDetails{
 
     @Override
     public boolean isEnabled() {
-        return false;
+        return user.isEnabled();
     }
 
 }
