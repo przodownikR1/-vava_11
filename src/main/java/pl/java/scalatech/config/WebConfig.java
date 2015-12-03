@@ -13,10 +13,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;
 import org.springframework.data.repository.support.DomainClassConverter;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.security.web.method.annotation.AuthenticationPrincipalArgumentResolver;
 import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
+import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.HandlerExceptionResolver;
@@ -48,10 +50,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Autowired
     private AmountFormatter amountFormatter;
     @Autowired
-    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;
-
-
-
+    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;    
+    
     @Autowired
     private PerformanceInterceptor perf;
 
@@ -158,7 +158,16 @@ public class WebConfig extends WebMvcConfigurationSupport {
         return standardServletMultipartResolver;
     }
 
-
+    
+    @Bean
+    public AuthenticationPrincipalArgumentResolver authenticationPrincipalArgumentResolver(){
+        return new AuthenticationPrincipalArgumentResolver();
+    }
+    
+    @Override
+    public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
+        argumentResolvers.add(authenticationPrincipalArgumentResolver());
+    }
 
 
     /*

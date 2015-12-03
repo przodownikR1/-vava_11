@@ -16,6 +16,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Data
@@ -23,6 +24,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString(exclude = {"password", "confirmPassword"})
 // @PasswordsEqualConstraint
 public class User extends PKEntity {
     private static final long serialVersionUID = -2181703844979860927L;
@@ -58,5 +60,27 @@ public class User extends PKEntity {
     @JoinTable(name = "USER_ROLE", joinColumns = { @JoinColumn(name = "userId") }, inverseJoinColumns = { @JoinColumn(name = "roleId") })
     // @Valid
     private List<Role> roles = new LinkedList<>();
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!super.equals(obj)) return false;
+        if (getClass() != obj.getClass()) return false;
+        User other = (User) obj;
+        if (login == null) {
+            if (other.login != null) return false;
+        } else if (!login.equals(other.login)) return false;
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = super.hashCode();
+        result = prime * result + ((login == null) ? 0 : login.hashCode());
+        return result;
+    }
+    
+    
 
 }

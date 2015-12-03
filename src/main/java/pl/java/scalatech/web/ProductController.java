@@ -1,10 +1,9 @@
 package pl.java.scalatech.web;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -14,6 +13,7 @@ import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.entity.User;
 import pl.java.scalatech.repository.ProductRepository;
 import pl.java.scalatech.repository.UserRepository;
+import pl.java.scalatech.security.UserSec;
 
 @Controller
 @RequestMapping("/products")
@@ -36,11 +36,10 @@ public class ProductController extends AbstractRepoController<Product>{
      }
     
     @RequestMapping(value = "/all", method = RequestMethod.GET)
-    List<Product> product(@CurrentUser User user) {
-        log.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++   {}",user);
-        
-        return productRepository.findByOwner(userRepository.findByLogin(user.getLogin()).orElseThrow(()->new IllegalArgumentException("user not exists or not logged"  )));
-    
+    String getAll(@CurrentUser UserSec user,Model model) {
+        User loaded = userRepository.findByLogin(user.getUsername()).orElseThrow(()->new IllegalArgumentException("user not exists or not logged" ));
+        model.addAttribute(productRepository.findByOwner(loaded));
+        return PRODUCT_VIEW;
     }
 
 

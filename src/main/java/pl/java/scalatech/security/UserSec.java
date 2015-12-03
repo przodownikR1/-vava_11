@@ -9,6 +9,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import lombok.ToString;
+import pl.java.scalatech.annotation.CurrentUser;
 import pl.java.scalatech.entity.User;
 @ToString
 public class UserSec implements UserDetails{
