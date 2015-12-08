@@ -10365,3 +10365,113 @@ Field error in object 'product' on field 'name': rejected value []; codes [Size.
 2015-12-08 12:43:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 21339 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
 2015-12-08 12:43:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
 2015-12-08 12:43:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2feaa209 
+2015-12-08 16:03:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 2970 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:03:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:03:55   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7ceab850 
+2015-12-08 16:03:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:04:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:04:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:04:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 15.026 seconds (JVM running for 15.714) 
+2015-12-08 16:05:17   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 411ms. 
+2015-12-08 16:05:21   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-12-08 16:05:26   [http-nio-9111-exec-9] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-08 16:05:27   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 297ms. 
+2015-12-08 16:06:14   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-08 16:06:15   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-08 16:06:23   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-12-08 16:06:25   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-12-08 16:06:50   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2015-12-08 16:06:52   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-12-08 16:06:53   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-08 16:06:54   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 16:06:55   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 16:06:56   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:07:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 3452 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:07:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:07:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@8f83b21 
+2015-12-08 16:07:50   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:07:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:07:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 15.881 seconds (JVM running for 16.439) 
+2015-12-08 16:08:32   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:08:32.490, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:08:33   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 720ms. 
+2015-12-08 16:08:46   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:08:46.118, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:08:46   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 28ms. 
+2015-12-08 16:09:14   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:14.168, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:14   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 29ms. 
+2015-12-08 16:09:15   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:15.761, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:15   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 33ms. 
+2015-12-08 16:09:16   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:16.315, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:16   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-08 16:09:17   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:17.671, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:17   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2015-12-08 16:09:30   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:30.372, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:30   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 23ms. 
+2015-12-08 16:09:31   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:31.823, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:31   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-08 16:09:32   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:09:32.936, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:09:32   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:42   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:42.484, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:42   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 23ms. 
+2015-12-08 16:10:43   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:43.835, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:43   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-12-08 16:10:44   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:44.755, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:44   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.207, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.810, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.830, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.847, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.861, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.873, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 43ms. 
+2015-12-08 16:10:45   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:45.912, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:45   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.008, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.031, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.046, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.077, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.104, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.137, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.156, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.175, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.198, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.243, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.263, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.282, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.297, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.502, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.518, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.613, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
