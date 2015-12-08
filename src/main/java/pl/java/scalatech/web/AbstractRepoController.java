@@ -17,7 +17,7 @@ import lombok.NonNull;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.CurrentUser;
-import pl.java.scalatech.entity.User;
+import pl.java.scalatech.security.UserSec;
 
 @Slf4j
 public abstract class AbstractRepoController<T> {
@@ -37,7 +37,7 @@ public abstract class AbstractRepoController<T> {
     protected abstract String getRedirect();
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    List<T> getAll(@CurrentUser User user) {
+    List<T> getAll(@CurrentUser UserSec user) {
         List<T> result =  repo.findAll();
         if(result == null || result.isEmpty()) { //TODO some problem with empty collection !!!!
             result  =null;

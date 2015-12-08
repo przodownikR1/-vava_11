@@ -72,10 +72,10 @@ public class VavaTechApplication implements CommandLineRunner {
 
         for (Product product : products) {
             Product loaded = productRepository.save(product);
-            log.info("{}", loaded);
+            log.info("productId : {},  product.owner.id {}", product.getId(), loaded.getOwner().getId());
         }
         
-        log.info("+++ prods for user 1 : {}  ",productRepository.findByOwner(oneLoaded).size());
+         log.info("+++ prods for user 1 : {}  ",productRepository.findByOwner(oneLoaded).size());
 
     }
 }
