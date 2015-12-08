@@ -40,8 +40,8 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
     public static void main(String[] args) {
         SpringApplication.run(VavaTechApplication.class, args);
     }
-    
-    
+
+
     @Override
     public void run(String... args) throws Exception {
 
@@ -76,15 +76,15 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
     @Override
     public void customize(final ConfigurableEmbeddedServletContainer container)
     {
-        ((TomcatEmbeddedServletContainerFactory) container).addContextCustomizers(context ->{ 
-            
-      
+        ((TomcatEmbeddedServletContainerFactory) container).addContextCustomizers(context ->{
+
+
             context.setSessionTimeout(30);
             context.setSessionCookieName("JSESSIONID");
             context.setUseHttpOnly(false);
             });
     }
-    
+
    /* @Override
     public void customize(ConfigurableEmbeddedServletContainer container) {
         ((TomcatEmbeddedServletContainerFactory) container).addContextCustomizers(context -> context.setUseHttpOnly(false));
