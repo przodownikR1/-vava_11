@@ -131,7 +131,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             deniedhandler.setErrorPage("/accessdenied.html");
 
             http
-              .authorizeRequests().antMatchers("/welcome", "/api/ping", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
+              .authorizeRequests().antMatchers("/welcome", "/api/ping","/api/cookie", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
               .antMatchers("/api/admin/**").hasRole("ADMIN")
               .antMatchers("/api/appContext").hasRole("ADMIN")
               //.antMatchers("/role").hasRole("ADMIN")

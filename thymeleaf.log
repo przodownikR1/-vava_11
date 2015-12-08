@@ -10341,3 +10341,24 @@ Field error in object 'product' on field 'name': rejected value []; codes [Size.
 2015-12-03 14:42:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
 2015-12-03 14:42:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
 2015-12-03 14:42:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 6.642 seconds (JVM running for 166.654) 
+2015-12-08 11:21:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 15419 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 11:21:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 11:21:49   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@154a9287 
+2015-12-08 11:21:51   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 11:21:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 15.509 seconds (JVM running for 16.182) 
+2015-12-08 11:26:14   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 394ms. 
+2015-12-08 11:26:14   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
+2015-12-08 11:26:20   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 11:26:20   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 11:26:20   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 11:26:27   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
+2015-12-08 11:26:31   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-12-08 11:26:39   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
