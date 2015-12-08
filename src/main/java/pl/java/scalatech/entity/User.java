@@ -11,6 +11,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Transient;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -45,6 +47,7 @@ public class User extends PKEntity {
     // @NotNull
     // @Min(6)
     // @Column(nullable = false, length = 20)
+    @JsonIgnore
     private String password;
 
     @Transient

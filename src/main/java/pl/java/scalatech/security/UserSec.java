@@ -8,6 +8,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 import pl.java.scalatech.entity.User;
 @ToString
@@ -15,6 +17,9 @@ public class UserSec implements UserDetails{
 
     private static final long serialVersionUID = -7740193848174002889L;
     private final User user;
+    @Getter
+    @Setter
+    private Long id;
 
     public UserSec(User user) {
        this.user = user;
