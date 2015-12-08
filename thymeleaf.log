@@ -10362,3 +10362,6 @@ Field error in object 'product' on field 'name': rejected value []; codes [Size.
 2015-12-08 11:26:27   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
 2015-12-08 11:26:31   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
 2015-12-08 11:26:39   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 12:43:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 21339 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 12:43:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 12:43:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2feaa209 
