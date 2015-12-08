@@ -1,6 +1,7 @@
 package pl.java.scalatech.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +17,8 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
+import org.springframework.security.core.session.SessionRegistry;
+import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
@@ -23,6 +26,8 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
+import org.springframework.security.web.authentication.session.ConcurrentSessionControlAuthenticationStrategy;
+import org.springframework.security.web.authentication.session.SessionAuthenticationStrategy;
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
@@ -125,6 +130,24 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
         }
 
+        @Bean
+        public SessionRegistry getSessionRegistry() {
+            return new SessionRegistryImpl();
+        }
+        
+        @Autowired
+        private SessionAuthenticationStrategy sessionStrategy;
+        
+        @Bean
+        public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
+            ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
+                    new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
+            controlAuthenticationStrategy.setMaximumSessions(2);
+            controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
+
+            return controlAuthenticationStrategy;
+        }
+        
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
@@ -153,12 +176,17 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
              .exceptionHandling()
              .accessDeniedHandler(deniedhandler)
              .and()
-             .sessionManagement()
-             .sessionFixation().newSession()
-             .maximumSessions(MAX_SESSIONS)
-             .maxSessionsPreventsLogin(true);
+             .sessionManagement().sessionAuthenticationStrategy(sessionStrategy) 
+             .sessionFixation().none();
+             
 
         }
+        
+       
+
+        
+        
+        
           @Autowired
           public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
              log.info("password Encoding {}",passwordEncoder);

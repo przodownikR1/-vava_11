@@ -10475,3 +10475,516 @@ Field error in object 'product' on field 'name': rejected value []; codes [Size.
 2015-12-08 16:10:46   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
 2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:10:46.613, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
 2015-12-08 16:10:46   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 16:27:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 6244 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:27:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:27:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@34810686 
+2015-12-08 16:27:24   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:27:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:27:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:27:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.648 seconds (JVM running for 15.172) 
+2015-12-08 16:27:32   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 320ms. 
+2015-12-08 16:27:36   [http-nio-9111-exec-7] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-08 16:27:36   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:36.614, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:36   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 42ms. 
+2015-12-08 16:27:36   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 16:27:39   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:39.082, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:39   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:39   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:53   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:53.570, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:53   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 16:27:53   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:54   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:54.505, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:54   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:54   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:55   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:55.202, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:55   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 16:27:55   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:55   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:55.894, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:55   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 16:27:55   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:56   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:56.569, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:56   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:56   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:56   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:56.846, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:56   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 16:27:56   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.511, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.557, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.578, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.594, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.625, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.681, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.707, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.731, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.938, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:57.980, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:57   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:57   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:58.002, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:58   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:58.031, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:58   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:58.078, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:58   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:58.137, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:58   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:27:58.156, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:27:58   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 16:27:58   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:28:29   [http-nio-9111-exec-4] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:28:29.282, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:28:29   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 16:28:29   [http-nio-9111-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:28:30   [http-nio-9111-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:28:30.249, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:28:30   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 16:28:30   [http-nio-9111-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:28:31   [http-nio-9111-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:28:31.061, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:28:31   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 16:28:31   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:29:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 6446 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:29:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:29:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@27408cbc 
+2015-12-08 16:29:15   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:29:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:29:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:29:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:29:20   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:29:20.658, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:29:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 16.83 seconds (JVM running for 17.511) 
+2015-12-08 16:29:21   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1141ms. 
+2015-12-08 16:29:33   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:29:33.191, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:29:33   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 71ms. 
+2015-12-08 16:29:34   [http-nio-9111-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:29:34.360, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:29:34   [http-nio-9111-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 48ms. 
+2015-12-08 16:29:36   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:29:36.018, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:29:36   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 47ms. 
+2015-12-08 16:29:42   [http-nio-9111-exec-2] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-08 16:29:42   [http-nio-9111-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 45ms. 
+2015-12-08 16:29:47   [http-nio-9111-exec-7] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:29:47.183, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:29:47   [http-nio-9111-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 36ms. 
+2015-12-08 16:35:46   [http-nio-9111-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:35:46.621, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:35:46   [http-nio-9111-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 24ms. 
+2015-12-08 16:35:57   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:35:57.064, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:35:57   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 21ms. 
+2015-12-08 16:36:30   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:36:30.471, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:36:30   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2015-12-08 16:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7050 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:41:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7a3e41bd 
+2015-12-08 16:41:05   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:41:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:41:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:41:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:41:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.786 seconds (JVM running for 15.517) 
+2015-12-08 16:41:09   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T16:41:09.970, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:41:10   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 655ms. 
+2015-12-08 16:41:19   [http-nio-9111-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T16:41:19.073, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:41:19   [http-nio-9111-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 41ms. 
+2015-12-08 16:48:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7486 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:48:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:48:13   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@be0f296 
+2015-12-08 16:48:15   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:48:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.681 seconds (JVM running for 15.268) 
+2015-12-08 16:48:36   [http-nio-9111-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T16:48:36.685, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:48:37   [http-nio-9111-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 838ms. 
+2015-12-08 16:52:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 7887 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:52:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:52:49   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@15eeed8b 
+2015-12-08 16:52:51   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:52:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:52:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:52:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 18.353 seconds (JVM running for 19.505) 
+2015-12-08 16:53:11   [http-nio-9113-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:53:11.830, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:53:12   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 860ms. 
+2015-12-08 16:53:13   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-08 16:53:21   [http-nio-9113-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:53:21.519, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:53:21   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 44ms. 
+2015-12-08 16:53:25   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 53ms. 
+2015-12-08 16:53:25   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 16:54:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 8108 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:54:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:55:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@21fd3031 
+2015-12-08 16:55:07   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:55:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 13.688 seconds (JVM running for 14.256) 
+2015-12-08 16:55:15   [http-nio-9113-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:55:15.711, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:55:16   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 619ms. 
+2015-12-08 16:55:22   [http-nio-9113-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:55:22.054, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:55:22   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 48ms. 
+2015-12-08 16:55:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 8305 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 16:55:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 16:56:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@18f5fb80 
+2015-12-08 16:56:11   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 16:56:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 20.354 seconds (JVM running for 21.338) 
+2015-12-08 16:56:57   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 317ms. 
+2015-12-08 16:56:58   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 29ms. 
+2015-12-08 16:57:01   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-08 16:57:01   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-08 16:57:02   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 54ms. 
+2015-12-08 16:57:03   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-08 16:57:03   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-08 16:57:04   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:57:08   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-08 16:57:08   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 16:57:09   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 16:57:14   [http-nio-8080-exec-7] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-08 16:57:14   [http-nio-8080-exec-8] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:57:14.945, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:57:15   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 252ms. 
+2015-12-08 16:57:18   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:57:23   [http-nio-8080-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:57:23.860, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:57:23   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 32ms. 
+2015-12-08 16:57:27   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 16:58:00   [http-nio-8080-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:58:00.383, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:58:00   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 32ms. 
+2015-12-08 16:58:20   [http-nio-8080-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T16:58:20.250, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 16:58:20   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 29ms. 
+2015-12-08 17:02:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 8639 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:02:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:02:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@42a9cdc6 
+2015-12-08 17:02:39   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:03:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 8763 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:03:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:03:24   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1d157deb 
+2015-12-08 17:03:26   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:04:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 8891 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:04:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:04:27   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@609099e5 
+2015-12-08 17:04:29   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:05:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9066 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:05:50   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:05:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5784b9b6 
+2015-12-08 17:06:02   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:06:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:06:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 17.553 seconds (JVM running for 18.128) 
+2015-12-08 17:06:19   [http-nio-8080-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:06:19.883, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:06:20   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 538ms. 
+2015-12-08 17:10:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9421 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:10:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:10:32   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6c94d90f 
+2015-12-08 17:10:34   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:10:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:10:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:10:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 18.023 seconds (JVM running for 18.957) 
+2015-12-08 17:11:10   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 513ms. 
+2015-12-08 17:11:24   [http-nio-8080-exec-8] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-08 17:11:24   [http-nio-8080-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:11:24.888, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:11:25   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 327ms. 
+2015-12-08 17:13:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9689 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:13:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:13:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@40afc38b 
+2015-12-08 17:13:43   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:13:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:13:47   [http-nio-8080-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:13:47.380, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:13:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:13:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 17.944 seconds (JVM running for 18.663) 
+2015-12-08 17:13:48   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1125ms. 
+2015-12-08 17:13:56   [http-nio-8080-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:13:56.016, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:13:56   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 30ms. 
+2015-12-08 17:14:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 9899 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:14:48   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:14:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@e185397 
+2015-12-08 17:14:59   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:15:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:15:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:15:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 18.951 seconds (JVM running for 19.869) 
+2015-12-08 17:15:19   [http-nio-8080-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:15:19.273, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:15:20   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1090ms. 
+2015-12-08 17:15:30   [http-nio-8080-exec-5] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:15:30.623, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:15:30   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 70ms. 
+2015-12-08 17:15:40   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 17:15:45   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-08 17:15:45   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 17:15:49   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-08 17:15:49   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-08 17:15:57   [http-nio-8080-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:15:57.735, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:15:57   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 31ms. 
+2015-12-08 17:16:30   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-08 17:16:31   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 70ms. 
+2015-12-08 17:17:14   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 17:17:15   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 17:17:16   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:17:18   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:17:21   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 36ms. 
+2015-12-08 17:18:28   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:19:01   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-08 17:19:40   [http-nio-8080-exec-2] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:19:40.972, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:19:40   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2015-12-08 17:19:48   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 17:20:47   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:21:00   [http-nio-8080-exec-1] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:21:00.260, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:21:00   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /xss?JSESSIONID=D82A2C2E1CB78C5591D01B1FCA403727 
+2015-12-08 17:21:00   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 17:21:29   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 17:21:32   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:22:12   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:22:19   [http-nio-8080-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-08T17:22:19.953, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:22:19   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 17:22:29   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:22:38   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 17:30:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11301 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:30:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:30:20   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2b5e02a1 
+2015-12-08 17:31:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11495 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:31:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:31:54   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2b08ab23 
+2015-12-08 17:31:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:32:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:32:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:32:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 23.474 seconds (JVM running for 24.436) 
+2015-12-08 17:33:55   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 361ms. 
+2015-12-08 17:34:01   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 38ms. 
+2015-12-08 17:34:10   [http-nio-8080-exec-6] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:34:10.577, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:34:10   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 337ms. 
+2015-12-08 17:34:32   [http-nio-8080-exec-10] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:34:32.091, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:34:32   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
+2015-12-08 17:34:35   [http-nio-8080-exec-9] INFO  p.j.s.web.attack.XssController - model   :  {serverLocale=pl_PL, localTime=2015-12-08T17:34:35.501, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-08 17:34:35   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 33ms. 
+2015-12-08 17:34:46   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:35:26   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 38ms. 
+2015-12-08 17:35:26   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:35:46   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 17:35:46   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:35:49   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 17:35:49   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:32   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 17:36:32   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:34   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-08 17:36:34   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:34   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 17:36:34   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-08 17:36:35   [http-nio-8080-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-08 17:36:36   [http-nio-8080-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-08 17:36:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:36:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:37:06   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@60daf39d 
+2015-12-08 17:37:08   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:37:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:37:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:37:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.675 seconds (JVM running for 15.323) 
+2015-12-08 17:37:17   [http-nio-8080-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 387ms. 
+2015-12-08 17:37:22   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 404ms. 
+2015-12-08 17:37:27   [http-nio-8080-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 39ms. 
+2015-12-08 17:38:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:38:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:38:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@17320fd2 
+2015-12-08 17:38:20   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:38:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 7.51 seconds (JVM running for 86.381) 
+2015-12-08 17:38:23   [http-nio-8080-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-08 17:38:23   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 72ms. 
+2015-12-08 17:39:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:39:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:39:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@695230e3 
+2015-12-08 17:39:35   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:39:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 5.846 seconds (JVM running for 160.317) 
+2015-12-08 17:40:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:40:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:40:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@173b8b99 
+2015-12-08 17:40:38   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:40:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:40:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:40:44   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2e1ea1f2 
+2015-12-08 17:40:44   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:40:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 4.843 seconds (JVM running for 229.279) 
+2015-12-08 17:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:40:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@58f04f31 
+2015-12-08 17:40:58   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:40:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 4.067 seconds (JVM running for 242.452) 
+2015-12-08 17:41:06   [http-nio-8080-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-08 17:41:06   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 51ms. 
+2015-12-08 17:41:10   [http-nio-8080-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-08 17:41:21   [http-nio-8080-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-08 17:41:27   [http-nio-8080-exec-9] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-08 17:41:27   [http-nio-8080-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 50ms. 
+2015-12-08 17:41:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:41:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:41:57   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@36fbbc0e 
+2015-12-08 17:41:58   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:42:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 7.193 seconds (JVM running for 304.315) 
+2015-12-08 17:42:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 11706 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-08 17:42:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-08 17:42:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@13a19665 
+2015-12-08 17:42:30   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-08 17:42:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 7.606 seconds (JVM running for 335.626) 
+2015-12-08 17:42:38   [http-nio-8080-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-08 17:42:38   [http-nio-8080-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 85ms. 
+2015-12-08 17:42:50   [http-nio-8080-exec-5] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-08 17:42:50   [http-nio-8080-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 24ms. 
