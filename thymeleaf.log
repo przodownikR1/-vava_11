@@ -89,3 +89,1016 @@
 2015-12-09 00:49:13   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 157ms. 
 2015-12-09 00:49:23   [http-nio-9113-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-09T00:49:23.098, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
 2015-12-09 00:49:23   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 00:53:02   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 00:53:02   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 33ms. 
+2015-12-09 00:57:29   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 00:57:30   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 00:57:31   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 00:57:33   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 00:57:36   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 00:57:53   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 00:58:01   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 00:58:07   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 00:58:14   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 00:58:15   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:00:37   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:38   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 01:00:38   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:00:39   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:00:44   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:00:54   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:00:54   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:00:59   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:01:00   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 0ms. 
+2015-12-09 01:01:00   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 0ms. 
+2015-12-09 01:01:01   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 0ms. 
+2015-12-09 01:01:02   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:01:07   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:04:40   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:05:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:05:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:05:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5e01e727 
+2015-12-09 01:05:46   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:05:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.318 seconds (JVM running for 1455.062) 
+2015-12-09 01:06:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:06:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:06:29   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6066637a 
+2015-12-09 01:06:29   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:06:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.339 seconds (JVM running for 1498.308) 
+2015-12-09 01:06:36   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:06:43   [http-nio-9113-exec-3] INFO  p.j.s.web.attack.XssController - model   :  {localTime=2015-12-09T01:06:43.673, serverLocale=pl_PL, msg=Hi : <script>alert(document.cookie)</script>} 
+2015-12-09 01:06:43   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 21ms. 
+2015-12-09 01:06:45   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:06:49   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:06:53   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:07:16   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 01:07:26   [http-nio-9113-exec-9] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:07:26   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 32ms. 
+2015-12-09 01:08:15   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:08:17   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:08:18   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:08:19   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:08:21   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:08:24   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:08:24   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 01:08:42   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:09:01   [http-nio-9113-exec-10] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:09:01   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 01:09:05   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-12-09 01:09:07   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:09:07   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 01:09:16   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:10:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:10:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:10:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@fc4d591 
+2015-12-09 01:10:34   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:10:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.165 seconds (JVM running for 1742.886) 
+2015-12-09 01:11:05   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 01:11:06   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:11:15   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:11:15   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:11:18   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:11:26   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:11:30   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:11:33   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:11:34   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:11:52   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:12:10   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:12:12   [http-nio-9113-exec-5] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-09 01:12:13   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 01:12:18   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-09 01:12:23   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:12:23   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 01:12:39   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:12:42   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:12:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:12:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:12:54   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4d8b4116 
+2015-12-09 01:12:54   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:12:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.193 seconds (JVM running for 1883.151) 
+2015-12-09 01:13:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:13:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:13:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2c7782bb 
+2015-12-09 01:13:19   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:13:20   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.113 seconds (JVM running for 1908.101) 
+2015-12-09 01:13:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:13:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:13:25   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2f3fcb2d 
+2015-12-09 01:13:25   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:13:26   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.251 seconds (JVM running for 1914.13) 
+2015-12-09 01:13:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:13:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:13:34   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1e8fa267 
+2015-12-09 01:13:34   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:13:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.028 seconds (JVM running for 1923.099) 
+2015-12-09 01:13:38   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:13:42   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 01:13:45   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 0ms. 
+2015-12-09 01:13:48   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:13:54   [http-nio-9113-exec-9] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-09 01:13:54   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:13:58   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:08   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 0ms. 
+2015-12-09 01:14:10   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:10   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:28   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:14:36   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:38   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:14:39   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:40   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:41   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:14:41   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:17:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:17:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:17:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@56885020 
+2015-12-09 01:17:31   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:17:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.078 seconds (JVM running for 2159.594) 
+2015-12-09 01:18:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:18:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:18:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@3b4e1dc6 
+2015-12-09 01:18:32   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:18:33   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.3 seconds (JVM running for 2220.726) 
+2015-12-09 01:18:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:18:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:18:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@684a3055 
+2015-12-09 01:18:37   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:18:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.092 seconds (JVM running for 2225.688) 
+2015-12-09 01:18:52   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:18:59   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2015-12-09 01:19:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:19:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:19:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@47f3475b 
+2015-12-09 01:19:31   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.058 seconds (JVM running for 2279.621) 
+2015-12-09 01:19:37   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-09 01:19:46   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:19:59   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:20:06   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:20:30   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:20:33   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@40a9457c] 
+2015-12-09 01:20:33   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 01:20:38   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:20:46   [http-nio-9113-exec-4] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@40a9457c] 
+2015-12-09 01:20:46   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:21:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:21:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:21:45   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@383046 
+2015-12-09 01:21:45   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:21:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.088 seconds (JVM running for 2413.951) 
+2015-12-09 01:22:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:22:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:22:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1a0f77d8 
+2015-12-09 01:22:41   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:22:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.008 seconds (JVM running for 2470.031) 
+2015-12-09 01:25:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:25:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:25:12   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4d5b9de 
+2015-12-09 01:25:12   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:25:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.602 seconds (JVM running for 2621.139) 
+2015-12-09 01:27:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:27:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:27:04   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7445210e 
+2015-12-09 01:27:04   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:27:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.054 seconds (JVM running for 2732.772) 
+2015-12-09 01:27:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:27:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:27:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@741be277 
+2015-12-09 01:27:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:27:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.996 seconds (JVM running for 2737.967) 
+2015-12-09 01:27:18   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:27:18   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2015-12-09 01:27:21   [http-nio-9113-exec-3] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:27:21   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:27:22   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:27:24   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:27:31   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:27:31   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:27:50   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:28:12   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:28:17   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:28:22   [http-nio-9113-exec-4] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:28:22   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-09 01:28:23   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:28:23   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:28:24   [http-nio-9113-exec-10] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:28:24   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:28:25   [http-nio-9113-exec-7] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:28:25   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:28:36   [http-nio-9113-exec-6] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:28:36   [http-nio-9113-exec-6] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-09 01:28:36   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:28:39   [http-nio-9113-exec-7] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:28:39   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:28:45   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:28:50   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@4927e446] 
+2015-12-09 01:28:50   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:32:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:32:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:33:00   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@69009652 
+2015-12-09 01:33:00   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:33:01   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.007 seconds (JVM running for 3088.978) 
+2015-12-09 01:33:07   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:33:07   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2015-12-09 01:33:09   [http-nio-9113-exec-3] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:33:09   [http-nio-9113-exec-3] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-09 01:33:09   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:33:15   [http-nio-9113-exec-6] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:33:15   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:34:15   [http-nio-9113-exec-8] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:34:15   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:34:23   [http-nio-9113-exec-6] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:34:23   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:34:28   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 01:34:36   [http-nio-9113-exec-5] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:34:36   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:35:22   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 24ms. 
+2015-12-09 01:35:31   [http-nio-9113-exec-8] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:35:31   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:35:48   [http-nio-9113-exec-10] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:35:48   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:35:51   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:35:52   [http-nio-9113-exec-9] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:35:53   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:36:12   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:36:12   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:36:16   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:36:18   [http-nio-9113-exec-4] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:36:18   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 01:36:21   [http-nio-9113-exec-6] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  InvoiceController, result  null 
+2015-12-09 01:36:21   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-09 01:36:25   [http-nio-9113-exec-8] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:36:25   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:36:27   [http-nio-9113-exec-10] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  RoleController, result  [Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)] 
+2015-12-09 01:36:27   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:36:29   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:36:29   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:36:32   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:36:32   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-09 01:36:33   [http-nio-9113-exec-6] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@387212c0] 
+2015-12-09 01:36:33   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:36:42   [http-nio-9113-exec-8] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:36:42   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:36:45   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:37:00   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:37:04   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:38:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:38:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:38:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:38:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@64c4f3cf 
+2015-12-09 01:38:04   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:38:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.018 seconds (JVM running for 3392.549) 
+2015-12-09 01:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:40:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:40:56   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:40:56   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2c48b485 
+2015-12-09 01:40:56   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:40:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.036 seconds (JVM running for 3565.046) 
+2015-12-09 01:41:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:41:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:41:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:41:41   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6fbf1d1 
+2015-12-09 01:41:41   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:41:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.021 seconds (JVM running for 3610.285) 
+2015-12-09 01:41:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:41:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:41:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:41:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:41:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:41:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:42:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:42:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:42:10   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:42:10   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6bf360bc 
+2015-12-09 01:42:10   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:42:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.345 seconds (JVM running for 3638.99) 
+2015-12-09 01:42:30   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 01:42:32   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:42:37   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:42:45   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:42:48   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-09 01:42:52   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 01:42:55   [http-nio-9113-exec-5] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@79a0f314] 
+2015-12-09 01:42:55   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 01:43:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:43:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:43:14   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:43:14   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@ae72d4a 
+2015-12-09 01:43:14   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:43:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.277 seconds (JVM running for 3703.923) 
+2015-12-09 01:43:23   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:43:23   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-09 01:43:25   [http-nio-9113-exec-9] INFO  p.j.s.s.SessionEventListeners - ++++ onHttpSessionDestroyed  
+2015-12-09 01:43:25   [http-nio-9113-exec-9] INFO  p.j.s.s.SessionEventListeners - ++++ onSessionFixationProtection  
+2015-12-09 01:43:25   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:43:28   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:43:28   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:43:30   [http-nio-9113-exec-4] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:43:30   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:43:37   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 01:43:43   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:43:46   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 01:43:50   [http-nio-9113-exec-6] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:43:50   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:43:53   [http-nio-9113-exec-8] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:43:53   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 01:44:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:44:08   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:44:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:44:09   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@70d3e5c4 
+2015-12-09 01:44:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:44:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.953 seconds (JVM running for 3758.04) 
+2015-12-09 01:44:15   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-09 01:46:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:46:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:46:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:46:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4269e304 
+2015-12-09 01:46:28   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:46:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.999 seconds (JVM running for 3896.705) 
+2015-12-09 01:47:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 6719 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:47:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:47:20   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:47:20   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1dc8d8fa 
+2015-12-09 01:47:20   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:47:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.918 seconds (JVM running for 3948.954) 
+2015-12-09 01:48:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:48:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:48:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:48:35   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@12ce6cbe 
+2015-12-09 01:48:36   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:48:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 7.248 seconds (JVM running for 7.622) 
+2015-12-09 01:57:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:57:52   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:57:54   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:57:54   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@25d82aab 
+2015-12-09 01:57:54   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:57:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.907 seconds (JVM running for 564.48) 
+2015-12-09 01:58:11   [http-nio-9113-exec-1] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  ProductController, result  [Product(id=1, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=2, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=3, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=4, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2015-12-09 01:58:11   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 363ms. 
+2015-12-09 01:58:14   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-09 01:58:15   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-09 01:58:18   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-09 01:58:21   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:58:21   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 27ms. 
+2015-12-09 01:58:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 01:58:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 01:58:58   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 01:58:58   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@37454c0b 
+2015-12-09 01:58:59   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 01:58:59   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.455 seconds (JVM running for 628.795) 
+2015-12-09 01:59:05   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 01:59:05   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 41ms. 
+2015-12-09 01:59:07   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-09 01:59:08   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:59:10   [http-nio-9113-exec-4] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@70a2053a] 
+2015-12-09 01:59:10   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 01:59:16   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 01:59:18   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 01:59:21   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:59:24   [http-nio-9113-exec-3] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@11778669] 
+2015-12-09 01:59:24   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 01:59:33   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@70a2053a] 
+2015-12-09 01:59:33   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 01:59:41   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:59:44   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 01:59:46   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 01:59:46   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 01:59:50   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 01:59:53   [http-nio-9113-exec-10] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@59bf452a] 
+2015-12-09 01:59:53   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 02:00:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:00:58   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:00:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:00:59   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5d539509 
+2015-12-09 02:00:59   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:01:00   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.167 seconds (JVM running for 749.041) 
+2015-12-09 02:01:10   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-09 02:01:12   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:01:56   [http-nio-9113-exec-7] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 02:01:56   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-09 02:01:58   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:02:01   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:03:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:03:27   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:03:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:03:28   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@e9ccd28 
+2015-12-09 02:03:28   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:03:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.432 seconds (JVM running for 898.608) 
+2015-12-09 02:03:33   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 02:03:35   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 02:03:57   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:04:00   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 02:08:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:08:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:08:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:08:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@200f3dd8 
+2015-12-09 02:08:46   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:08:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.166 seconds (JVM running for 1216.253) 
+2015-12-09 02:08:55   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-09 02:08:57   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:09:01   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:09:06   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:09:08   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:09:11   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:09:28   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 02:09:37   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:09:37   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:09:41   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:09:41   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:09:47   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:09:51   [http-nio-9113-exec-2] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@566af25b] 
+2015-12-09 02:09:51   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 02:10:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:10:04   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:10:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:10:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4dbf6e81 
+2015-12-09 02:10:05   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:10:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.109 seconds (JVM running for 1295.302) 
+2015-12-09 02:10:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:10:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:10:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:10:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@5e04ac90 
+2015-12-09 02:10:11   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:10:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.172 seconds (JVM running for 1301.253) 
+2015-12-09 02:11:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:11:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:11:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:11:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@46434bbd 
+2015-12-09 02:11:30   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:11:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.058 seconds (JVM running for 1380.36) 
+2015-12-09 02:11:40   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-09 02:11:42   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:14:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:14:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:14:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:14:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6e173aba 
+2015-12-09 02:14:49   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:15:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:15:07   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:15:08   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:15:08   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6f22c72c 
+2015-12-09 02:15:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:15:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.079 seconds (JVM running for 1598.683) 
+2015-12-09 02:15:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:15:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:15:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:15:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@58d2c75c 
+2015-12-09 02:15:17   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:15:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.153 seconds (JVM running for 1606.742) 
+2015-12-09 02:15:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:15:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:15:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:15:31   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@720e84a3 
+2015-12-09 02:15:32   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:15:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:15:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:15:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:15:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@67fb3881 
+2015-12-09 02:15:47   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:15:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.0 seconds (JVM running for 1636.548) 
+2015-12-09 02:15:57   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 02:15:58   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:16:08   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:16:12   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:16:21   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:16:28   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:16:30   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:16:30   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:16:35   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:16:35   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:16:40   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:16:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:16:54   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:16:55   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:16:55   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7f9c8906 
+2015-12-09 02:16:56   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:16:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.025 seconds (JVM running for 1705.662) 
+2015-12-09 02:18:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:18:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:18:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:18:38   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@4bb998b4 
+2015-12-09 02:18:38   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:18:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.97 seconds (JVM running for 1807.861) 
+2015-12-09 02:18:54   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-09 02:18:56   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:19:01   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:19:04   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:19:09   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-09 02:19:12   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:19:12   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:19:17   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:19:21   [http-nio-9113-exec-7] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@ddd8601] 
+2015-12-09 02:19:21   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-09 02:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:19:32   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:19:33   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:19:33   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@26b579e0 
+2015-12-09 02:19:33   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:19:34   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.004 seconds (JVM running for 1863.244) 
+2015-12-09 02:19:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:19:39   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:19:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:19:40   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@9f314f 
+2015-12-09 02:19:40   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:19:41   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.004 seconds (JVM running for 1870.187) 
+2015-12-09 02:20:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:20:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:20:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:20:11   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7a072457 
+2015-12-09 02:20:11   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:20:12   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.155 seconds (JVM running for 1901.474) 
+2015-12-09 02:20:16   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 14ms. 
+2015-12-09 02:20:22   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:20:24   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:20:26   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:20:33   [http-nio-9113-exec-1] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@5dc6ed35] 
+2015-12-09 02:20:33   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 02:29:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:29:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:29:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:29:42   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6c394b61 
+2015-12-09 02:29:43   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:29:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:29:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:29:44   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 1.909 seconds (JVM running for 2472.8) 
+2015-12-09 02:33:50   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-09 02:33:53   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:33:53   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:33:58   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-09 02:34:01   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:34:06   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:35:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:35:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:35:26   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:35:26   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@19d81885 
+2015-12-09 02:35:27   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:35:28   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.264 seconds (JVM running for 2817.029) 
+2015-12-09 02:35:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:35:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:35:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:35:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1d3de6 
+2015-12-09 02:35:36   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:35:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.159 seconds (JVM running for 2826.167) 
+2015-12-09 02:35:52   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 02:35:54   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:35:57   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:35:57   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:36:00   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:36:09   [http-nio-9113-exec-8] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [] 
+2015-12-09 02:36:09   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-09 02:36:14   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:36:17   [http-nio-9113-exec-3] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@6dcf8f17] 
+2015-12-09 02:36:17   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 02:36:22   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:36:24   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:36:24   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 02:36:31   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2015-12-09 02:37:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:37:15   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:37:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:37:16   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7004a7c1 
+2015-12-09 02:37:17   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:37:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.104 seconds (JVM running for 2926.657) 
+2015-12-09 02:37:21   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 02:37:29   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:37:35   [http-nio-9113-exec-7] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@291f8001] 
+2015-12-09 02:37:35   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2015-12-09 02:37:40   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:37:44   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:37:44   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:37:49   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:37:49   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:37:57   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2015-12-09 02:38:01   [http-nio-9113-exec-7] INFO  p.j.s.w.s.UserSessionController - +++ sessions :  [org.springframework.security.core.session.SessionInformation@291f8001] 
+2015-12-09 02:38:01   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2015-12-09 02:38:09   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /login?error=true 
+2015-12-09 02:38:09   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1ms. 
+2015-12-09 02:39:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:39:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:39:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:39:48   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@96dfd60 
+2015-12-09 02:39:48   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:39:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.106 seconds (JVM running for 3078.142) 
+2015-12-09 02:39:57   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-09 02:40:09   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2015-12-09 02:40:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:40:21   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:40:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:40:22   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7b7855fa 
+2015-12-09 02:40:22   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:40:23   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.074 seconds (JVM running for 3112.251) 
+2015-12-09 02:40:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 10645 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-09 02:40:29   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-09 02:40:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - +++++++  httpSessionEventPublisher init 
+2015-12-09 02:40:30   [localhost-startStop-1] INFO  p.j.s.config.SecurityBasicConfig - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@30214336 
+2015-12-09 02:40:31   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   1 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-09 02:40:31   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.194 seconds (JVM running for 3120.624) 

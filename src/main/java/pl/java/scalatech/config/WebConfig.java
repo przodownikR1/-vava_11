@@ -50,8 +50,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Autowired
     private AmountFormatter amountFormatter;
     @Autowired
-    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;    
-    
+    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;
+
     @Autowired
     private PerformanceInterceptor perf;
 
@@ -95,9 +95,13 @@ public class WebConfig extends WebMvcConfigurationSupport {
         registry.addViewController("/logThyme").setViewName("logThyme");
         registry.addViewController("/logout").setViewName("logout");
         registry.addViewController("/").setViewName("welcome");
+        registry.addViewController("/welcome").setViewName("welcome");
         registry.addViewController("/clickjack").setViewName("clickjack");
         registry.addViewController("/csrf").setViewName("csrf");
         registry.addViewController("/accessdenied").setViewName("accessdenied");
+        registry.addViewController("/sessionError").setViewName("sessionError");
+        registry.addViewController("/invalidSession").setViewName("invalidSession");
+
     }
 
     @Bean
@@ -158,12 +162,12 @@ public class WebConfig extends WebMvcConfigurationSupport {
         return standardServletMultipartResolver;
     }
 
-    
+
     @Bean
     public AuthenticationPrincipalArgumentResolver authenticationPrincipalArgumentResolver(){
         return new AuthenticationPrincipalArgumentResolver();
     }
-    
+
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         argumentResolvers.add(authenticationPrincipalArgumentResolver());

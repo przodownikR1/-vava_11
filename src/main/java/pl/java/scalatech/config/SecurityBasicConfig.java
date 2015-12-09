@@ -6,40 +6,33 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.security.access.PermissionEvaluator;
-import org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler;
-import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
 import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
-import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
-import org.springframework.security.web.authentication.session.ConcurrentSessionControlAuthenticationStrategy;
-import org.springframework.security.web.authentication.session.SessionAuthenticationStrategy;
+import org.springframework.security.web.session.HttpSessionEventPublisher;
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @Configuration
-@EnableWebSecurity
+@EnableWebSecurity(debug=false)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import(EncryptConfig.class)
 @Slf4j
 @ComponentScan(basePackages = { "pl.java.scalatech.security" }, useDefaultFilters = false, includeFilters = { @Filter(SecurityComponent.class) })
 public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
-    private static final int MAX_SESSIONS = 3;
+    private static final int MAX_SESSIONS = 1;
     @Autowired
     private AuthenticationSuccessHandler authSuccessHandler;
 
@@ -47,21 +40,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private LogoutSuccessHandler logoutSuccessHander;
-    
-    @Configuration
-    @EnableGlobalMethodSecurity(prePostEnabled = true)
-    static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
-        @Autowired
-        private PermissionEvaluator permissionEvaluator;
 
-        @Override
-        protected MethodSecurityExpressionHandler createExpressionHandler() {
-            DefaultMethodSecurityExpressionHandler handler =
-                    new DefaultMethodSecurityExpressionHandler();
-            handler.setPermissionEvaluator(permissionEvaluator);
-            return handler;
-        }
-    }
 
   /*  @Configuration
     @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -130,28 +109,18 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
         }
 
-        @Bean
-        public SessionRegistry getSessionRegistry() {
-            return new SessionRegistryImpl();
-        }
-        
-        @Autowired
-        private SessionAuthenticationStrategy sessionStrategy;
-        
-        @Bean
-        public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
-            ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
-                    new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
-            controlAuthenticationStrategy.setMaximumSessions(2);
-            controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
+        @Autowired SessionRegistry sessionRegistry;
 
-            return controlAuthenticationStrategy;
-        }
-        
+
+
+
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
             deniedhandler.setErrorPage("/accessdenied.html");
+            http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS)
+           .expiredUrl("/sessionError").maxSessionsPreventsLogin(true).sessionRegistry(sessionRegistry).and()
+           .sessionFixation().migrateSession();
 
             http
               .authorizeRequests().antMatchers("/welcome", "/api/ping","/api/cookie", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
@@ -174,19 +143,16 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
              .permitAll()
              .and()
              .exceptionHandling()
-             .accessDeniedHandler(deniedhandler)
-             .and()
-             .sessionManagement().sessionAuthenticationStrategy(sessionStrategy) 
-             .sessionFixation().none();
-             
+             .accessDeniedHandler(deniedhandler);
+
 
         }
-        
-       
 
-        
-        
-        
+
+
+
+
+
           @Autowired
           public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
              log.info("password Encoding {}",passwordEncoder);
@@ -199,5 +165,29 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
           }*/
           }
 
-    
+          @Bean
+          public static HttpSessionEventPublisher httpSessionEventPublisher() {
+              log.info("+++++++  httpSessionEventPublisher init");
+              return new HttpSessionEventPublisher();
+          }
+
+          @Bean
+          public static SessionRegistry getSessionRegistry() {
+              return new SessionRegistryImpl();
+          }
     }
+
+/*
+@Autowired
+private SessionAuthenticationStrategy sessionStrategy;
+
+@Bean
+public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
+    ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
+            new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
+    controlAuthenticationStrategy.setMaximumSessions(MAX_SESSIONS);
+    controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
+
+
+    return controlAuthenticationStrategy;
+}*/
