@@ -83,7 +83,6 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             // @formatter:on
         }
 
-
         @Order(2)
         @Configuration
         static class ApiWebSecurityConfiguration extends WebSecurityConfigurerAdapter {
@@ -103,24 +102,20 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             // @formatter:on
         }
 */
-
         @Override
         public void configure(WebSecurity web) throws Exception {
             web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
         }
-
+        
         @Autowired SessionRegistry sessionRegistry;
-
-
-
-
+        
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
             deniedhandler.setErrorPage("/accessdenied.html");
+           
             http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS)
-           .expiredUrl("/sessionError").maxSessionsPreventsLogin(true).sessionRegistry(sessionRegistry).and()
-           .sessionFixation().migrateSession();
+           .expiredUrl("/sessionError").maxSessionsPreventsLogin(true).sessionRegistry(sessionRegistry).and().sessionFixation().migrateSession();
 
             http
               .authorizeRequests().antMatchers("/welcome", "/api/ping","/api/cookie", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
@@ -140,17 +135,11 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             .permitAll()
             .and()
             .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID")
-             .permitAll()
-             .and()
-             .exceptionHandling()
-             .accessDeniedHandler(deniedhandler);
-
-
+            .permitAll()
+            .and()
+            .exceptionHandling()
+            .accessDeniedHandler(deniedhandler);
         }
-
-
-
-
 
 
           @Autowired
@@ -167,7 +156,6 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
 
           @Bean
           public static HttpSessionEventPublisher httpSessionEventPublisher() {
-              log.info("+++++++  httpSessionEventPublisher init");
               return new HttpSessionEventPublisher();
           }
 
