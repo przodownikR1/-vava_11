@@ -2,6 +2,7 @@ package pl.java.scalatech.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -10,6 +11,7 @@ import pl.java.scalatech.repository.RoleRepository;
 
 @Controller
 @RequestMapping("/role")
+@PreAuthorize("hasRole('ADMIN')")
 public class RoleController extends AbstractRepoController<Role>{
     private final static String ROLE_VIEW = "role";
     private final static String ROLE_EDIT = "roleEdit";

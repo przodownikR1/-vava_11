@@ -2,7 +2,6 @@ package pl.java.scalatech.security;
 
 import java.io.IOException;
 
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -26,6 +25,7 @@ public class AccessDeniedHandlerNature implements AccessDeniedHandler {
         request.setAttribute("path", path);
         request.setAttribute("user", request.getUserPrincipal().getName());
         response.sendError(HttpServletResponse.SC_FORBIDDEN, accessDeniedException.getMessage());
+
 
     }
 

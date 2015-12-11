@@ -16,7 +16,7 @@ import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.access.AccessDeniedHandlerImpl;
+import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
@@ -26,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @Configuration
-@EnableWebSecurity(debug=false)
+@EnableWebSecurity(debug = false)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import(EncryptConfig.class)
 @Slf4j
@@ -40,154 +40,125 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private LogoutSuccessHandler logoutSuccessHander;
+    @Autowired
+    private AccessDeniedHandler accessDeniedHandler;
 
-
-  /*  @Configuration
-    @EnableGlobalMethodSecurity(prePostEnabled = true)
-    @Order(4)
-    static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
-        @Autowired
-        private PermissionEvaluator permissionEvaluator;
-
-        @Autowired
-        SecurityEvaluationContextExtension securityEvaluationContextExtension;
-
-        @Override
-        protected MethodSecurityExpressionHandler createExpressionHandler() {
-            DefaultMethodSecurityExpressionHandler handler = new DefaultMethodSecurityExpressionHandler();
-            handler.setPermissionEvaluator(permissionEvaluator);
-            return handler;
-        }
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
     }
 
+    @Autowired
+    SessionRegistry sessionRegistry;
 
-        @Order(3)
-        @Configuration
-        static class H2WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        // @formatter:off
+        /*AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
+        deniedhandler.setErrorPage("/accessdenied");*/
+        http.csrf().disable().sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS).expiredUrl("/sessionError")
+        .maxSessionsPreventsLogin(true)
+        .sessionRegistry(sessionRegistry).and().sessionFixation().migrateSession();
 
-            // @formatter:off
-            @Override
-            protected void configure(HttpSecurity http) throws Exception {
-                http
-                    .csrf().disable()
-                    .headers().disable()
-                    .requestMatchers()
-                        .antMatchers("/h2/**")
-                        .and()
-                    .formLogin()
-                        .loginPage("/login")
-                        .and()
-                    .authorizeRequests()
-                        .anyRequest().hasRole("ADMIN");
-            }
-            // @formatter:on
-        }
+        http.authorizeRequests()
+                .antMatchers("/welcome", "/api/ping", "/api/cookie", "/signup", "loginAjax", "/about", "/register", "/currentUser", "/console/*", "/", "/welcome","/login").permitAll()
+                .antMatchers("/adminAuth/**").hasRole("ADMIN")
+                .antMatchers("/userAuth/**").hasRole("USER")
+                .antMatchers("/api/**").hasRole("ADMIN")
+                .antMatchers("/api/user/**").hasRole("USER")
+                .antMatchers("/currentUser").hasRole("USER")
+                .antMatchers("/logout").authenticated()
+                .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')").anyRequest().authenticated();
 
+         http.formLogin().loginPage("/login").failureHandler(simpleUrlAuthenticationFailureHandler).failureUrl("/login?error=true").defaultSuccessUrl("/").permitAll().and()
+         .logout().logoutSuccessUrl("/welcome").logoutSuccessHandler(logoutSuccessHander).invalidateHttpSession(true).deleteCookies("JSESSIONID").permitAll().and().exceptionHandling()
+         .accessDeniedHandler(accessDeniedHandler);
+        // @formatter:on
 
-        @Order(2)
-        @Configuration
-        static class ApiWebSecurityConfiguration extends WebSecurityConfigurerAdapter {
-
-            // @formatter:off
-            @Override
-            protected void configure(HttpSecurity http) throws Exception {
-                http
-                .csrf().disable()
-                .authorizeRequests()
-                .antMatchers("/api/**").authenticated()
-                .anyRequest().authenticated()
-                .and()
-                .httpBasic().and()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-            }
-            // @formatter:on
-        }
-*/
-
-        @Override
-        public void configure(WebSecurity web) throws Exception {
-            web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
-        }
-
-        @Autowired SessionRegistry sessionRegistry;
-
-
-
-
-        @Override
-        protected void configure(HttpSecurity http) throws Exception {
-            AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
-            deniedhandler.setErrorPage("/accessdenied.html");
-            http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS)
-           .expiredUrl("/sessionError").maxSessionsPreventsLogin(true).sessionRegistry(sessionRegistry).and()
-           .sessionFixation().migrateSession();
-
-            http
-              .authorizeRequests().antMatchers("/welcome", "/api/ping","/api/cookie", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
-              .antMatchers("/api/admin/**").hasRole("ADMIN")
-              .antMatchers("/api/appContext").hasRole("ADMIN")
-              //.antMatchers("/role").hasRole("ADMIN")
-             // .antMatchers("/role/**").hasRole("ADMIN")
-              .antMatchers("/api/user/**").hasRole("USER")
-              .antMatchers("/currentUser").hasRole("USER")
-              .antMatchers("/logout").authenticated()
-              .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')")
-              .anyRequest().authenticated();
-
-            http.csrf().disable()
-            .formLogin()
-            .loginPage("/login").failureUrl("/login?error=true").defaultSuccessUrl("/")
-            .permitAll()
-            .and()
-            .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID")
-             .permitAll()
-             .and()
-             .exceptionHandling()
-             .accessDeniedHandler(deniedhandler);
-
-
-        }
-
-
-
-
-
-
-          @Autowired
-          public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
-             log.info("password Encoding {}",passwordEncoder);
-              auth.userDetailsService(userDetailsService);
-        /*  auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
-          .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
-          .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
-          .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
-          .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
-          }*/
-          }
-
-          @Bean
-          public static HttpSessionEventPublisher httpSessionEventPublisher() {
-              log.info("+++++++  httpSessionEventPublisher init");
-              return new HttpSessionEventPublisher();
-          }
-
-          @Bean
-          public static SessionRegistry getSessionRegistry() {
-              return new SessionRegistryImpl();
-          }
     }
+
+    @Autowired
+    public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
+        log.info("password Encoding {}", passwordEncoder);
+        auth.userDetailsService(userDetailsService);
+    }
+
+    @Bean
+    public static HttpSessionEventPublisher httpSessionEventPublisher() {
+        log.info("+++++++  httpSessionEventPublisher init");
+        return new HttpSessionEventPublisher();
+    }
+
+    @Bean
+    public static SessionRegistry getSessionRegistry() {
+        return new SessionRegistryImpl();
+    }
+}
 
 /*
-@Autowired
-private SessionAuthenticationStrategy sessionStrategy;
+ * @Autowired
+ * private SessionAuthenticationStrategy sessionStrategy;
+ * @Bean
+ * public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
+ * ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
+ * new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
+ * controlAuthenticationStrategy.setMaximumSessions(MAX_SESSIONS);
+ * controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
+ * return controlAuthenticationStrategy;
+ * }
+ */
 
-@Bean
-public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
-    ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
-            new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
-    controlAuthenticationStrategy.setMaximumSessions(MAX_SESSIONS);
-    controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
-
-
-    return controlAuthenticationStrategy;
-}*/
+/*
+ * @Configuration
+ * @EnableGlobalMethodSecurity(prePostEnabled = true)
+ * @Order(4)
+ * static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
+ * @Autowired
+ * private PermissionEvaluator permissionEvaluator;
+ * @Autowired
+ * SecurityEvaluationContextExtension securityEvaluationContextExtension;
+ * @Override
+ * protected MethodSecurityExpressionHandler createExpressionHandler() {
+ * DefaultMethodSecurityExpressionHandler handler = new DefaultMethodSecurityExpressionHandler();
+ * handler.setPermissionEvaluator(permissionEvaluator);
+ * return handler;
+ * }
+ * }
+ * @Order(3)
+ * @Configuration
+ * static class H2WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+ * // @formatter:off
+ * @Override
+ * protected void configure(HttpSecurity http) throws Exception {
+ * http
+ * .csrf().disable()
+ * .headers().disable()
+ * .requestMatchers()
+ * .antMatchers("/h2/**")
+ * .and()
+ * .formLogin()
+ * .loginPage("/login")
+ * .and()
+ * .authorizeRequests()
+ * .anyRequest().hasRole("ADMIN");
+ * }
+ * // @formatter:on
+ * }
+ * @Order(2)
+ * @Configuration
+ * static class ApiWebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+ * // @formatter:off
+ * @Override
+ * protected void configure(HttpSecurity http) throws Exception {
+ * http
+ * .csrf().disable()
+ * .authorizeRequests()
+ * .antMatchers("/api/**").authenticated()
+ * .anyRequest().authenticated()
+ * .and()
+ * .httpBasic().and()
+ * .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+ * }
+ * // @formatter:on
+ * }
+ */

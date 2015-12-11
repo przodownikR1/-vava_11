@@ -16,13 +16,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Entity
 @Data
-@EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -66,13 +64,30 @@ public class User extends PKEntity {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!super.equals(obj)) return false;
-        if (getClass() != obj.getClass()) return false;
+        if (this == obj) {
+            return true;
+        }
+        if (!super.equals(obj)) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
         User other = (User) obj;
+        if (email == null) {
+            if (other.email != null) {
+                return false;
+            }
+        } else if (!email.equals(other.email)) {
+            return false;
+        }
         if (login == null) {
-            if (other.login != null) return false;
-        } else if (!login.equals(other.login)) return false;
+            if (other.login != null) {
+                return false;
+            }
+        } else if (!login.equals(other.login)) {
+            return false;
+        }
         return true;
     }
 
@@ -80,10 +95,12 @@ public class User extends PKEntity {
     public int hashCode() {
         final int prime = 31;
         int result = super.hashCode();
+        result = prime * result + ((email == null) ? 0 : email.hashCode());
         result = prime * result + ((login == null) ? 0 : login.hashCode());
         return result;
     }
-    
-    
+
+
+
 
 }

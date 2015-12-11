@@ -5,6 +5,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import pl.java.scalatech.entity.Role;
 @Transactional
+//@PreAuthorize("hasRole('ADMIN')")
 public interface RoleRepository extends JpaRepository<Role, Long>{
 
 
