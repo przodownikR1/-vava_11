@@ -1,12 +1,17 @@
 package pl.java.scalatech.config;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configurers.GlobalAuthenticationConfigurerAdapter;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
@@ -21,28 +26,25 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
-
+import org.springframework.security.access.AccessDecisionManager;
+import org.springframework.security.access.AccessDecisionVoter;
+import org.springframework.security.access.vote.AffirmativeBased;
+import org.springframework.security.access.vote.AuthenticatedVoter;
+import org.springframework.security.access.vote.RoleVoter;
+import org.springframework.security.authentication.event.LoggerListener;
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @Configuration
-@EnableWebSecurity(debug=false)
+@EnableWebSecurity(debug = false)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import(EncryptConfig.class)
 @Slf4j
 @ComponentScan(basePackages = { "pl.java.scalatech.security" }, useDefaultFilters = false, includeFilters = { @Filter(SecurityComponent.class) })
-public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
-    private static final int MAX_SESSIONS = 1;
-    @Autowired
-    private AuthenticationSuccessHandler authSuccessHandler;
+public class SecurityBasicConfig extends GlobalAuthenticationConfigurerAdapter{
+  
 
-    private SimpleUrlAuthenticationFailureHandler simpleUrlAuthenticationFailureHandler;
-
-    @Autowired
-    private LogoutSuccessHandler logoutSuccessHander;
-
-
-  /*  @Configuration
+    /*  @Configuration
     @EnableGlobalMethodSecurity(prePostEnabled = true)
     @Order(4)
     static class MethodSecurityConfiguration extends GlobalMethodSecurityConfiguration {
@@ -61,27 +63,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
     }
 
 
-        @Order(3)
-        @Configuration
-        static class H2WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
-
-            // @formatter:off
-            @Override
-            protected void configure(HttpSecurity http) throws Exception {
-                http
-                    .csrf().disable()
-                    .headers().disable()
-                    .requestMatchers()
-                        .antMatchers("/h2/**")
-                        .and()
-                    .formLogin()
-                        .loginPage("/login")
-                        .and()
-                    .authorizeRequests()
-                        .anyRequest().hasRole("ADMIN");
-            }
-            // @formatter:on
-        }
+      
 
         @Order(2)
         @Configuration
@@ -102,80 +84,135 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter {
             // @formatter:on
         }
 */
+   
+    @Order(1)
+    @Configuration
+    static class H2WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+        @Override
+        public void configure(WebSecurity web) throws Exception {
+            web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico").antMatchers("/console/*");
+        }
+        @Autowired
+        public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
+            log.info("password Encoding {}", passwordEncoder);
+            auth.userDetailsService(userDetailsService);
+            /*
+             * auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
+             * .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+             * .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
+             * .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+             * .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
+             * }
+             */
+        }
+      
+    }
+    @Order(2)
+    @Configuration
+    static class NormalWebSecurityConfig  extends WebSecurityConfigurerAdapter {
         @Override
         public void configure(WebSecurity web) throws Exception {
             web.ignoring().antMatchers("/assets/**").antMatchers("/css/**").antMatchers("/js/**").antMatchers("/images/**").antMatchers("/favicon.ico");
         }
+
+        private static final int MAX_SESSIONS = 1;
+        @Autowired
+        private AuthenticationSuccessHandler authSuccessHandler;
+
+        private SimpleUrlAuthenticationFailureHandler simpleUrlAuthenticationFailureHandler;
+
+        @Autowired
+        private LogoutSuccessHandler logoutSuccessHander;
         
-        @Autowired SessionRegistry sessionRegistry;
-        
+        @Autowired
+        SessionRegistry sessionRegistry;
+
         @Override
         protected void configure(HttpSecurity http) throws Exception {
+            // @formatter:off
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
             deniedhandler.setErrorPage("/accessdenied.html");
-           
-            http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS)
-           .expiredUrl("/sessionError").maxSessionsPreventsLogin(true).sessionRegistry(sessionRegistry).and().sessionFixation().migrateSession();
 
-            http
-              .authorizeRequests().antMatchers("/welcome", "/api/ping","/api/cookie", "/signup", "loginAjax","/about","/register","/currentUser","/console","/","/welcome","/login").permitAll()
-              .antMatchers("/api/admin/**").hasRole("ADMIN")
-              .antMatchers("/api/appContext").hasRole("ADMIN")
-              //.antMatchers("/role").hasRole("ADMIN")
-             // .antMatchers("/role/**").hasRole("ADMIN")
-              .antMatchers("/api/user/**").hasRole("USER")
-              .antMatchers("/currentUser").hasRole("USER")
-              .antMatchers("/logout").authenticated()
-              .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')")
-              .anyRequest().authenticated();
+            http.sessionManagement().invalidSessionUrl("/invalidSession").maximumSessions(MAX_SESSIONS).expiredUrl("/sessionError").maxSessionsPreventsLogin(true)
+                    .sessionRegistry(sessionRegistry).and().sessionFixation().migrateSession();
 
-            http.csrf().disable()
-            .formLogin()
-            .loginPage("/login").failureUrl("/login?error=true").defaultSuccessUrl("/")
-            .permitAll()
-            .and()
-            .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID")
-            .permitAll()
-            .and()
-            .exceptionHandling()
-            .accessDeniedHandler(deniedhandler);
+            http.authorizeRequests()
+                    .antMatchers("/welcome", "/api/ping", "/api/cookie", "/signup", "loginAjax", "/about", "/register", "/currentUser",  "/", "/welcome",
+                            "/login")
+                    .permitAll().antMatchers("/api/admin/**").hasRole("ADMIN")
+                    .antMatchers("/api/appContext").hasRole("ADMIN")
+                    // .antMatchers("/role").hasRole("ADMIN")
+                    // .antMatchers("/role/**").hasRole("ADMIN")
+                    .antMatchers("/api/user/**").hasRole("USER")
+                    .antMatchers("/currentUser").hasRole("USER")
+                    .antMatchers("/logout").authenticated()
+                    .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')").anyRequest().authenticated();
+
+                     http.csrf().disable().formLogin().loginPage("/login").failureUrl("/login?error=true").defaultSuccessUrl("/").permitAll().and()
+                    .logout().logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID").permitAll().and().exceptionHandling()
+                    .accessDeniedHandler(deniedhandler);
         }
 
+        @Autowired
+        public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
+            log.info("password Encoding {}", passwordEncoder);
+            auth.userDetailsService(userDetailsService);
+            /*
+             * auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
+             * .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+             * .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
+             * .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
+             * .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
+             * }
+             */
+        }
 
-          @Autowired
-          public void configureGlobal(UserDetailsService userDetailsService,AuthenticationManagerBuilder auth,PasswordEncoder passwordEncoder) throws Exception {
-             log.info("password Encoding {}",passwordEncoder);
-              auth.userDetailsService(userDetailsService);
-        /*  auth.inMemoryAuthentication().passwordEncoder(passwordEncoder)
-          .withUser("przodownik").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
-          .withUser("aga").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("BUSINESS").and()
-          .withUser("vava").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER").and()
-          .withUser("bak").password("$2a$10$vGdVdtvx9jGTVs1uuywXyOiYovelvWWUFBIMbS5pSNuWmcCZlx.86").roles("USER", "ADMIN");
-          }*/
-          }
+        @Bean
+        public static HttpSessionEventPublisher httpSessionEventPublisher() {
+            return new HttpSessionEventPublisher();
+        }
 
-          @Bean
-          public static HttpSessionEventPublisher httpSessionEventPublisher() {
-              return new HttpSessionEventPublisher();
-          }
+        @Bean
+        public static SessionRegistry getSessionRegistry() {
+            return new SessionRegistryImpl();
+        }
 
-          @Bean
-          public static SessionRegistry getSessionRegistry() {
-              return new SessionRegistryImpl();
-          }
+        @Bean
+        public LoggerListener loggerListener() {
+            LoggerListener loggerListener = new LoggerListener();
+            return loggerListener;
+        }
+
+        @Bean
+        public org.springframework.security.access.event.LoggerListener eventLoggerListener() {
+            org.springframework.security.access.event.LoggerListener eventLoggerListener = new org.springframework.security.access.event.LoggerListener();
+            return eventLoggerListener;
+        }
+
+        @Bean(name = "accessDecisionManager")
+        public AccessDecisionManager accessDecisionManager() {
+            // logger.info("AccessDecisionManager");
+            List<AccessDecisionVoter<?>> decisionVoters = new ArrayList<>();
+            decisionVoters.add(new RoleVoter());
+            decisionVoters.add(new AuthenticatedVoter());
+            AffirmativeBased accessDecisionManager = new AffirmativeBased(decisionVoters);
+            return accessDecisionManager;
+        }
     }
+    
+  
+
+}
 
 /*
-@Autowired
-private SessionAuthenticationStrategy sessionStrategy;
-
-@Bean
-public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
-    ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
-            new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
-    controlAuthenticationStrategy.setMaximumSessions(MAX_SESSIONS);
-    controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
-
-
-    return controlAuthenticationStrategy;
-}*/
+ * @Autowired
+ * private SessionAuthenticationStrategy sessionStrategy;
+ * @Bean
+ * public SessionAuthenticationStrategy getSessionAuthStrategy(SessionRegistry sessionRegistry) {
+ * ConcurrentSessionControlAuthenticationStrategy controlAuthenticationStrategy =
+ * new ConcurrentSessionControlAuthenticationStrategy(sessionRegistry);
+ * controlAuthenticationStrategy.setMaximumSessions(MAX_SESSIONS);
+ * controlAuthenticationStrategy.setExceptionIfMaximumExceeded(true);
+ * return controlAuthenticationStrategy;
+ * }
+ */

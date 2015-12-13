@@ -10,12 +10,14 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import groovy.transform.ToString;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @MappedSuperclass
 @Data
 @EqualsAndHashCode(callSuper = true)
+@ToString(includeSuper=true)
 public abstract class PKEntity extends AbstactId {
 
     private static final long serialVersionUID = 7669211182758111346L;

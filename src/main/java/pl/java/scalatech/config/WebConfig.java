@@ -26,6 +26,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
+import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 import org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect;
 
 import lombok.extern.slf4j.Slf4j;
@@ -58,6 +59,15 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Autowired
     private MessageSource messageSource;
 
+    @Override
+    @Bean
+    public RequestMappingHandlerMapping requestMappingHandlerMapping() {
+        RequestMappingHandlerMapping hm = super.requestMappingHandlerMapping();
+        hm.setRemoveSemicolonContent(false);
+        return hm;
+    }
+    
+    
     @Override   // spring boot juz to ma
     public Validator getValidator() {
         LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
