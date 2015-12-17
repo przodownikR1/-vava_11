@@ -59,10 +59,10 @@ public class User extends PKEntity {
 
     private boolean enabled = true;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = { CascadeType.ALL })
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "USER_ROLE", joinColumns = { @JoinColumn(name = "userId") }, inverseJoinColumns = { @JoinColumn(name = "roleId") })
     // @Valid
-    private List<Role> roles = new LinkedList<>();
+    private List<Role> roles ;
 
     @Override
     public boolean equals(Object obj) {

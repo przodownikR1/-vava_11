@@ -34,8 +34,7 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
     private ProductRepository productRepository;
     @Autowired
     private UserRepository userRepository;
-    @Autowired
-    private RoleRepository roleRepository;
+
 
     public static void main(String[] args) {
         SpringApplication.run(VavaTechApplication.class, args);
@@ -45,8 +44,8 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
     @Override
     public void run(String... args) throws Exception {
 
-        Role user = roleRepository.save(new Role("USER", "only for ordinary user"));
-        Role admin = roleRepository.save(new Role("ADMIN", "only for special right user"));
+        Role user = new Role("USER", "only for ordinary user");
+        Role admin =new Role("ADMIN", "only for special right user");
         log.info("+++++++++++++   {}", user.getId());
 
         User one = userRepository.save(User.builder().firstName("slawek").login("przodownik").password("vava").enabled(true).build());
@@ -56,9 +55,7 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
         two.setRoles(Lists.newArrayList(user));
         User oneLoaded = userRepository.save(one);
         User twoLoaded = userRepository.save(two);
-        log.info("+++ one {}", oneLoaded);
-        log.info("+++ two {}", twoLoaded);
-
+        
         List<Product> products = newArrayList(Product.builder().name("olowek").price(BigDecimal.valueOf(123)).quantity(1).owner(one).build(),
                 Product.builder().name("zarowka").price(BigDecimal.valueOf(23)).quantity(1).enable(true).owner(two).build(),
                 Product.builder().name("samochod").price(BigDecimal.valueOf(12333)).quantity(13).enable(true).owner(one).build(),
