@@ -34,6 +34,9 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
     private ProductRepository productRepository;
     @Autowired
     private UserRepository userRepository;
+    
+    @Autowired
+    private RoleRepository roleRepository;
 
 
     public static void main(String[] args) {
@@ -47,7 +50,8 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
         Role user = new Role("USER", "only for ordinary user");
         Role admin =new Role("ADMIN", "only for special right user");
         log.info("+++++++++++++   {}", user.getId());
-
+        user = roleRepository.save(user);
+        admin = roleRepository.save(admin); 
         User one = userRepository.save(User.builder().firstName("slawek").login("przodownik").password("vava").enabled(true).build());
         User two = userRepository.save(User.builder().firstName("vava").login("vava").password("vava").enabled(true).build());
 
