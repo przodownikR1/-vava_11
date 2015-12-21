@@ -11,9 +11,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration;
-import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
-import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
-import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
 
 import com.google.common.collect.Lists;
 
@@ -28,7 +25,7 @@ import pl.java.scalatech.repository.UserRepository;
 @Slf4j
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = WebSocketAutoConfiguration.class)
-public class VavaTechApplication implements EmbeddedServletContainerCustomizer , CommandLineRunner {
+public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer , */CommandLineRunner {
 
     @Autowired
     private ProductRepository productRepository;
@@ -74,7 +71,7 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
 
     }
 
-    @Override
+  /*  @Override
     public void customize(final ConfigurableEmbeddedServletContainer container)
     {
         ((TomcatEmbeddedServletContainerFactory) container).addContextCustomizers(context ->{
@@ -82,9 +79,9 @@ public class VavaTechApplication implements EmbeddedServletContainerCustomizer ,
 
             context.setSessionTimeout(30);
             context.setSessionCookieName("JSESSIONID");
-            context.setUseHttpOnly(false);
+            context.setUseHttpOnly(true);
             });
-    }
+    }*/
 
    /* @Override
     public void customize(ConfigurableEmbeddedServletContainer container) {
