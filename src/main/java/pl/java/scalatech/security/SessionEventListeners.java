@@ -12,19 +12,18 @@ import org.springframework.security.web.session.HttpSessionDestroyedEvent;
 import org.springframework.transaction.annotation.Transactional;
 
 import lombok.extern.slf4j.Slf4j;
-import pl.java.scalatech.annotation.SecurityComponent;
 
-@SecurityComponent
+//@SecurityComponent
 @Aspect
 @Slf4j
 public class SessionEventListeners {
 
-    
-    
+
+
     @EventListener
     @Transactional
     public void onHttpSessionDestroyed(final HttpSessionDestroyedEvent event) {
-      log.info("++++ onHttpSessionDestroyed ");  
+      log.info("++++ onHttpSessionDestroyed ");
     }
 
     @Before(value = "execution(* org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler.logout(..))")

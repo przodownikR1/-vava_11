@@ -2,7 +2,6 @@ package pl.java.scalatech.repository.old.impl;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;
 
@@ -12,12 +11,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.google.common.base.Preconditions;
 
+import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.BankAccount;
 import pl.java.scalatech.repository.old.BankAccountRepo;
-
 @Repository
 @Transactional(readOnly=true)
-public class BankAccountRepoImpl implements BankAccountRepo{
+@Slf4j
+public class BankAccountRepoImpl  implements BankAccountRepo{
 
     @Autowired
     private EntityManagerFactory entityManagerFactory;
@@ -36,6 +36,7 @@ public class BankAccountRepoImpl implements BankAccountRepo{
     @Override
     @Transactional
     public BankAccount save(BankAccount ba) {
+        log.info("======================================");
         if(ba.getId() == null || getById(ba.getId())== null){
             entityManagerFactory.createEntityManager().persist(ba);   
         }
@@ -61,12 +62,20 @@ public class BankAccountRepoImpl implements BankAccountRepo{
         return entityManagerFactory.createEntityManager().createQuery("FROM BankAccount").getResultList();
     }
 
+  /*  @Override
+    public List<BankAccount> getAllByParam(String param) {
+        String query = "SELECT * FROM BANK_ACCOUNT WHERE  IBAN= "+ param;
+        List<BankAccount> accounts = entityManagerFactory.createEntityManager().createNativeQuery(query).getResultList();
+        log.info("+++  accounts {}",accounts);
+        return accounts;
+    }*/
     @Override
     public List<BankAccount> getAllByParam(String param) {
-        String query = "FROM BankAccount where iban = "+ param;
-        return  entityManagerFactory.createEntityManager().createQuery(query).getResultList();
+        String query = "FROM BankAccount WHERE  IBAN= "+ param;
+        List<BankAccount> accounts = entityManagerFactory.createEntityManager().createQuery(query).getResultList();
+        log.info("+++  accounts {}",accounts);
+        return accounts;
     }
-    
 
     
 }

@@ -26,6 +26,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
+import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 import org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect;
 
 import lombok.extern.slf4j.Slf4j;
@@ -50,14 +51,23 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Autowired
     private AmountFormatter amountFormatter;
     @Autowired
-    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;    
-    
+    private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;
+
     @Autowired
     private PerformanceInterceptor perf;
 
     @Autowired
     private MessageSource messageSource;
 
+    @Override
+    @Bean
+    public RequestMappingHandlerMapping requestMappingHandlerMapping() {
+        RequestMappingHandlerMapping hm = super.requestMappingHandlerMapping();
+        hm.setRemoveSemicolonContent(false);
+        return hm;
+    }
+    
+    
     @Override   // spring boot juz to ma
     public Validator getValidator() {
         LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
@@ -95,9 +105,13 @@ public class WebConfig extends WebMvcConfigurationSupport {
         registry.addViewController("/logThyme").setViewName("logThyme");
         registry.addViewController("/logout").setViewName("logout");
         registry.addViewController("/").setViewName("welcome");
+        registry.addViewController("/welcome").setViewName("welcome");
         registry.addViewController("/clickjack").setViewName("clickjack");
         registry.addViewController("/csrf").setViewName("csrf");
         registry.addViewController("/accessdenied").setViewName("accessdenied");
+        registry.addViewController("/sessionError").setViewName("sessionError");
+        registry.addViewController("/invalidSession").setViewName("invalidSession");
+
     }
 
     @Bean
@@ -158,12 +172,12 @@ public class WebConfig extends WebMvcConfigurationSupport {
         return standardServletMultipartResolver;
     }
 
-    
+
     @Bean
     public AuthenticationPrincipalArgumentResolver authenticationPrincipalArgumentResolver(){
         return new AuthenticationPrincipalArgumentResolver();
     }
-    
+
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         argumentResolvers.add(authenticationPrincipalArgumentResolver());
