@@ -3,6 +3,7 @@ package pl.java.scalatech.web.security;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.session.SessionInformation;
 import org.springframework.security.core.session.SessionRegistry;
@@ -17,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @Slf4j
+@Profile("secConcurrent")
 public class UserSessionController {
     private final SessionRegistry sessionRegistry;
 

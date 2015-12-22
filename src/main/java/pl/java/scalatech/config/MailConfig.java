@@ -11,7 +11,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
-import org.springframework.ui.velocity.VelocityEngineFactoryBean;
 
 import lombok.SneakyThrows;
 import pl.java.scalatech.components.EmailService;
@@ -22,7 +21,7 @@ import pl.java.scalatech.components.EmailService;
 @PropertySource("file:/home/przodownik/settings/mail.properties")
 @ComponentScan(basePackageClasses = EmailService.class)
 public class MailConfig {
-    
+
     @Value("${mail.port}")//port 465
     private int port;
     @Value("${mail.host}")///smtp.gmail.com"
@@ -37,8 +36,8 @@ public class MailConfig {
        PropertySourcesPlaceholderConfigurer pp = new PropertySourcesPlaceholderConfigurer();
        return pp;
     }
- 
-  
+
+
 
     @Bean(name = "simpleMail")
     @SneakyThrows
