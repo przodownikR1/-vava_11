@@ -15,15 +15,12 @@ import lombok.SneakyThrows;
 public class SecurityConcurrentSessConfig {
 
     public static final int MAX_SESSIONS = 1;
-
-
-
+    
     @Bean
     public static HttpSessionEventPublisher httpSessionEventPublisher() {
         return new HttpSessionEventPublisher();
     }
-
-
+    
     @Bean
     public static SessionRegistry getSessionRegistry() {
         return new SessionRegistryImpl();

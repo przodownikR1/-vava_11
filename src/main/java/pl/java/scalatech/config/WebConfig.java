@@ -35,6 +35,7 @@ import pl.java.scalatech.converters.AmountFormatter;
 import pl.java.scalatech.converters.LongToUserConverter;
 import pl.java.scalatech.converters.StringToUserConverter;
 import pl.java.scalatech.web.interceptor.PerformanceInterceptor;
+import pl.java.scalatech.web.interceptor.RateLimitInterceptor;
 
 @Configuration
 @Slf4j
@@ -43,6 +44,9 @@ public class WebConfig extends WebMvcConfigurationSupport {
 
     @Autowired
     private LocaleChangeInterceptor localeChangeInterceptor;
+    
+    @Autowired
+    private RateLimitInterceptor rateLimitInterceptor;
 
     @Autowired
     private StringToUserConverter stringToUserConverter;
@@ -111,6 +115,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
         registry.addViewController("/accessdenied").setViewName("accessdenied");
         registry.addViewController("/sessionError").setViewName("sessionError");
         registry.addViewController("/invalidSession").setViewName("invalidSession");
+        registry.addViewController("/400").setViewName("/error/400");
+        registry.addViewController("/404").setViewName("/error/404");
 
     }
 
@@ -134,6 +140,7 @@ public class WebConfig extends WebMvcConfigurationSupport {
     public void addInterceptors(org.springframework.web.servlet.config.annotation.InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor);
         registry.addInterceptor(perf);
+        registry.addInterceptor(rateLimitInterceptor).addPathPatterns("/**");
 
     }
 

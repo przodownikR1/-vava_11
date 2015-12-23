@@ -14,11 +14,14 @@ import org.springframework.security.access.AccessDecisionVoter;
 import org.springframework.security.access.vote.AffirmativeBased;
 import org.springframework.security.access.vote.AuthenticatedVoter;
 import org.springframework.security.access.vote.RoleVoter;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandlerImpl;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
@@ -109,20 +112,11 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
                     .and().exceptionHandling().accessDeniedHandler(deniedhandler);
                      // @formatter:on
         }
+        @Autowired
+        public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
+            auth.userDetailsService(userDetailsService);
 
-
-        @Bean(name = "accessDecisionManager")
-        public AccessDecisionManager accessDecisionManager() {
-            // logger.info("AccessDecisionManager");
-            List<AccessDecisionVoter<?>> decisionVoters = new ArrayList<>();
-            decisionVoters.add(new RoleVoter());
-            decisionVoters.add(new AuthenticatedVoter());
-            AffirmativeBased accessDecisionManager = new AffirmativeBased(decisionVoters);
-            return accessDecisionManager;
         }
-
-
-
 
 }
 /*
