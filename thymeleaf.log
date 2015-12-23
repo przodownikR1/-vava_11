@@ -7552,3 +7552,40 @@
 2015-12-23 15:04:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
 2015-12-23 15:04:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
 2015-12-23 15:04:36   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 19.826 seconds (JVM running for 20.466) 
+2015-12-23 15:06:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 21692 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 15:06:47   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 15:07:00   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 15:07:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 15:07:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-23 15:07:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-23 15:07:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-23 15:07:05   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-23 15:07:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 15:07:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 18.94 seconds (JVM running for 19.749) 
+2015-12-23 15:07:26   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 407ms. 
+2015-12-23 15:07:27   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 27ms. 
+2015-12-23 15:09:52   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2015-12-23 15:09:53   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2015-12-23 15:09:57   [http-nio-9113-exec-6] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2015-12-23 15:11:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 21692 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 15:11:09   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 15:11:14   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 15:11:18   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.91 seconds (JVM running for 272.317) 
+2015-12-23 15:12:37   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2015-12-23 15:12:38   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 13ms. 
+2015-12-23 15:38:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 913 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 15:38:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 15:38:47   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 15:38:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 14.671 seconds (JVM running for 15.393) 
