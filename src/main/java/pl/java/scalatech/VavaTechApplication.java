@@ -15,15 +15,12 @@ import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfigurati
 import com.google.common.collect.Lists;
 
 import lombok.extern.slf4j.Slf4j;
-import pl.java.scalatech.entity.BankAccount;
 import pl.java.scalatech.entity.Product;
 import pl.java.scalatech.entity.Role;
 import pl.java.scalatech.entity.User;
-import pl.java.scalatech.repository.BankAccountRepository;
 import pl.java.scalatech.repository.ProductRepository;
 import pl.java.scalatech.repository.RoleRepository;
 import pl.java.scalatech.repository.UserRepository;
-import pl.java.scalatech.repository.old.BankAccountRepo;
 
 @Slf4j
 @SpringBootApplication
@@ -39,11 +36,6 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
     
     @Autowired
     private RoleRepository roleRepository;
-    @Autowired
-    private BankAccountRepository bankAccountRepository;
-    
-    @Autowired
-    private BankAccountRepo bankAccountRepo;
 
 
     public static void main(String[] args) {
@@ -78,11 +70,7 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
         }
 
         log.info("+++ prods for user 1 : {}  ", productRepository.findByOwner(oneLoaded).size());
-        
-        for(int i =0 ;i<10;i++){
-            log.info("+++ bankAccount : {}",bankAccountRepository.save(BankAccount.builder().accountNumber("12"+i).iban(""+i).saldo(new BigDecimal(i)).user(one).build()));
-          
-        }  log.info("{}",bankAccountRepo.getAll());
+
 
     }
 

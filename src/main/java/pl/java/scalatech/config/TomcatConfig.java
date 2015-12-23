@@ -5,17 +5,23 @@ import java.util.Arrays;
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
+import org.springframework.boot.context.embedded.ErrorPage;
 import org.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpStatus;
 
-//@Configuration
+
+@Configuration
 public class TomcatConfig {
     @Bean
     public EmbeddedServletContainerFactory servletContainer() {
       TomcatEmbeddedServletContainerFactory tomcat = new      TomcatEmbeddedServletContainerFactory() ;
       tomcat.setTomcatContextCustomizers(Arrays.asList(new CustomCustomizer()));
       tomcat.addAdditionalTomcatConnectors(initiateHttpConnector());
+      tomcat.addErrorPages(new ErrorPage(HttpStatus.BAD_REQUEST, "/400"));
+      tomcat.addErrorPages(new ErrorPage(HttpStatus.NOT_FOUND, "/404"));
       return tomcat;
     }
 
@@ -30,7 +36,7 @@ public class TomcatConfig {
     static class CustomCustomizer implements TomcatContextCustomizer {
         @Override
         public void customize(Context context) {
-            context.setUseHttpOnly(true);
+            context.setUseHttpOnly(false);
             context.setSessionTimeout(15);
         }
 
