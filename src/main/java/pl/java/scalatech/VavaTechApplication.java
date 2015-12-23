@@ -4,13 +4,18 @@ import static com.google.common.collect.Lists.newArrayList;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.actuate.health.Health;
+import org.springframework.boot.actuate.health.HealthIndicator;
+import org.springframework.boot.actuate.metrics.CounterService;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration;
+import org.springframework.context.annotation.Bean;
 
 import com.google.common.collect.Lists;
 
@@ -36,7 +41,8 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
     
     @Autowired
     private RoleRepository roleRepository;
-
+    @Autowired
+    private CounterService counterService;
 
     public static void main(String[] args) {
         SpringApplication.run(VavaTechApplication.class, args);
@@ -45,6 +51,7 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
 
     @Override
     public void run(String... args) throws Exception {
+        counterService.increment("startApp");
 
         Role user = new Role("USER", "only for ordinary user");
         Role admin =new Role("ADMIN", "only for special right user");
@@ -73,6 +80,8 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
 
 
     }
+    
+   
 
 }
   /*  @Override
