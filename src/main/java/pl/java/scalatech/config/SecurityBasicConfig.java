@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @Configuration
-@EnableWebSecurity(debug = true)
+@EnableWebSecurity(debug = false)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import({EncryptConfig.class,SecurityLoggerConfig.class,SecurityConcurrentSessConfig.class})
 @Slf4j

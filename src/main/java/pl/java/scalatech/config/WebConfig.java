@@ -34,12 +34,14 @@ import pl.java.scalatech.converters.AmountFormatAnnotationFormatterFactory;
 import pl.java.scalatech.converters.AmountFormatter;
 import pl.java.scalatech.converters.LongToUserConverter;
 import pl.java.scalatech.converters.StringToUserConverter;
+import pl.java.scalatech.hibernate.HibernateStatisticsInterceptor;
+import pl.java.scalatech.hibernate.RequestStatisticsInterceptor;
 import pl.java.scalatech.web.interceptor.PerformanceInterceptor;
 import pl.java.scalatech.web.interceptor.RateLimitInterceptor;
 
 @Configuration
 @Slf4j
-@ComponentScan(basePackages = { "pl.java.scalatech.converters", "pl.java.scalatech.web.interceptor" })
+@ComponentScan(basePackages = { "pl.java.scalatech.converters", "pl.java.scalatech.web.interceptor" , "pl.java.scalatech.hibernate"})
 public class WebConfig extends WebMvcConfigurationSupport {
 
     @Autowired
@@ -62,6 +64,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
 
     @Autowired
     private MessageSource messageSource;
+    @Autowired
+    private RequestStatisticsInterceptor requestStatisticsInterceptor;
 
     @Override
     @Bean
@@ -136,10 +140,13 @@ public class WebConfig extends WebMvcConfigurationSupport {
 
     }
 
+   
+    
     @Override
     public void addInterceptors(org.springframework.web.servlet.config.annotation.InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor);
         registry.addInterceptor(perf);
+        registry.addInterceptor(requestStatisticsInterceptor);
         registry.addInterceptor(rateLimitInterceptor).addPathPatterns("/**");
 
     }

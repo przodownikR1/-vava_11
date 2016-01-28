@@ -20,9 +20,7 @@ apply plugin: 'java'
 apply plugin: 'spring-boot' 
 
 apply plugin: 'com.gorylenko.gradle-git-properties'
-
-
-
+apply from : 'gradle/props.gradle'
 apply plugin: 'org.sonarqube'
 
 
@@ -44,7 +42,7 @@ sonarqube {
 gitProperties {
     gitPropertiesDir = new File("${project.rootDir}/src/main/resources")
 }
-
+version = '1.1.1.'
 jar {
     baseName = 'vavatech'
     version = '0.0.1-SNAPSHOT'
@@ -124,5 +122,5 @@ configurations.all {
 
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.9'
+    gradleVersion = '2.10'
 }
