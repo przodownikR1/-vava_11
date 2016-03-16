@@ -1,0 +1,31 @@
+2016-02-25 10:12:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-Dell-System-XPS-L702X with PID 17086 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-02-25 10:12:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-02-25 10:12:34   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-02-25 10:12:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 12.362 seconds (JVM running for 13.021) 
+2016-02-25 10:13:08   [http-nio-9113-exec-1] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 370 ms] [Queries: 0] GET / 
+2016-02-25 10:13:08   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 371ms. 
+2016-02-25 10:13:08   [http-nio-9113-exec-7] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 25 ms] [Queries: 0] GET /error 
+2016-02-25 10:13:08   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 26ms. 
+2016-02-25 10:13:47   [http-nio-9113-exec-10] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 60 ms] [Queries: 0] GET /login 
+2016-02-25 10:13:47   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 62ms. 
+2016-02-25 10:13:49   [http-nio-9113-exec-1] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 131 ms] [Queries: 0] GET /error 
+2016-02-25 10:13:49   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 132ms. 
+2016-02-25 10:13:49   [http-nio-9113-exec-4] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 6 ms] [Queries: 0] GET /error 
+2016-02-25 10:13:49   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2016-02-25 10:13:54   [http-nio-9113-exec-5] INFO  p.j.s.s.UserServiceDetailsImpl - userName przodownik  -> loadUserByUserName  : UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)   
+2016-02-25 10:13:55   [http-nio-9113-exec-3] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 1029 ms] [Queries: 0] GET /form 
+2016-02-25 10:13:55   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 1030ms. 
+2016-02-25 10:14:23   [http-nio-9113-exec-2] INFO  p.j.s.web.FileUpoadController - name : null  file:  mg.png : size : 322140 
+2016-02-25 10:14:24   [http-nio-9113-exec-2] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 20 ms] [Queries: 0] POST /form 
+2016-02-25 10:14:24   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 21ms. 
+2016-02-25 10:14:24   [http-nio-9113-exec-6] INFO  p.j.s.h.RequestStatisticsInterceptor - [Time: 5 ms] [Queries: 0] GET /uploadSuccess 
+2016-02-25 10:14:24   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - URL: /uploadSuccess?serverLocale=pl_PL&_queryCount=0&handlingTime=16 
+2016-02-25 10:14:24   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2016-03-16 16:51:32   [main] INFO  p.j.s.moneyEntity.MoneyEntityTest -  room  [AbstactId(id=1)]    
+2016-03-16 16:51:55   [main] INFO  p.j.s.moneyEntity.MoneyEntityTest -  room  [Room(type=oneBed, price=USD 130)]    

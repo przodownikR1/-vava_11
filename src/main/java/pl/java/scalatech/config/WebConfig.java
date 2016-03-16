@@ -34,7 +34,6 @@ import pl.java.scalatech.converters.AmountFormatAnnotationFormatterFactory;
 import pl.java.scalatech.converters.AmountFormatter;
 import pl.java.scalatech.converters.LongToUserConverter;
 import pl.java.scalatech.converters.StringToUserConverter;
-import pl.java.scalatech.hibernate.HibernateStatisticsInterceptor;
 import pl.java.scalatech.hibernate.RequestStatisticsInterceptor;
 import pl.java.scalatech.web.interceptor.PerformanceInterceptor;
 import pl.java.scalatech.web.interceptor.RateLimitInterceptor;

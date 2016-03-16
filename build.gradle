@@ -74,9 +74,10 @@ dependencies {
     compile('com.h2database:h2')
     compile 'cglib:cglib:3.2.0'
     
+    compile 'javax.money:money-api:1.0'
+    compile 'org.javamoney:moneta:1.0'
+    
     compile 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE'
-    
-    
     
     compile 'org.webjars:bootstrap:3.3.5'
     compile 'org.webjars:jquery:2.1.4'
@@ -85,12 +86,7 @@ dependencies {
     compile ("org.webjars.bower:jquery.bootgrid:1.2.0") {
         exclude group: 'org.webjars.bower'
     }
-    
     compile 'net.sf.ehcache:ehcache-core:2.6.11'
-    
-    
-  
-    
     compile 'com.google.guava:guava:18.0'
     testCompile 'junit:junit:4.12'
     testCompile('org.springframework.boot:spring-boot-starter-test') 
