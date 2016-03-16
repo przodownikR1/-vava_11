@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.annotation.SecurityComponent;
 
 @Configuration
-@EnableWebSecurity(debug = true)
+@EnableWebSecurity(debug = false)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import({EncryptConfig.class,SecurityLoggerConfig.class,SecurityConcurrentSessConfig.class})
 @Slf4j
@@ -48,7 +48,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
     }
 
 /*
-  
+
     @Configuration
     @Order(1)
     public static class ConsoleWebSecurityConfigurationAdapter extends WebSecurityConfigurerAdapter {
@@ -57,8 +57,8 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
             // @formatter:off
             http.antMatcher("/console/**").authorizeRequests().anyRequest().authenticated()//authorizeRequests().anyRequest().hasRole("ADMIN")
             .and().httpBasic();//.and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-            http.csrf().disable().headers().disable();     
-            // @formatter:on         
+            http.csrf().disable().headers().disable();
+            // @formatter:on
 
 */
 
@@ -82,9 +82,10 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
                     .antMatchers("/welcome", "/api/ping", "/api/cookie", "/signup", "loginAjax", "/about", "/register", "/currentUser",  "/", "/welcome")
                     .permitAll().antMatchers("/api/admin/**").hasRole("ADMIN")
                     .antMatchers("/api/appContext").hasRole("ADMIN")
-                    //.antMatchers("/role/**").hasRole("ADMIN")
-                    //.antMatchers("/role/*").hasRole("ADMIN")
-                    .antMatchers("/products/**").hasRole("USER")
+                    .antMatchers("/role/**").hasRole("ADMIN")
+                    .antMatchers("/role/*").hasRole("ADMIN")
+                   /* .antMatchers("/products/**").hasAnyRole("USER")
+                    .antMatchers("/products/*").hasAnyRole("USER")*/
                     .antMatchers("/api/user/**").hasRole("USER")
                     .antMatchers("/currentUser").hasRole("USER")
                     .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')").anyRequest().authenticated();
@@ -92,7 +93,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
                      http.csrf().disable()
                      .formLogin().loginPage("/login").successHandler(authSuccessHandlerImpl).failureHandler(authFailureHandlerImpl).failureUrl("/login?error=true").defaultSuccessUrl("/").permitAll()
                      .and()
-                    .logout().logoutUrl("/logout").logoutSuccessUrl("/secContext").invalidateHttpSession(true).deleteCookies("JSESSIONID").permitAll()
+                    .logout().logoutUrl("/logout").logoutSuccessUrl("/welcome").invalidateHttpSession(true).deleteCookies("JSESSIONID").permitAll()
                     .and().exceptionHandling().accessDeniedHandler(deniedhandler);
                      // @formatter:on
         }
@@ -101,7 +102,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
             auth.userDetailsService(userDetailsService);
         }
 
-        
+
 
 }
 /*

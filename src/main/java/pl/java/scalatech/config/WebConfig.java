@@ -2,6 +2,8 @@ package pl.java.scalatech.config;
 
 import java.util.List;
 
+import javax.servlet.Filter;
+
 import org.h2.server.web.WebServlet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
@@ -18,6 +20,7 @@ import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
+import org.springframework.web.filter.ShallowEtagHeaderFilter;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
@@ -44,7 +47,7 @@ public class WebConfig extends WebMvcConfigurationSupport {
 
     @Autowired
     private LocaleChangeInterceptor localeChangeInterceptor;
-    
+
     @Autowired
     private RateLimitInterceptor rateLimitInterceptor;
 
@@ -57,6 +60,20 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Autowired
     private AmountFormatAnnotationFormatterFactory amountFormatAnnotationFormatterFactory;
 
+
+    @Bean
+    public Filter etagFilter() {
+    return new ShallowEtagHeaderFilter();
+    }
+
+    /*@Bean
+    public FilterRegistrationBean shallowEtagHeaderFilter() {
+        FilterRegistrationBean registration = new FilterRegistrationBean();
+        registration.setFilter(new ShallowEtagHeaderFilter());
+        registration.setDispatcherTypes(EnumSet.allOf(DispatcherType.class));
+        registration.addUrlPatterns("/*");
+        return registration;
+    }*/
     @Autowired
     private PerformanceInterceptor perf;
 
@@ -70,8 +87,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
         hm.setRemoveSemicolonContent(false);
         return hm;
     }
-    
-    
+
+
     @Override   // spring boot juz to ma
     public Validator getValidator() {
         LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
@@ -165,6 +182,7 @@ public class WebConfig extends WebMvcConfigurationSupport {
         registrationBean.setFilter(characterEncodingFilter);
         return registrationBean;
     }
+
 
     @Bean
     public FilterRegistrationBean filterRegistrationBeanHidden() {

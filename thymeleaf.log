@@ -7922,3 +7922,244 @@
 2015-12-23 16:12:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
 2015-12-23 16:12:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
 2015-12-23 16:12:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 17.145 seconds (JVM running for 1510.391) 
+2015-12-23 18:44:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 8012 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 18:44:16   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 18:44:22   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 18:44:24   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 18:44:25   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.761 seconds (JVM running for 9.284) 
+2015-12-23 18:50:52   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 232ms. 
+2015-12-23 18:50:52   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 200ms. 
+2015-12-23 18:51:09   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2015-12-23 18:51:19   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 15ms. 
+2015-12-23 18:51:27   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2015-12-23 18:51:37   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 6ms. 
+2015-12-23 18:51:45   [http-nio-9113-exec-9] INFO  p.j.s.s.UserServiceDetailsImpl - userName przodownik  -> loadUserByUserName  : UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)   
+2015-12-23 18:51:45   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-23 18:51:47   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 84ms. 
+2015-12-23 18:51:48   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-23 18:51:53   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2015-12-23 18:51:57   [http-nio-9113-exec-7] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2015-12-23 18:51:57   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2015-12-23 18:51:59   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 11ms. 
+2015-12-23 18:52:03   [http-nio-9113-exec-9] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  RoleController, result  [Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)] 
+2015-12-23 18:52:03   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
+2015-12-23 18:52:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 8012 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 18:52:40   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 18:52:42   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 18:52:43   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.896 seconds (JVM running for 507.506) 
+2015-12-23 18:53:07   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 23ms. 
+2015-12-23 18:53:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 8012 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2015-12-23 18:53:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2015-12-23 18:53:54   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 1,  product.owner.id 1 
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 2,  product.owner.id 2 
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 3,  product.owner.id 1 
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 4,  product.owner.id 2 
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2015-12-23 18:53:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.684 seconds (JVM running for 580.065) 
+2015-12-23 18:53:58   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 22ms. 
+2015-12-23 18:54:00   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2016-01-06 16:24:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 25953 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:24:30   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:24:36   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:26:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:26:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:26:54   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:26:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:26:56   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:26:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:26:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:26:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:26:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:26:57   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.075 seconds (JVM running for 8.402) 
+2016-01-06 16:27:51   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 268ms. 
+2016-01-06 16:27:51   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 184ms. 
+2016-01-06 16:27:55   [http-nio-9113-exec-8] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 16:27:56   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 36ms. 
+2016-01-06 16:28:00   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 18ms. 
+2016-01-06 16:28:04   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 17ms. 
+2016-01-06 16:28:07   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2016-01-06 16:28:10   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 76ms. 
+2016-01-06 16:28:17   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 16ms. 
+2016-01-06 16:28:23   [http-nio-9113-exec-7] INFO  p.j.s.s.UserServiceDetailsImpl - userName przodownik  -> loadUserByUserName  : UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)   
+2016-01-06 16:28:23   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2016-01-06 16:28:26   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2016-01-06 16:28:29   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 7ms. 
+2016-01-06 16:28:32   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2016-01-06 16:28:35   [http-nio-9113-exec-1] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  InvoiceController, result  null 
+2016-01-06 16:28:35   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 34ms. 
+2016-01-06 16:28:39   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2016-01-06 16:29:21   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]), id=null)  ->  InvoiceController, result  null 
+2016-01-06 16:29:21   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2016-01-06 16:29:23   [http-nio-9113-exec-5] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2016-01-06 16:29:25   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2016-01-06 16:29:28   [http-nio-9113-exec-6] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 16:29:28   [http-nio-9113-exec-9] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  InvoiceController, result  null 
+2016-01-06 16:29:28   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2016-01-06 16:29:31   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 3ms. 
+2016-01-06 16:29:48   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 2ms. 
+2016-01-06 16:30:09   [http-nio-9113-exec-2] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  InvoiceController, result  null 
+2016-01-06 16:30:09   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 10ms. 
+2016-01-06 16:30:12   [http-nio-9113-exec-3] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2016-01-06 16:30:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:30:49   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:30:51   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:30:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.942 seconds (JVM running for 243.087) 
+2016-01-06 16:31:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:31:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:31:12   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:31:13   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.995 seconds (JVM running for 264.872) 
+2016-01-06 16:31:22   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 8ms. 
+2016-01-06 16:31:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:31:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:31:37   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:31:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.538 seconds (JVM running for 289.22) 
+2016-01-06 16:31:44   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2016-01-06 16:31:49   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 4ms. 
+2016-01-06 16:31:53   [http-nio-9113-exec-6] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 16:31:53   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 9ms. 
+2016-01-06 16:32:00   [http-nio-9113-exec-8] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2016-01-06 16:32:01   [http-nio-9113-exec-10] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2016-01-06 16:32:05   [http-nio-9113-exec-2] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 16:32:05   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 27ms. 
+2016-01-06 16:32:15   [http-nio-9113-exec-4] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 16:32:15   [http-nio-9113-exec-4] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 12ms. 
+2016-01-06 16:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:33:18   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:33:19   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.278 seconds (JVM running for 390.57) 
+2016-01-06 16:33:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:33:35   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:33:36   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:33:37   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.031 seconds (JVM running for 408.37) 
+2016-01-06 16:34:57   [http-nio-9113-exec-1] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 16:34:57   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 27ms. 
+2016-01-06 16:35:32   [http-nio-9113-exec-9] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 16:35:32   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 19ms. 
+2016-01-06 16:36:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26196 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:36:53   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:36:55   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:36:55   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 2.256 seconds (JVM running for 606.991) 
+2016-01-06 16:37:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26672 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:37:03   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:37:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:37:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:37:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:37:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:37:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:37:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:37:11   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 7.717 seconds (JVM running for 8.053) 
+2016-01-06 16:38:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 26672 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 16:38:06   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 16:38:09   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 16:38:10   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.733 seconds (JVM running for 67.06) 
+2016-01-06 17:10:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 28600 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 17:10:38   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 17:10:44   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 17:10:46   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 8.195 seconds (JVM running for 8.544) 
+2016-01-06 17:10:54   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 323ms. 
+2016-01-06 17:11:08   [http-nio-9113-exec-10] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 17:11:08   [http-nio-9113-exec-1] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 17:11:09   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 243ms. 
+2016-01-06 17:11:31   [http-nio-9113-exec-6] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 5ms. 
+2016-01-06 17:11:38   [http-nio-9113-exec-3] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 17:11:38   [http-nio-9113-exec-7] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 17:11:38   [http-nio-9113-exec-7] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 25ms. 
+2016-01-06 17:11:41   [http-nio-9113-exec-9] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 17:11:41   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 32ms. 
+2016-01-06 17:11:46   [http-nio-9113-exec-1] INFO  p.j.s.web.AbstractRepoController - +++++    NULL -> EMPTY        UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)  ->  ProductController, result  [Product(id=5, name=olowek, price=123.00, quantity=1, enable=false, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=6, name=zarowka, price=23.00, quantity=1, enable=true, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)])), Product(id=7, name=samochod, price=12333.00, quantity=13, enable=true, owner=User(login=przodownik, lastName=null, firstName=slawek, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)])), Product(id=8, name=laptop, price=5523.00, quantity=31, enable=false, owner=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]))] 
+2016-01-06 17:11:46   [http-nio-9113-exec-1] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 21ms. 
+2016-01-06 17:12:07   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:12:07   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:12:07   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:12:07   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 44ms. 
+2016-01-06 17:14:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 28600 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 17:14:42   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 17:14:44   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 17:14:45   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.331 seconds (JVM running for 247.617) 
+2016-01-06 17:14:52   [http-nio-9113-exec-2] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 20ms. 
+2016-01-06 17:14:55   [http-nio-9113-exec-8] INFO  p.j.s.s.UserServiceDetailsImpl - userName vava  -> loadUserByUserName  : UserSec(user=User(login=vava, lastName=null, firstName=vava, fullName=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]), id=null)   
+2016-01-06 17:14:55   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:14:55   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:14:55   [http-nio-9113-exec-9] INFO  p.j.s.converters.AmountFormatter - +++ object: 123.00 , locale  : ret 123.00 USD  
+2016-01-06 17:14:55   [http-nio-9113-exec-9] INFO  p.j.s.w.i.PerformanceInterceptor - Execute after rendering: 26ms. 
+2016-01-06 22:33:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 28600 (/home/przodownik/blog/-vava_11/bin started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-01-06 22:33:14   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-01-06 22:33:16   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++++++++++++   null 
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 5,  product.owner.id 3 
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 6,  product.owner.id 4 
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 7,  product.owner.id 3 
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - productId : 8,  product.owner.id 4 
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - +++ prods for user 1 : 2   
+2016-01-06 22:33:17   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Started VavaTechApplication in 3.086 seconds (JVM running for 15281.659) 
+2016-02-25 00:50:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - Starting VavaTechApplication on przodownik-r1 with PID 20870 (/home/przodownik/blog/-vava_11/build/classes/main started by przodownik in /home/przodownik/blog/-vava_11) 
+2016-02-25 00:50:51   [restartedMain] INFO  p.j.scalatech.VavaTechApplication - No profiles are active 
+2016-02-25 00:50:57   [restartedMain] INFO  pl.java.scalatech.config.I18nConfig - ++++ language :  
