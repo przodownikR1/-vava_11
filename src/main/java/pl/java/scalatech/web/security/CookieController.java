@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class CookieController {
     @RequestMapping("/cookie")
     public String hello(@CookieValue("JSESSIONID") String jsession) {
-         return jsession;
+        return jsession;
     }
-    
-    @RequestMapping(value="/cookie/name/{name}/value/{value}",method=RequestMethod.POST)
-    private ResponseEntity<?> cookieSet(@PathVariable("name") String name,  @PathVariable("value") String value, HttpServletResponse response) {
 
-            response.addCookie(new Cookie(name, value));
+    @RequestMapping(value = "/cookie/name/{name}/value/{value}", method = RequestMethod.POST)
+    private ResponseEntity<?> cookieSet(@PathVariable("name") String name, @PathVariable("value") String value, HttpServletResponse response) {
 
-            return  (ResponseEntity<?>) ResponseEntity.ok();
+        response.addCookie(new Cookie(name, value));
+
+        return (ResponseEntity<?>) ResponseEntity.ok();
     }
-      
+
 }

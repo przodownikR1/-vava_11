@@ -4,18 +4,14 @@ import static com.google.common.collect.Lists.newArrayList;
 
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.actuate.health.Health;
-import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.actuate.metrics.CounterService;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration;
-import org.springframework.context.annotation.Bean;
 
 import com.google.common.collect.Lists;
 
@@ -64,7 +60,7 @@ public class VavaTechApplication implements /*EmbeddedServletContainerCustomizer
         one.setRoles(Lists.newArrayList(user, admin));
         two.setRoles(Lists.newArrayList(user));
         User oneLoaded = userRepository.save(one);
-        User twoLoaded = userRepository.save(two);
+        userRepository.save(two);
         
         List<Product> products = newArrayList(Product.builder().name("olowek").price(BigDecimal.valueOf(123)).quantity(1).owner(one).build(),
                 Product.builder().name("zarowka").price(BigDecimal.valueOf(23)).quantity(1).enable(true).owner(two).build(),

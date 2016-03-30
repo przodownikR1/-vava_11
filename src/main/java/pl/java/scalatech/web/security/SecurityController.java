@@ -31,7 +31,7 @@ import pl.java.scalatech.security.UserSec;
 public class SecurityController {
     @Autowired
     private UserRepository userRepository;
-    
+
     // Error page
     @RequestMapping("/error.html")
     public String error(HttpServletRequest request, Model model) {
@@ -40,8 +40,9 @@ public class SecurityController {
         String errorMessage = null;
         if (throwable != null) {
             errorMessage = throwable.getMessage();
+            model.addAttribute("errorMessage", errorMessage.toString());
         }
-        model.addAttribute("errorMessage", errorMessage.toString());
+
         return "error.html";
     }
 
@@ -56,9 +57,9 @@ public class SecurityController {
         Authentication authentication = context.getAuthentication();
 
         model.addAttribute("principal", authentication.getName());
-        model.addAttribute("credential",authentication.getCredentials());
-        model.addAttribute("authorities",authentication.getAuthorities());
-        model.addAttribute("details",authentication.getDetails());
+        model.addAttribute("credential", authentication.getCredentials());
+        model.addAttribute("authorities", authentication.getAuthorities());
+        model.addAttribute("details", authentication.getDetails());
         return new ResponseEntity<>(model.asMap(), HttpStatus.OK);
 
     }
@@ -67,27 +68,27 @@ public class SecurityController {
     public ResponseEntity<String> principal(Principal principal) {
 
         Authentication auth = getContext().getAuthentication();
-        log.info("++++    {}",auth.getAuthorities());
+        log.info("++++    {}", auth.getAuthorities());
 
         return new ResponseEntity<>(principal.getName(), HttpStatus.OK);
 
     }
+
     @RequestMapping("/csrf")
     public CsrfToken csrf(CsrfToken token) {
         return token;
     }
+
     @RequestMapping("/curUser")
-    public ResponseEntity<UserSec> getCurrentUser()
-    {
+    public ResponseEntity<UserSec> getCurrentUser() {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        if (principal instanceof UserDetails)
-        {
+        if (principal instanceof UserDetails) {
             String username = ((UserDetails) principal).getUsername();
             Optional<User> loginUser = userRepository.findByLogin(username);
-            if(loginUser.isPresent()){
+            if (loginUser.isPresent()) {
                 return ResponseEntity.ok(new UserSec(loginUser.get()));
             }
-            
+
         }
 
         return null;

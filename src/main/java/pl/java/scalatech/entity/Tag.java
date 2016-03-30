@@ -25,39 +25,40 @@ import lombok.Data;
 @Data
 public class Tag extends AbstactId {
 
-	@JsonIgnore
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "parent")
-	private Tag parent;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 6481603128242154904L;
 
-	@OneToMany(mappedBy = "parent", cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
-	private List <Tag> children;
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "parent")
+    private Tag parent;
 
-	@Column(nullable = false, length = 64)
-	private String name;
+    @OneToMany(mappedBy = "parent", cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
+    private List<Tag> children;
 
+    @Column(nullable = false, length = 64)
+    private String name;
 
-	@JsonGetter("parent")
-	public Long getParentId() {
-		if (parent == null || parent.getId() < 1) {
-			return null;
-		}
-		return parent.getId();
-	}
+    @JsonGetter("parent")
+    public Long getParentId() {
+        if (parent == null || parent.getId() < 1) {
+            return null;
+        }
+        return parent.getId();
+    }
 
-	@JsonSetter("parent")
-	public void setParentId(Long id) {
-		if (id == null || id < 1) {
-			setParent(null);
-			return;
-		}
+    @JsonSetter("parent")
+    public void setParentId(Long id) {
+        if (id == null || id < 1) {
+            setParent(null);
+            return;
+        }
 
-		Tag parent = new Tag();
-		parent.setId(id);
-		setParent(parent);
-	}
+        Tag parent = new Tag();
+        parent.setId(id);
+        setParent(parent);
+    }
 
-
-
-	
 }

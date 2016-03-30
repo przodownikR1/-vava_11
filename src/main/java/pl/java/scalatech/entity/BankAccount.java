@@ -15,14 +15,16 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString(includeSuper=true)
+@ToString(includeSuper = true)
 @Builder
-public class BankAccount extends PKEntity{
-    
+public class BankAccount extends PKEntity {
+
+    private static final long serialVersionUID = 3799373003572004974L;
+
     private BigDecimal saldo;
-    
+
     private String accountNumber;
-    
+
     private String iban;
     @ManyToOne
     private User user;

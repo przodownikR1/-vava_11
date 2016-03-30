@@ -17,7 +17,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import pl.java.scalatech.annotation.AmountFormat;
 
-
 @Entity
 @Data
 @NoArgsConstructor
@@ -26,14 +25,14 @@ import pl.java.scalatech.annotation.AmountFormat;
 public class Product {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    //@NotNull
-    @Size(min=2 , max=20)
+    // @NotNull
+    @Size(min = 2, max = 20)
     private String name;
     @NotNull
 
-    @DecimalMin(value="10.00")
+    @DecimalMin(value = "10.00")
     @AmountFormat
     private BigDecimal price;
 
@@ -44,6 +43,5 @@ public class Product {
 
     @OneToOne
     private User owner;
-
 
 }

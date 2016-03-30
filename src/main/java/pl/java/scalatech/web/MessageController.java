@@ -14,12 +14,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import lombok.SneakyThrows;
-import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.User;
 
 @Controller                 //mvc:view-controller
 @RequestMapping("/message")
-@Slf4j
 public class MessageController {
 
     private final String PRODUCT = "product";

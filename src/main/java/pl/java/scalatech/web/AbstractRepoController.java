@@ -38,11 +38,11 @@ public abstract class AbstractRepoController<T> {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     List<T> getAll(@CurrentUser UserSec user) {
-        List<T> result =  repo.findAll();
-        if(result == null || result.isEmpty()) { //TODO some problem with empty collection !!!!
-            result  =null;
+        List<T> result = repo.findAll();
+        if (result == null || result.isEmpty()) { // TODO some problem with empty collection !!!!
+            result = null;
         }
-        log.info("+++++    NULL -> EMPTY        {}  ->  {}, result  {}", user,this.getClass().getSimpleName(),result);
+        log.info("+++++    NULL -> EMPTY        {}  ->  {}, result  {}", user, this.getClass().getSimpleName(), result);
         return result;
     }
 
@@ -64,7 +64,7 @@ public abstract class AbstractRepoController<T> {
             model.addAttribute(createEmpty());
         } else {
             model.addAttribute(repo.findOne(id));
-        } 
+        }
         return getEditView();
     }
 

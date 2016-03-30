@@ -30,13 +30,13 @@ public class UserSessionController {
     @RequestMapping("/user/sessions/")
     public String sessions(Authentication authentication, ModelMap model) {
         List<SessionInformation> sessions = sessionRegistry.getAllSessions(authentication.getPrincipal(), false);
-        log.info("+++ sessions :  {}",sessions);
+        log.info("+++ sessions :  {}", sessions);
         model.put("sessions", sessions);
 
         return "sessions";
     }
 
-    @RequestMapping(value = "/user/sessions/{sessionId}", method = {RequestMethod.DELETE,RequestMethod.GET})
+    @RequestMapping(value = "/user/sessions/{sessionId}", method = { RequestMethod.DELETE, RequestMethod.GET })
     public String removeSession(@PathVariable String sessionId, RedirectAttributes redirectAttrs) {
         SessionInformation sessionInformation = sessionRegistry.getSessionInformation(sessionId);
         if (sessionInformation != null) {

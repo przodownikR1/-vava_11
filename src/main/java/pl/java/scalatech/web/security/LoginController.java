@@ -23,8 +23,7 @@ public class LoginController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public LoginStatus login(@RequestParam("username") String username,
-                             @RequestParam("password") String password) {
+    public LoginStatus login(@RequestParam("username") String username, @RequestParam("password") String password) {
         log.info("ajax controller");
         return loginService.login(username, password);
     }
