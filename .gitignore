@@ -84,7 +84,6 @@ gc.log
 app.log
 gc.log.0.current
 mailTask.log
-gradle
 gradlew
 *.log
 thymeleaf.log
