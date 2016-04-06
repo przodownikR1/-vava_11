@@ -55,7 +55,7 @@ dependencies {
     compile 'org.jsoup:jsoup:1.8.3'
    // compile('org.springframework.boot:spring-boot-starter-data-rest')
     compile('org.springframework.data:spring-data-rest-hal-browser')
-    
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-devtools')
     compile('org.springframework.boot:spring-boot-starter-security')
     compile('org.springframework.boot:spring-boot-starter-hateoas')       
@@ -95,6 +95,14 @@ dependencies {
     compile 'org.apache.httpcomponents:httpclient:4+'
     compile 'org.apache.httpcomponents:fluent-hc:4+'
     compile 'org.apache.httpcomponents:httpasyncclient:4.1.1'
+    
+    compile 'org.webjars:bootstrap:3.3.5'
+    compile 'org.webjars:jquery:2.1.4'
+    compile 'org.webjars:jquery-ui:1.11.4'
+    compile 'org.webjars:jquery-ui-themes:1.11.4'
+    compile ("org.webjars.bower:jquery.bootgrid:1.2.0") {
+        exclude group: 'org.webjars.bower'
+    }
     
     compile 'net.sf.ehcache:ehcache-core:2.6.11'  
   //  jpametamodel ('org.hibernate:hibernate-jpamodelgen:5.0.6.Final')
