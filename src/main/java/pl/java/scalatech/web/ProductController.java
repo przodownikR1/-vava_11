@@ -1,9 +1,13 @@
 package pl.java.scalatech.web;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -14,6 +18,7 @@ import pl.java.scalatech.entity.User;
 import pl.java.scalatech.repository.ProductRepository;
 import pl.java.scalatech.repository.UserRepository;
 import pl.java.scalatech.security.UserSec;
+import pl.java.scalatech.service.product.ProductService;
 
 @Controller
 @RequestMapping("/products")
@@ -26,12 +31,15 @@ public class ProductController extends AbstractRepoController<Product>{
 
      private final ProductRepository productRepository;
      private final UserRepository userRepository;  
-
+     private final ProductService productService;
+     
+     
     @Autowired
-    public ProductController(JpaRepository<Product,Long> productReposity, UserRepository userRepository) {
+    public ProductController(JpaRepository<Product,Long> productReposity, UserRepository userRepository, ProductService productService) {
         super(productReposity);
         this.userRepository = userRepository;
         this.productRepository = (ProductRepository) productReposity;
+        this.productService = productService;
 
      }
     
@@ -42,8 +50,18 @@ public class ProductController extends AbstractRepoController<Product>{
         return PRODUCT_VIEW;
     }
 
-
-
+    @Override
+    @RequestMapping(value = { "", "/{id}" }, method = RequestMethod.POST)
+    public String create(@Valid Product product, BindingResult result, Errors errors) {
+        log.info("+++  {} save :  {}", product);
+        if (result.hasErrors()) {            
+            return getEditView();
+        }
+        //productRepository.save(product);
+        productService.saveEm(product);
+        
+        return getRedirect();
+    }
 
     @Override
     protected String getView() {

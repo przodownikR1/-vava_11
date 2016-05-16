@@ -3,6 +3,8 @@ package pl.java.scalatech.service.product.impl;
 import java.util.List;
 import java.util.Random;
 
+import javax.persistence.EntityManager;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
@@ -25,6 +27,9 @@ import pl.java.scalatech.service.product.ProductService;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired)) //@NonNull
 public class ProductServiceImpl  implements ProductService{
 
+    @Autowired
+    private EntityManager em;
+    
    final private @NonNull ProductRepository productRepository;
     Random r = new Random();
 
@@ -45,6 +50,20 @@ public class ProductServiceImpl  implements ProductService{
     public Product save(Product product) {
         return productRepository.save(product);
     }
+
+    
+    @Transactional
+    @Override
+    @Trace
+    @CachePut(value="product",key="#product.id")
+    public Product saveEm(Product product) {
+        Product loaded = em.find(Product.class, product.getId());
+        loaded.setName(product.getName());
+        loaded.setPrice(product.getPrice());
+        loaded.setQuantity(product.getQuantity());
+        return loaded;
+    }
+    
     @CatchException(sendEmail=true)
     @Override
     public void testEx() throws IllegalAccessException  {

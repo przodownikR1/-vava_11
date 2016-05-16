@@ -78,8 +78,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
             // @formatter:off
             AccessDeniedHandlerImpl deniedhandler = new AccessDeniedHandlerImpl();
             deniedhandler.setErrorPage("/accessdenied");
-            http.headers().disable().authorizeRequests()
-
+            http.authorizeRequests()
                     .antMatchers("/welcome", "/api/ping", "/api/cookie", "/signup", "loginAjax", "/about", "/register", "/currentUser",  "/", "/welcome")
                     .permitAll().antMatchers("/api/admin/**").hasRole("ADMIN")
                     .antMatchers("/api/appContext").hasRole("ADMIN")
@@ -90,7 +89,7 @@ public class SecurityBasicConfig extends WebSecurityConfigurerAdapter{
                     .antMatchers("/api/user/**").hasRole("USER")
                     .antMatchers("/currentUser").hasRole("USER")
                     .antMatchers("/api/business**").access("hasRole('ROLE_ADMIN') and hasRole('ROLE_BUSINESS')").anyRequest().authenticated();
-
+                     http.headers().disable();
                      http.csrf().disable()
                      .formLogin().loginPage("/login").successHandler(authSuccessHandlerImpl).failureHandler(authFailureHandlerImpl).failureUrl("/login?error=true").defaultSuccessUrl("/").permitAll()
                      .and()

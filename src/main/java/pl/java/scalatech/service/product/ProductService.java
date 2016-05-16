@@ -19,6 +19,8 @@ public interface ProductService {
     Product findOne(Long id);
 
     void delete(Product product);
+    
+    Product saveEm(Product product);
 
 
 }
