@@ -1,3 +1,4 @@
+= JPA/Spring camp
 :numbered:
 :icons: font
 :pagenums:
@@ -13,9 +14,19 @@ ifndef::imgsdir[:imgsdir: ./../img]
 :source-highlighter: coderay
 
 
+== O mnie
+* Architect Solution - RiscoSoftware 
+* JavaTech trener : Spring ekosystem, JPA , EIP Camel 
+* blog link:http://przewidywalna-java.blogspot.com[]
+* twitter przodownikR1
 
-== Spring camp
+image:{image-link} [role='img-circle']
 
+== Spring
+
+== Hiberate
+
+== JPA
 
 
 
