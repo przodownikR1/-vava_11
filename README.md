@@ -1,1 +1,1 @@
-d
+include::docs/exercises.adoc[]
