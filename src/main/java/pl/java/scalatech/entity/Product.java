@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+import javax.persistence.Transient;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -43,5 +44,15 @@ public class Product {
 
     @OneToOne
     private User owner;
+
+    @Size(min=6,max=15)
+    @Transient
+    String confirmPassword;
+    //128
+    String passsword;
+
+
+
+
 
 }
