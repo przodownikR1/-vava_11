@@ -24,9 +24,56 @@ image:{image-link} [role='img-circle']
 
 == Spring
 
+=== Spring basic
+
+=== Wprowadzenie do Spring Boot
+
+=== Integracja Spring z Hibernate (JPA)
+
+=== Spring MVC
+
+==== Spring integracja z Thymeleaf
+
+=== Spring Security
+
+==== Konfiguracja 
+
+==== Zabezpieczanie URL'i
+
+==== Zabezpiecznie metod biznesowych
+
+=== Spring Data
+
+=== Spring testy
+
 == Hiberate
 
+=== Adnotacje
+
+=== Mapowania
+
+=== Zapytania
+
+==== HSQL
+
+==== Criteria API
+
+==== QBE
+
+
 == JPA
+
+==== Konfiguracja
+
+==== N+1 problem
+
+==== Problemy wydajnościowe
+
+==== Cache First i Second Level
+
+==== Monitoring i detekcja problemów
+
+==== Integracja z proxy DB
 
 
 
