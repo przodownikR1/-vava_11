@@ -1,5 +1,4 @@
 = JPA/Spring camp 
- [![build] (https://travis-ci.org/przodownikR1/-vava_11.svg?branch=master)] (https://travis-ci.org/przodownikR1/-vava_11)
 
 :numbered:
 :icons: font
