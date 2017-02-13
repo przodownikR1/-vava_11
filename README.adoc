@@ -2,3 +2,5 @@ image:https://api.travis-ci.org/przodownikR1/-vava_11.svg?branch=master["Build S
 
 
 include::docs/exercices.adoc[]
+
+test gerrit
