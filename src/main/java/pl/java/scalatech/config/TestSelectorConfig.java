@@ -17,7 +17,6 @@ package pl.java.scalatech.config;
 
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
-import org.springframework.boot.orm.jpa.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -29,7 +28,6 @@ import lombok.extern.slf4j.Slf4j;
 @Configuration
 @ComponentScan(basePackages= {"pl.java.scalatech.repository"})
 @EnableJpaRepositories(basePackages="pl.java.scalatech.repository")
-@EntityScan(basePackages="pl.java.scalatech.entity"/*,basePackageClasses={Jsr310JpaConverters.class}*/)
 //@EnableAutoConfiguration
 @Import({DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 @Profile("test")
