@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '1.3.3.RELEASE'
+        springBootVersion = '1.5.0.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -32,9 +32,8 @@ buildscript {
 plugins {
     id "org.sonarqube" version "2.0.1"
 }
+apply plugin: 'org.springframework.boot'
 
-apply plugin: 'spring-boot'
-apply plugin: 'io.spring.dependency-management'
 apply plugin: 'groovy'
 apply from : 'gradle/jar.gradle'
 apply from : 'gradle/depencencies.gradle'
